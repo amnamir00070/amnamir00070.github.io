@@ -1,0 +1,74 @@
+.central{
+	width:50%;
+	padding:20px;
+	background:#222;
+	transform:translateX(50%);
+	box-sizing:border-box;
+	box-shadow:0 20px 50px rgba(0,0,0,.5);
+}
+.skillBox
+{
+	box-sizing: border-box;
+	width: 100%;
+	margin: 20px 0;
+}
+.skillBox p
+{
+	color: #fff;
+	text-transform: uppercase;
+	margin: 0 0 10px;
+	padding: 0;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+.skillBox i{
+	font-size: 1rem;
+}
+.skillBox p:nth-child(2)
+{
+	float: right;
+	position: relative;
+	top: -25px;
+}
+.skill
+{
+	background: #262626;
+	padding: 4px;
+	box-sizing: border-box;
+	border: 1px solid #120B21;
+	border-radius: 2px;
+}
+.skill_level
+{
+	background: #3f3fff;
+	width: 100%;
+	height: 10px;
+}
+.central svg,
+.central svg rect
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	fill: transparent;
+}
+.central svg rect
+{
+	stroke:#3f3fff;
+	stroke-width: 4;
+	stroke-dasharray: 400;
+	animation: animate 3s linear infinite;
+}
+@keyframes animate
+{
+	0%
+	{
+		stroke-dashoffset: 800;
+	}
+	100%
+	{
+		stroke-dashoffset: 0;
+	}
+}

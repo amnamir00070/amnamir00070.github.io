@@ -1,0 +1,17 @@
+.resume-section{
+  margin: 0;
+  padding: 0;
+  background: #23153c;
+}
+.resume-section ul{
+  padding-left:10%;
+}
+.resume-section li{
+  font-size: 1.5rem;
+}
+ @media (min-width:992px)
+ {
+  .resume-section ul{
+  padding-left:22%;
+}
+ }
