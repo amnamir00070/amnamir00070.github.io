@@ -102,9 +102,14 @@ body,html{
  	background-size:cover
  }
  .masthead h1{
- 	font-size:4rem;
+ 	font-size: 3rem;
  	margin:0;
  	padding:0
+ }
+ .masthead h3{
+    font-size: 1.5rem;
+    margin:0;
+    padding:0
  }
  @media (min-width:992px)
  {
@@ -114,6 +119,11 @@ body,html{
  .masthead h1{
  	font-size:5.5rem
  	}
+   .masthead h3{
+    font-size: 2rem;
+    margin:0;
+    padding:0
+  }
  }
  #sidebar-wrapper{
  	position:fixed;
