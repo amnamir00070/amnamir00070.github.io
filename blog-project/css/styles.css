@@ -23,10 +23,14 @@
 }
 .NavsocialIcons{
   color: #5c5757;
-  letter-spacing: 10px;
+  letter-spacing: 9px;
   text-align: center;
 }
-input[type="search"]{
+.NavsocialIcons:hover{
+  color: #fff;
+  letter-spacing: 12px;
+}
+/*input[type="search"]{
   background: none;
   border: none;
   border-bottom: 1px solid #5c5757;
@@ -43,6 +47,49 @@ input[type="search"]:hover{
 }
 .navSearch{
   color: #5c5757;
+}*/
+.search-box{
+  background: #000000;
+  border-radius: 30px;
+  padding: 0px;
+  height: 30px;
+}
+.search-box:hover>.search-txt{
+  width: 240px;
+  padding: 0 5px;
+  border-bottom: 2px solid #5c5757;
+  border-radius: 0%;
+
+}
+.search-box:hover>.search-btn{
+  background: white;
+  text-decoration: none;
+}
+.search-btn{
+  color: #5c5757;
+  float: right;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  font-size: 16px;
+  background: #000000;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+.search-txt{
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: white;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 30px;
+  width: 0px;
 }
 
 .bg-dark {
