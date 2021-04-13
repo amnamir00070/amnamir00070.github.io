@@ -137,11 +137,9 @@ input[type="search"]:hover{
     border-radius: 0%;
 }
 .navbar-dark .navbar-nav .nav-link{
- 
     letter-spacing: 2px;
 }
 .navbar-dark .navbar-nav .nav-link {
-    padding: 28px;
     letter-spacing: 3px;
     color: #FAFAFA;
 }
@@ -441,6 +439,10 @@ font-weight: 400;
 }
 
 @media (min-width:992px) {
+  .navbar-dark .navbar-nav .nav-link {
+    padding: 28px;
+  }
+
   .cardButton{
     display: inline-block;
     padding: 15px 25px;
