@@ -1,8 +1,15 @@
+@font-face{
+	font-family: Poppins;
+	src: url("fonts/Poppins-Light.ttf");
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
+  body{
+    font-family: Poppins;
+}
 .banner1{
   background-image: url(../img/bg.PNG);
   background-position: center center;
@@ -19,17 +26,49 @@
   left: 50%;
   transform: translateX(-50%);
   top: 10px;
-  font-size: 25px;
+  font-size: 28px;
+  line-height: 1.5;
+  overflow-x: hidden;
 }
 .NavsocialIcons{
-  color: #5c5757;
+  color: #FAFAFA;
   letter-spacing: 9px;
   text-align: center;
 }
 .NavsocialIcons:hover{
-  color: #fff;
+  color: #5c5757;
   letter-spacing: 12px;
 }
+.menu-area{
+  position: static;
+  width: 100%;
+}
+.mega-area{
+  position: absolute;
+  width: 100%;
+  left: 0%;
+  right: 0;
+  padding: 15px;
+}
+.mega-area h5{
+letter-spacing: 2px;
+font-weight: 900;
+margin-top: 10px;
+}
+.mega-area p{
+  
+}
+.mega-area a{
+
+}
+.mega-area a:hover{
+  
+}
+.dropdown-item{
+  padding: 5px 0;
+  border-radius: 2px;
+}
+
 /*input[type="search"]{
   background: none;
   border: none;
@@ -62,11 +101,12 @@ input[type="search"]:hover{
 
 }
 .search-box:hover>.search-btn{
-  background: white;
+  background:#FAFAFA;
   text-decoration: none;
+  color: #5c5757;
 }
 .search-btn{
-  color: #5c5757;
+  color: #FAFAFA;
   float: right;
   width: 30px;
   height: 30px;
@@ -85,7 +125,7 @@ input[type="search"]:hover{
   outline: none;
   float: left;
   padding: 0;
-  color: white;
+  color: #FAFAFA;
   font-size: 16px;
   transition: 0.4s;
   line-height: 30px;
@@ -94,46 +134,49 @@ input[type="search"]:hover{
 
 .bg-dark {
     background-color: #000000!important;
- 
     border-radius: 0%;
 }
 .navbar-dark .navbar-nav .nav-link{
-    padding: 30px;
+ 
     letter-spacing: 2px;
 }
 .navbar-dark .navbar-nav .nav-link {
     padding: 28px;
     letter-spacing: 3px;
-    color: #ffffff;
+    color: #FAFAFA;
 }
 .navbar-dark .navbar-nav .nav-link:hover{
-    border-bottom: 2px solid #ffffff;
+    border-bottom: 2px solid #FAFAFA;
     padding-bottom: 18px;
 }
 .navbar-dark .navbar-nav #active-link{
-    border-bottom: 2px solid #ffffff;
+    border-bottom: 2px solid #FAFAFA;
     padding-bottom: 18px;
 }
-#navdropDown{
+/*#navdropDown{
     display: block;
     width: 100%;
     padding: .25rem 1.5rem;
     clear: both;
     font-weight: 400;
-    color: #ffffff;
+    color: #FAFAFA;
     text-align: inherit;
     white-space: nowrap;
     background-color: #000000;
     border: 0;
+      font-family: Graphik, sans-serif;
+  font-size: 17px;
+  line-height: 1.5;
+  overflow-x: hidden;
 }
 #navdropDown:hover{
     color: #000000;
-    background-color: #fff;
+    background-color: #FAFAFA;
 }
 .navbar-expand-lg .navbar-nav .dropdown-menu {
     background-color: #000000;
     margin-top: 5%;
-}
+}*/
 .banner{
     background-color: #000000;
     height: 230px;
@@ -152,7 +195,7 @@ input[type="search"]:hover{
     width: 60%;
     margin: 70px auto;
     padding: 8px;
-    background-color: #ffffff;
+    background-color: #FAFAFA;
     display: grid;
     grid-gap: 8px;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -250,7 +293,7 @@ input[type="search"]:hover{
 .overly h2{
     font-size: 16px;
     text-transform: uppercase;
-    color: #fff;
+    color: #ffffff;
     letter-spacing: 1px;
     margin-bottom: 15px;
     font-weight: 400;
@@ -258,7 +301,7 @@ input[type="search"]:hover{
 .overly p{
   font-size: 12px;
   text-transform: uppercase;
-  color: #fff;
+  color: #ffffff;
   letter-spacing: 1px;
   line-height: 1px;
   margin-bottom: 15px;
@@ -268,14 +311,14 @@ input[type="search"]:hover{
 /*headings*/
 .carouselPart{
   background-color: #000000;
-  height: 520px;
+  height: 540px;
 }
 .headings{
   margin-top: -330px;
   background-color: #000000;
 }
 .headings h5{
-  color: #fff;
+  color: #FAFAFA;
   font-weight: 400;
   padding: 20px;
 }
@@ -284,26 +327,37 @@ input[type="search"]:hover{
 
 .carousel {
   background: #000000;
+  height: 60%;
+  
 }
 
 .carousel-cell {
-  margin-right: 20px;
- 
+  margin-right: 25px;
+  background-color: #000000;
+  height: 100%;
+}
+
+.carousel-cell:before {
+  display: block;
 }
 /*text*/
 .overley{
   position: absolute;
   width: 100%;
   left: 0px;
-  bottom: 0px;
+  bottom: -53px;
   background-image: linear-gradient(to bottom, transparent, rgb(54, 51, 51));
   padding: 28px 15px 10px;
+  transition: .5s;
+}
+.carousel-cell:hover .overley{
+  bottom: 0px;
   transition: .5s;
 }
 .overley h2{
   font-size: 16px;
   text-transform: uppercase;
-  color: #fff;
+  color: #FAFAFA;
   letter-spacing: 1px;
   margin-bottom: 15px;
   font-weight: 400;
@@ -311,21 +365,90 @@ input[type="search"]:hover{
 .overley p{
 font-size: 12px;
 text-transform: uppercase;
-color: #fff;
+color: #FAFAFA;
 letter-spacing: 1px;
 line-height: 1px;
 margin-bottom: 15px;
 font-weight: 400;
 }
+.carosalButton{
+  display: inline-block;
+  padding: 15px 25px;
+  color: #ddd;
+  text-transform: uppercase;
+  background: rgb(255, 255, 255, 0.1);
+  border-radius: 50px;
+  line-height: 1;
+  letter-spacing: 2px;
+  font-size: 13px;
+}
+.carosalButton:hover{
+  text-decoration: none;
+  background: rgba(0, 0, 0, 0.5);
+  color: #ddd;
 
+}
 .whiteCards{
-  padding-top: 25px;
+  padding-top: 20px;
+  transform: translateY(-80px);
+  background-color: #fafafa;
 }
 .headings2 h5{
   color: #000000;
   font-weight: 400;
   padding: 20px;
 }
+.card img{
+  width: 100%;
+}
 #CradBody{
   box-shadow: 0px 5px 5px #888888;
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+}
+#CradBody .card-title{
+  width: 100%;
+  background-color: #000000;
+  top: 0%;
+  color: #FAFAFA;
+  padding: 5%;
+}
+#CradBody .card-text{
+  width: 100%;
+  padding: 5%;
+  padding-bottom: 0%;
+}
+.cradbutton{
+  padding: 5%;
+  padding-top: 0%;
+}
+.cardButton{
+  display: inline-block;
+  padding: 15px 25px;
+  color: #ddd;
+  text-transform: uppercase;
+  background: rgba(0, 0, 0, 0.9);
+  line-height: 1;
+  letter-spacing: 1px;
+  font-size: 10px;
+}
+.cardButton:hover{
+  text-decoration: none;
+  background: rgba(0, 0, 0, 0.5);
+  color: #ddd;
+
+}
+
+@media (min-width:992px) {
+  .cardButton{
+    display: inline-block;
+    padding: 15px 25px;
+    color: #ddd;
+    text-transform: uppercase;
+    background: rgba(0, 0, 0, 0.9);
+    line-height: 1;
+    letter-spacing: 2px;
+    font-size: 13px;
+  }
 }
