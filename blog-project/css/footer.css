@@ -147,7 +147,15 @@
   footer{
       background: #000000;
   }
-  
+  footer .newsletter{
+    border: none;
+    border-radius: 50px;
+  }
+  footer .newsletter:hover{
+    border: none;
+    border-radius: 50px;
+
+  }
   footer .newsletter input[type="text"] {
       width: 100%;
       background: #fff;
@@ -157,7 +165,9 @@
       border-radius: 50px;
       margin-top: 12px;
   }
-  
+    footer .newsletter input[type="text"]:hover{
+      border: none;
+    }
   .newsletter .newsletter_submit_btn {
       background: #fff;
       position: absolute;

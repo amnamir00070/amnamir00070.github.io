@@ -328,16 +328,20 @@ input[type="search"]:hover{
   height: 60%;
   
 }
-
 .carousel-cell {
-  margin-right: 25px;
-  background-color: #000000;
+  margin-right: 80px;
+  background: #000000;
   height: 100%;
 }
 
 .carousel-cell:before {
   display: block;
 }
+.carouselImage{
+  border-radius: 12px;
+  height: 100%;
+}
+
 /*text*/
 .overley{
   position: absolute;
@@ -347,10 +351,12 @@ input[type="search"]:hover{
   background-image: linear-gradient(to bottom, transparent, rgb(54, 51, 51));
   padding: 28px 15px 10px;
   transition: .5s;
+  border-radius: 12px;
 }
 .carousel-cell:hover .overley{
   bottom: 0px;
   transition: .5s;
+  border-radius: 12px;
 }
 .overley h2{
   font-size: 16px;
@@ -396,61 +402,51 @@ font-weight: 400;
   font-weight: 400;
   padding: 20px;
 }
-.card img{
-  width: 100%;
-}
-#CradBody{
+.card{
+  margin: 10px;
+  border:none;
   box-shadow: 0px 5px 5px #888888;
-  margin: 0%;
-  padding: 0%;
+  border-radius: 12px;
+}
+/*.card img{
   width: 100%;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}*/
+#CradBody{
+
 }
 #CradBody .card-title{
-  width: 100%;
-  background-color: #000000;
-  top: 0%;
-  color: #FAFAFA;
-  padding: 5%;
+  margin-top: 12px;
 }
-#CradBody .card-text{
-  width: 100%;
-  padding: 5%;
-  padding-bottom: 0%;
+.cardDate{
+  padding: 0%;
+  margin: 0;
+  font-size: x-small;
+  transform: translateY(-6px);
+  float: right;
 }
-.cradbutton{
-  padding: 5%;
-  padding-top: 0%;
+.btn-secondary{
+  background: linear-gradient(to right, #403b4a, #bbbbb4);
+  padding: 10px;
+  border-radius: 50px;
+  color: #FFF; 
+  box-shadow: 5px 5px 2px -2px #a5a5a5;
+  border: none;
 }
-.cardButton{
-  display: inline-block;
-  padding: 15px 25px;
-  color: #ddd;
-  text-transform: uppercase;
-  background: rgba(0, 0, 0, 0.9);
-  line-height: 1;
-  letter-spacing: 1px;
-  font-size: 10px;
+.btn-secondary:hover{
+  transition: all .5s ease;
+  transform: translateX(10px);
+  cursor: pointer;
+  box-shadow: -6px -9px 2px -2px #a5a5a5;
 }
-.cardButton:hover{
-  text-decoration: none;
-  background: rgba(0, 0, 0, 0.5);
-  color: #ddd;
-
+.card-footer{
+  background: none;
+  border: none;
 }
-
 @media (min-width:992px) {
   .navbar-dark .navbar-nav .nav-link {
     padding: 28px;
   }
 
-  .cardButton{
-    display: inline-block;
-    padding: 15px 25px;
-    color: #ddd;
-    text-transform: uppercase;
-    background: rgba(0, 0, 0, 0.9);
-    line-height: 1;
-    letter-spacing: 2px;
-    font-size: 13px;
-  }
 }
