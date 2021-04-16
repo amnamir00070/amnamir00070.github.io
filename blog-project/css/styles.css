@@ -394,8 +394,8 @@ font-weight: 400;
 }
 .whiteCards{
   padding-top: 20px;
-  transform: translateY(-80px);
   background-color: #fafafa;
+  transform: translateY(-355px);
 }
 .headings2 h5{
   color: #000000;

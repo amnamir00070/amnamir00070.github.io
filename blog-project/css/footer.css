@@ -222,3 +222,140 @@
   .copyright {
       font-size: 13px;}
   }
+
+
+
+
+
+
+  .bounDary{
+      width: 100%;
+      background-color: #000000;
+      padding: 30px;
+      padding-bottom: 60px;
+      padding-top: 4px;
+  }
+/*  .owl-carousel .owl-nav{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+.owl-carousel .owl-nav button.owl-prev{
+    position: absolute;
+    left: -5%;
+    background: #fff;
+    width: 50px;
+    height: 70px;
+    color: #222;
+    font-size: 25px;
+    padding: 10px !important;
+    display: block;
+    border: none;
+}
+.owl-carousel .owl-nav button.owl-next{
+    position: absolute;
+    right: 0;
+    background: #fff;
+    width: 70px;
+    height: 70px;
+    color: #222;
+    font-size: 25px;
+    padding: 10px !important;
+    display: block;
+    border: none;
+}*/
+.owl-carousel .owl-nav{
+    position: absolute;
+    left: 0;
+    margin-top: 20px;
+}
+.owl-carousel .owl-nav button.owl-prev{
+    background: #fff;
+    color: #222;
+    font-size: 25px;
+    padding: 10px !important;
+    border: none;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.owl-carousel .owl-nav button.owl-next{
+    background: #fff;
+    color: #222;
+    font-size: 25px;
+    padding: 10px !important;
+    border: none;
+    border-radius: 5px;
+}
+@media(min-width:992px){
+    .bounDary{
+        padding: 100px;
+        padding-bottom: 65px;
+        padding-top: 4px;
+    }
+    .owl-carousel .owl-nav{
+        position: absolute;
+        left: 47%;
+        margin-top: 20px;
+    
+    }   
+}
+.owl-carousel .owl-item .item{
+    border-radius: 12px;
+}
+.owl-carousel .owl-item .item img{
+    border-radius: 12px;
+}
+/*text*/
+.overlye{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    bottom: -53px;
+    padding: 28px 15px 10px;
+    transition: .5s;
+    border-radius: 12px;
+  }
+  .owl-carousel .item:hover .overlye{
+    bottom: 0px;
+    transition: .5s;
+    border-radius: 12px;
+    background-image: linear-gradient(to bottom, transparent, rgb(54, 51, 51));
+  }
+  .overlye h2{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #FAFAFA;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    background-image: linear-gradient(to bottom, transparent, rgba(153, 70, 70, 0.2));
+  }
+  .overlye p{
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #FAFAFA;
+  letter-spacing: 1px;
+  line-height: 1px;
+  margin-bottom: 15px;
+  font-weight: 400;
+  background-image: linear-gradient(to bottom, transparent, rgba(153, 70, 70, 0.2));
+  }
+  .carosalButton{
+    display: inline-block;
+    padding: 15px 25px;
+    color: #ddd;
+    text-transform: uppercase;
+    background: rgb(255, 255, 255, 0.1);
+    border-radius: 50px;
+    line-height: 1;
+    letter-spacing: 2px;
+    font-size: 13px;
+  }
+  .carosalButton:hover{
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.5);
+    color: #ddd;
+  
+  }
