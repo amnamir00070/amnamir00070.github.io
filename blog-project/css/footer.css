@@ -10,11 +10,40 @@
   .round-btn .icon {padding: 3px;}
   .round-btn .icon img{height: 24px; width: 32px;margin-top: 6px;}
   .btn-facebook a {color: #3b5998;padding: 8px 13px;}
+  .btn-facebook a:hover{
+    background: #3b5998;
+    color: #fff;
+  }
   .btn-linkedin a {color: #007bb6;}
+  .btn-linkedin a:hover {
+    background: #007bb6;
+    color: #fff;
+  }
   .btn-twitter a{color: #1c9deb;}
+  .btn-twitter a:hover{
+    background: #1c9deb;
+    color: #fff;
+  }
   .btn-instagram a{color: #dd3f5c;}
+  .btn-instagram a:hover{
+    background: #dd3f5c;
+    color: #fff;
+  }
   .btn-whatsapp a{color: #155E54;}
-  .btn-envelop a{color: #D6403A;font-size: 15px; padding: 9px 12px;}
+  .btn-whatsapp a:hover{
+    background: #155E54;
+    color: #fff;
+  }
+  .btn-envelop a{
+    color: #D6403A;
+    font-size: 15px; 
+    padding: 9px 12px;
+  }
+  .btn-envelop a:hover{
+    background: #D6403A;
+    color: #fff;
+    font-size: 15px; padding: 9px 12px;
+  }
   .standard_header .standard_social_links {margin-left: 1rem;}
   
     /*
@@ -59,7 +88,10 @@
       color: #ccc;
       text-decoration: none;
   }
-  
+  .footer-links li a:hover{
+    color: #fafafa;
+    border: 2px solid #fafafa;
+  }
   
   .footer-links li:before {
       content: "\f105";
@@ -81,7 +113,10 @@
       padding-right: 10px;
       color: #b3b3b3;
   }
-  
+  .footer-category li a:hover{
+    color: #fafafa;
+    border: 2px solid #fafafa;
+  }
   .address {
       
       color: #b3b3b3;
@@ -177,7 +212,9 @@
       font-size: 17px;
       color: #333;
   }
-  
+  .newsletter .newsletter_submit_btn:hover{
+    color: #D6403A;                                                                         
+  }
   
   footer .second_class_bdr{
       padding-top: 25px;
@@ -221,141 +258,4 @@
   @media(max-width:320px){
   .copyright {
       font-size: 13px;}
-  }
-
-
-
-
-
-
-  .bounDary{
-      width: 100%;
-      background-color: #000000;
-      padding: 30px;
-      padding-bottom: 60px;
-      padding-top: 4px;
-  }
-/*  .owl-carousel .owl-nav{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    width: 100%;
-}
-.owl-carousel .owl-nav button.owl-prev{
-    position: absolute;
-    left: -5%;
-    background: #fff;
-    width: 50px;
-    height: 70px;
-    color: #222;
-    font-size: 25px;
-    padding: 10px !important;
-    display: block;
-    border: none;
-}
-.owl-carousel .owl-nav button.owl-next{
-    position: absolute;
-    right: 0;
-    background: #fff;
-    width: 70px;
-    height: 70px;
-    color: #222;
-    font-size: 25px;
-    padding: 10px !important;
-    display: block;
-    border: none;
-}*/
-.owl-carousel .owl-nav{
-    position: absolute;
-    left: 0;
-    margin-top: 20px;
-}
-.owl-carousel .owl-nav button.owl-prev{
-    background: #fff;
-    color: #222;
-    font-size: 25px;
-    padding: 10px !important;
-    border: none;
-    border-radius: 5px;
-    margin-right: 20px;
-}
-.owl-carousel .owl-nav button.owl-next{
-    background: #fff;
-    color: #222;
-    font-size: 25px;
-    padding: 10px !important;
-    border: none;
-    border-radius: 5px;
-}
-@media(min-width:992px){
-    .bounDary{
-        padding: 100px;
-        padding-bottom: 65px;
-        padding-top: 4px;
-    }
-    .owl-carousel .owl-nav{
-        position: absolute;
-        left: 47%;
-        margin-top: 20px;
-    
-    }   
-}
-.owl-carousel .owl-item .item{
-    border-radius: 12px;
-}
-.owl-carousel .owl-item .item img{
-    border-radius: 12px;
-}
-/*text*/
-.overlye{
-    position: absolute;
-    width: 100%;
-    left: 0px;
-    bottom: -53px;
-    padding: 28px 15px 10px;
-    transition: .5s;
-    border-radius: 12px;
-  }
-  .owl-carousel .item:hover .overlye{
-    bottom: 0px;
-    transition: .5s;
-    border-radius: 12px;
-    background-image: linear-gradient(to bottom, transparent, rgb(54, 51, 51));
-  }
-  .overlye h2{
-    font-size: 16px;
-    text-transform: uppercase;
-    color: #FAFAFA;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
-    font-weight: 400;
-    background-image: linear-gradient(to bottom, transparent, rgba(153, 70, 70, 0.2));
-  }
-  .overlye p{
-  font-size: 12px;
-  text-transform: uppercase;
-  color: #FAFAFA;
-  letter-spacing: 1px;
-  line-height: 1px;
-  margin-bottom: 15px;
-  font-weight: 400;
-  background-image: linear-gradient(to bottom, transparent, rgba(153, 70, 70, 0.2));
-  }
-  .carosalButton{
-    display: inline-block;
-    padding: 15px 25px;
-    color: #ddd;
-    text-transform: uppercase;
-    background: rgb(255, 255, 255, 0.1);
-    border-radius: 50px;
-    line-height: 1;
-    letter-spacing: 2px;
-    font-size: 13px;
-  }
-  .carosalButton:hover{
-    text-decoration: none;
-    background: rgba(0, 0, 0, 0.5);
-    color: #ddd;
-  
   }
