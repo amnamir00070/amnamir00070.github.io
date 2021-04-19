@@ -1,0 +1,136 @@
+@font-face{
+	font-family: Graphik;
+	src: url("fonts/Graphik-Regular.ttf");
+}
+nav{
+  font-family: Graphik, sans-serif;
+}
+.banner1{
+    background-image: url(../img/bg.PNG);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    background-color: #000000;
+    padding: 0%;
+    margin: 0%;
+    border-radius: 0%;
+    height: 150px;
+  }
+  .navbar-brand{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10px;
+    font-size: 28px;
+    line-height: 1.5;
+    overflow-x: hidden;
+  }
+  .NavsocialIcons{
+    color: #FAFAFA;
+    letter-spacing: 9px;
+    text-align: center;
+  }
+  .NavsocialIcons:hover{
+    color: #5c5757;
+    letter-spacing: 12px;
+  }
+  .menu-area{
+    position: static;
+    width: 100%;
+  }
+  .mega-area{
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    right: 0;
+    padding: 15px;
+  }
+  .mega-area h5{
+  letter-spacing: 2px;
+  font-weight: 900;
+  margin-top: 10px;
+  }
+  .mega-area p{
+    
+  }
+  .mega-area a{
+  
+  }
+  .mega-area a:hover{
+    
+  }
+  .dropdown-item{
+    padding: 5px 0;
+    border-radius: 2px;
+  }
+  .search-box{
+    background: #000000;
+    border-radius: 30px;
+    padding: 0px;
+    height: 30px;
+  }
+  .search-box:hover>.search-txt{
+    width: 240px;
+    padding: 0 5px;
+    border-bottom: 2px solid #5c5757;
+    border-radius: 0%;
+  
+  }
+  .search-box:hover>.search-btn{
+    background:#FAFAFA;
+    text-decoration: none;
+    color: #5c5757;
+  }
+  .search-btn{
+    color: #FAFAFA;
+    float: right;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 16px;
+    background: #000000;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+  }
+  .search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: #FAFAFA;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 30px;
+    width: 0px;
+  }
+  
+  .bg-dark {
+      background-color: #000000!important;
+      border-radius: 0%;
+  }
+  .navbar-dark .navbar-nav .nav-link{
+      letter-spacing: 2px;
+  }
+  .navbar-dark .navbar-nav .nav-link {
+      letter-spacing: 3px;
+      color: #FAFAFA;
+  }
+  .navbar-dark .navbar-nav .nav-link:hover{
+      border-bottom: 2px solid #FAFAFA;
+      padding-bottom: 18px;
+  }
+  .navbar-dark .navbar-nav #active-link{
+      border-bottom: 2px solid #FAFAFA;
+      padding-bottom: 18px;
+  }
+
+  @media (min-width:992px) {
+    .navbar-dark .navbar-nav .nav-link {
+      padding: 28px;
+    }
+  
+  }
