@@ -1,0 +1,94 @@
+@font-face{
+	font-family: Muli;
+	src: url("fonts/MuliExtralight-ywL02.ttf");
+}
+@font-face{
+	font-family: Graphik;
+	src: url("fonts/Graphik-Regular.ttf");
+}
+@font-face{
+	font-family: Montserrat-Regular;
+	src: url("fonts/Montserrat-Bold.ttf");
+}
+@font-face{
+	font-family: OpenSans-Regular;
+	src: url("fonts/OpenSans-Regular.ttf");
+}
+.SecHeading{
+    font-family: Montserrat-Regular;
+    padding: 10px 10px 0px 10px;
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 30px;
+}
+.SecHeading .partOne{
+    color: #f2f2f2; background: #111;
+}
+.SecHeading .partTwo{
+    background: #f2f2f2; color: #111;
+}
+
+/*more heading*/
+.moreHeading{
+    font-size: 25px;
+    font-family: Graphik, sans-serif;
+    text-transform: capitalize;
+}
+.borders{
+    color: #505050
+}
+.CateCards{
+    padding: 20px;
+}
+.CateCards .card{
+    border-radius: 15px;
+    border: none;
+    height: 85px;
+    position: relative;
+    margin: 25px;
+}
+.CateCards .cateCard{
+    width: 100%;
+    height: 100%;
+    display:inline-block;
+    border-radius: 15px;
+
+}
+.CateCards .cateCard:hover{
+    opacity: .7;
+}
+.CateCards .card img{
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.87; 
+}
+.CateCards .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.CateCards .content h4{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-shadow: 2.10px 2px 1px rgba(36, 35, 35, 0.6);
+    font-family: Graphik, sans-serif;
+    padding-top: 10px;
+    font-weight: 580;
+}
+@media (min-width: 576px) {
+    .CateCards .content h4{
+        font-size: 12px;
+    }
+}
+@media (min-width: 992px) {
+    .CateCards .content h4{
+        font-size: 22px;
+    }
+    .CateCards .card{
+        margin: 25px;
+    }
+}

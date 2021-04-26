@@ -6,6 +6,17 @@
 	font-family: Graphik;
 	src: url("fonts/Graphik-Regular.ttf");
 }
+@font-face{
+	font-family: Montserrat-Regular;
+	src: url("fonts/Montserrat-Bold.ttf");
+}
+@font-face{
+	font-family: OpenSans-Regular;
+	src: url("fonts/OpenSans-Regular.ttf");
+}
+:root{
+  --gradient-color3: linear-gradient(to right bottom, #000000, #BA0C2F, #75787B, #861F41, #861F41, #75787B, #002855, #75787B);
+}
 body{
     background: #fafafa;
     word-break: unset
@@ -22,8 +33,16 @@ embed, iframe, img, object, video, .wp-caption {
 }
 .headText .container{
   background: #FFF;
-  padding: 50px;
+  padding: 12px;
   border-radius: 15px;
+}
+@media(min-width: 992px){
+  .headText{
+    padding: 50px 50px 20px 50px;
+  }
+  .headText .container{
+    padding: 50px;
+  }
 }
 .headText p{
     font-family: Muli, sans-serif;
@@ -37,30 +56,62 @@ embed, iframe, img, object, video, .wp-caption {
     border:none;
     box-shadow: 0px 5px 5px #888888;
     border-radius: 12px;
-    font-weight: 400;
-    font-family: Muli, sans-serif;
   }
   .whiteCards .card:hover{
     transform: scale(1.03);
   }
-  #CradBody{
-    padding-bottom: 1px;
-  }
-  #CradBody .card-title{
-    margin-top: 15px;
-    font-size: medium;
-    color: #000000;
+  .CardLink{
     text-decoration: none;
   }
-  #CradBody .card-title:hover{
-      color: #3b5998;
+  .CardLink:hover{
+    text-decoration: none;
+  }
+  #colCard .card-title{
+    color: #505050;
+    font-family: Montserrat-Regular;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 110%!important;
+  }
+  #colCard .card-title:hover{
+    opacity: 0.7
+  }
+  #colCard img{
+    opacity: 1.5;
+  }
+  #colCard img:hover{
+    opacity: 0.8;
+  }
+  .cardOthers{
+    text-transform: uppercase;
+    margin-top: 15px;
+    font-size: 12px;
+    background: var(--gradient-color3);
+    -webkit-background-clip: text;
+    color: transparent;
   }
   .cardDate{
-    padding: 0%;
-    margin: 0;
-    font-size: x-small;
-    transform: translateY(-6px);
-    float: right;
+    text-transform: uppercase;
+    margin-top: -4px;
+    font-size: 12px;
+    background: var(--gradient-color3);
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: -2px;
+  }
+  .cardDate i{
+    background: var(--gradient-color3);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  #colCard .card-text{
+    color: #616161;
+    font-weight: 400;
+    font-family: OpenSans-Regular;
+    margin-top: 12px
+  }
+  #colCard .card-text:hover{
+    opacity: 0.7;
   }
   .btn-secondary{
     background: linear-gradient(to right, #403b4a, #bbbbb4);
