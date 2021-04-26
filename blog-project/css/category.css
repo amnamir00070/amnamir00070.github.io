@@ -14,6 +14,10 @@
 	font-family: OpenSans-Regular;
 	src: url("fonts/OpenSans-Regular.ttf");
 }
+@font-face{
+	font-family: Graphik-Semibold;
+	src: url("fonts/Graphik-Semibold.ttf");
+}
 .SecHeading{
     font-family: Montserrat-Regular;
     padding: 10px 10px 0px 10px;
@@ -74,19 +78,31 @@
     color: #fff;
     text-transform: uppercase;
     font-size: 18px;
-    text-shadow: 2.10px 2px 1px rgba(36, 35, 35, 0.6);
-    font-family: Graphik, sans-serif;
-    padding-top: 10px;
-    font-weight: 580;
+    text-shadow: 2.10px 2px 1px rgba(36, 35, 35, 0.4);
+    font-family: Graphik-Semibold, sans-serif;
+    margin-top: 10px;
+    font-weight: 300;
+    background: linear-gradient(to right, rgba(36, 35, 35, 0.1), rgba(36, 35, 35, 0.1));
+    letter-spacing: 1px;
 }
 @media (min-width: 576px) {
     .CateCards .content h4{
         font-size: 12px;
     }
 }
+@media (min-width: 588px) {
+    .CateCards .content h4{
+        font-size: 10px;
+    }
+}
+@media (min-width: 612px) {
+    .CateCards .content h4{
+        font-size: 10px;
+    }
+}
 @media (min-width: 992px) {
     .CateCards .content h4{
-        font-size: 22px;
+        font-size: 20px;
     }
     .CateCards .card{
         margin: 25px;
