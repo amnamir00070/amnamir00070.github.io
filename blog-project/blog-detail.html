@@ -14,7 +14,288 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/blog-detail.css">
     <link rel="stylesheet" href="css/topHeader.css">
-    
+    <style>
+      /* to be added in the style tags*/
+:root{
+    --gradient-color3: linear-gradient(to right bottom, #000000, #BA0C2F, #75787B, #861F41, #861F41, #75787B, #002855, #75787B);
+    --gradient-color2: linear-gradient(to right bottom, #000000, #BA0C2F, #75787B, #861F41, #75787B, #002855, #75787B, #861F41, #861F41, #000000);
+  }
+#postDeets{
+    width: 100%;
+}
+#postDeets .container{
+    width: 100%;
+    padding: 50px 0px 20px 0px;
+    font-family: Muli, sans-serif;
+    font-weight: 200;
+    color: #111;
+}
+.postHead{
+    font-size: 40px;
+}
+.postWriter{
+    margin-top: 2.5rem;
+    font-size: 22px;
+    color: rgb(129, 127, 127);
+}
+.postWriter span{
+    font-family: GreatVibes-Regular;
+    font-weight: normal;
+    color: #111;
+}
+.postImg{
+    width: 100%;
+}
+.postImg img{
+    width: 100%;
+    height: 300px;
+    object-fit:cover;
+}
+.deets{
+    padding-top: 3rem;
+}
+.deets p{
+    font-family: Graphik, sans-serif;
+    line-height: 35px;
+    color: #111;
+
+}
+.deets p:first-child:first-letter{
+    font-size: 80px;
+    padding: 1rem;
+    float: left;
+    line-height: 0.8;
+    border: 1px solid #111;
+    margin-right: 1rem;
+}
+#postDeets #sellCards .card{
+    border: none;
+    border-radius: 0px;
+    background: rgba(192, 192, 192, 0.1);
+    transform: scale(1.01);
+}
+#postDeets #sellCards .card:hover{
+    background: rgba(192, 192, 192, 0.2);
+    transform: scale(1.03);
+}
+#postDeets #sellCards .card .card-img{
+    height: 120px;
+    object-fit:cover;
+    border: none;
+    border-radius: 0%;
+}
+#postDeets #sellCards .card .card-img:hover{
+    opacity: 0.7;
+}
+#postDeets #sellCards .card .card-title{
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: Muli;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 19px;
+    background: var(--gradient-color3);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.sellLink:hover{
+    text-decoration: none;
+}
+#postDeets #sellCards .card .card-title:hover{
+    text-decoration: none;
+    color: rgb(129, 127, 127);
+}
+.sellCardName{
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 0%;
+    font-family: Muli;
+    text-transform: uppercase;
+    font-size: 16px;
+    background: var(--gradient-color3);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.sellQuality{
+    text-align: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 0%;
+    font-family: GreatVibes-Regular;
+    font-size: 20px;
+    color: #111;
+    text-transform: capitalize;
+}
+#postDeets #sellCards .card .card-footer{
+    border: none;
+    background: none;
+    width: 100%;
+}
+#postDeets #sellCards .card .card-footer .btn-info{
+    background: #111;
+    border-radius: 0%;
+    width: 100%;
+    font-family: Muli;
+    font-weight: 500;
+    text-transform: uppercase;
+    background: var(--gradient-color3);
+    -webkit-background-clip: text;
+    color: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-image: 
+    linear-gradient(
+        to right, 
+        #000000, #BA0C2F, #75787B, #861F41, #861F41, #75787B, #002855, #75787B, #000000
+        
+      ) 1;
+      transition: .05s;
+}
+#postDeets #sellCards .card .card-footer .btn-info:hover{
+    border-image: 
+    linear-gradient(
+        to right, 
+        #000000, #BA0C2F, #75787B, #861F41, #861F41, #75787B, #002855, #75787B, #000000
+        
+      ) 1 1 100%;
+}
+.sellLists{
+margin-left: 30%;
+margin-right: 20%;
+margin-bottom: 0%;
+margin-top: 10px;
+}
+.sellList{
+    list-style-type: circle;
+    font-size: smaller;
+}
+.postHead2{
+    font-size: 28px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.realistic-marker-highlight{
+    position:relative;
+}
+  
+  .realistic-marker-highlight:before{
+    content:"";
+    background-color: rgb(155, 153, 153);
+    width:100%;
+    height:1em;
+    position:absolute;
+    z-index:-1;
+    filter:url(#marker-shape);
+    left:-0.25em;
+    top:0.1em;
+    padding:0 0.25em;
+  }
+/*.oneLine{
+    background: linear-gradient(to left, #f69ec4, #f9dd94 100%);
+    background-position: 0 100%;
+    background-size: 100% 2px;
+    background-repeat: repeat-x;   
+}*/
+.postText{
+    font-family: Graphik, sans-serif;
+    line-height: 35px;
+    color: #111;
+    margin-top: 20px;
+}
+.sellLists2{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 0%;
+    font-family: Graphik, sans-serif;
+    color: #111;
+}
+.postHighlight{
+    background: var(--gradient-color3);
+    -webkit-background-clip: text;
+    color: transparent; 
+    font-weight: 700;
+    font-family: Muli;
+}
+a.postHighlight{
+  background: var(--gradient-color3);
+  -webkit-background-clip: text;
+  color: transparent; 
+  font-weight: 700;
+  font-family: Muli;
+}
+a.postHighlight:hover{
+  text-decoration: none;
+  background: var(--gradient-color3);
+  -webkit-background-clip: text;
+  color: transparent; 
+  opacity: 0.5;
+}
+.textBold{
+    color: #000000;
+    font-weight: 700;
+}
+.textUnderlined{
+    background: var(--gradient-color2);
+    -webkit-background-clip: text;
+    color: transparent; 
+    text-decoration: none;
+    padding-bottom: 3px;
+    border-width: 2px;
+    border-style: solid;
+    border-image: 
+    linear-gradient(
+        to right, 
+        #000000, #BA0C2F, #75787B, #861F41, #861F41, #75787B, #002855, #75787B 100%) 0 0 100%;
+}
+.textBtn{
+    transform: scale(1.05);
+    border-radius: 0%;
+    font-family: Muli;
+    font-weight: 500;
+    text-transform: uppercase;
+    background: var(--gradient-color3);
+    -webkit-background-clip: text;
+    color: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-image: 
+    linear-gradient(
+        to right bottom, 
+        #000000, #BA0C2F, #75787B, #861F41, #861F41, #75787B, #002855, #75787B
+        
+      ) 1;
+}
+.textBtn:hover{
+    border-image: 
+    linear-gradient(
+        to right, 
+        #000000, #BA0C2F, #75787B, #861F41, #861F41, #75787B, #002855, #75787B
+        
+      ) 1 1 100%;
+    background: var(--gradient-color3);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+@media (min-width:992px) {
+    #postDeets .container{
+        width: 100%;
+        padding: 50px 30px 0px 30px;
+    }
+    .sellLists{
+        /*margin-left: 50px;*/
+        left: 50%;
+        margin-bottom: 0%;
+        margin-top: 20px;
+    }
+    .sellLists2{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+    </style>
     
 </head>
 <body>
@@ -173,32 +454,215 @@
 </div>
 </section>
 
-<section class="postDeets">
 <div class="container-fluid">
-    <div class="row">
-        <div class="col-lg-6 col-md-6 one">
-            <h2>A Special Sparkle: Best Designer Jewelry Brands For Women</h2>
-            <h6><span>By</span>&nbsp;Tom Ellis</h6>
-            </div>
-            <div class="col-lg-6 col-md-6 two">
-                <img src="img/oip10.jpg" alt="">
-            </div>
-    </div>
-    <div class="row">
-        <div class="col">
-            <div class="deets">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
-                </p>
-                <p>
-                    Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
-                </p>
-            </div>
+  <div class="row">
+    <div class="col-md-9" id="postDeets">
+      <div class="container">
+        <h2 class="postHead">A Special Sparkle: Best Designer Jewelry Brands For Women</h2>
+        <h6 class="postWriter"><span>By</span>&nbsp;Tom Ellis</h6>
+        <div class="postImg">
+          <img src="img/oip10.jpg" alt="">
         </div>
+        <div class="deets">
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
+          </p>
+          <p>
+            Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+          </p>
+      </div>
+      
+      <!-- cards start -->
+      <div class="card-deck" id="sellCards">
+        <div class="card">
+          <div class="card-body">
+            <a class="sellLink" href="#">
+              <h5 class="card-title">best luxury wallet</h5>
+              <img class="card-img" src="img/blogp1.jpg" alt="Card image cap">
+            </a>
+            <p class="sellCardName">Tom Ford</p>
+            <p class="sellQuality">Textured Leather Bifold</p>
+            <div class="sellLists">
+              <ul class="sellList">
+                <li>Holds 11 cards</li>
+                <li>Stores flat bills</li>
+                <li>Italian Leather</li>
+                <li>2 Pockets</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-info" role="button">Shop Now</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <a class="sellLink" href="#">
+              <h5 class="card-title">best luxury wallet</h5>
+              <img class="card-img" src="img/oip10.jpg" alt="Card image cap">
+            </a>
+            <p class="sellCardName">Tom Ford</p>
+            <p class="sellQuality">Textured Leather Bifold</p>
+            <div class="sellLists">
+              <ul class="sellList">
+                <li>Holds 11 cards</li>
+                <li>Stores flat bills</li>
+                <li>Italian Leather</li>
+                <li>2 Pockets</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-info" role="button">Shop Now</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <a class="sellLink" href="#">
+              <h5 class="card-title">best luxury wallet</h5>
+              <img class="card-img" src="img/oip11.jpg" alt="Card image cap">
+            </a>
+            <p class="sellCardName">Tom Ford</p>
+            <p class="sellQuality">Textured Leather Bifold</p>
+            <div class="sellLists">
+              <ul class="sellList">
+                <li>Holds 11 cards</li>
+                <li>Stores flat bills</li>
+                <li>Italian Leather</li>
+                <li>2 Pockets</li>
+              </ul>
+            </div> 
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-info" role="button">Shop Now</a>
+          </div>
+        </div>
+      </div>
+      <!-- cards end -->
+      <h2 class="postHead2">A Special Sparkle: Best <span class="realistic-marker-highlight">Designer Jewelry</span> Brands For Women</h2>
+      <p class="postText">Here’s the entire list of men’s wallets that we’ve <span class="textUnderlined">handpicked</span>. Each model excels in at least one crucial area. You can directly jump to winner for the category you’re most interested in:</p>
+      <div class="sellLists2">
+        <ol>
+          <li><a href="#" class="postHighlight">Bellroy Note Sleeve:</a> Overall best wallet</li>
+          <li><a href="#" class="postHighlight">Tom Ford Leather Bifold:</a> Best luxury wallet</li>
+          <li><a href="#" class="postHighlight">Vaultskin Manhattan:</a> Best value wallet</li>
+          <li><a href="#" class="postHighlight">Montblanc Sartorial Pocket:</a> Most stylish wallet</li>
+          <li><a href="#" class="postHighlight">Bellroy Hide & Seek:</a> Best RFID wallet</li>
+        </ol>
+      </div>
+      <h2 class="postHead2">A Special Sparkle: Best <span class="realistic-marker-highlight">Designer Jewelry</span> Brands For Women</h2>
+      <div class="postImg">
+        <img src="img/oip10.jpg" alt="">
+      </div>
+      <p class="postText">The Note Sleeve is simply the best all around wallet in <span class="postHighlight">Bellroy’s collection</span>. If you don’t want to spend a ton of time (or money) researching the best wallet, you can stop here. This one has everything you need. And it looks good too!</p>
+      <p class="postText">Tom Ford is known for his classically <b class="textBold">luxurious designs</b>, and his collections always exude an impeccably restrained glamour. This innate understanding of high-end fashion extends to the <span class="postHighlight">brand’s accessories</span> as much as its clothing lines. And so it’s no surprise that the best premium wallet on our list is this <span class="postHighlight">Tom Ford bifold</span>.</p>
+
+      <a href="#" class="btn btn-info textBtn" role="button">Shop Now</a>
+
+      <p class="postText">The Note Sleeve is simply the best all around wallet in <span class="postHighlight">Bellroy’s collection</span>. If you don’t want to spend a ton of time (or money) researching the best wallet, you can stop here. This one has everything you need. And it looks good too!</p>
+
+
+
+
+      </div><!-- container end -->
+    </div><!-- deck end -->
+
+
+
+    <div class="col-md-3" id="moreBlogPosts">
+      <div class="container">
+        <div class="morePostHeading">
+          <h4>More Posts!</h4>
+          <hr class="morePostUnderline">
+        </div>
+        <div class="card">
+          <a href="#" class="morepostsLinks">
+            <img class="card-img" src="img/blogp1.jpg" alt="Card image">
+            <h3 class="card-title">A Special Sparkle: Best Designer Jewelry Brands For Women</h3>
+          </a>
+        </div>
+
+        <div class="card">
+          <a href="#" class="morepostsLinks">
+            <img class="card-img" src="img/blogp1.jpg" alt="Card image">
+            <h3 class="card-title">A Special Sparkle: Best Designer Jewelry Brands For Women</h3>
+          </a>
+        </div>
+
+        <div class="card">
+          <a href="#" class="morepostsLinks">
+            <img class="card-img" src="img/blogp1.jpg" alt="Card image">
+            <h3 class="card-title">A Special Sparkle: Best Designer Jewelry Brands For Women</h3>
+          </a>
+        </div>
+
+        <div class="card">
+          <a href="#" class="morepostsLinks">
+            <img class="card-img" src="img/blogp1.jpg" alt="Card image">
+            <h3 class="card-title">A Special Sparkle: Best Designer Jewelry Brands For Women</h3>
+          </a>
+        </div>
+
+        <div class="card">
+          <a href="#" class="morepostsLinks">
+            <img class="card-img" src="img/blogp1.jpg" alt="Card image">
+            <h3 class="card-title">A Special Sparkle: Best Designer Jewelry Brands For Women</h3>
+          </a>
+        </div>
+
+        <div class="card">
+          <a href="#" class="morepostsLinks">
+            <img class="card-img" src="img/blogp1.jpg" alt="Card image">
+            <h3 class="card-title">A Special Sparkle: Best Designer Jewelry Brands For Women</h3>
+          </a>
+        </div>
+
+        <div class="card">
+          <a href="#" class="morepostsLinks">
+            <img class="card-img" src="img/blogp1.jpg" alt="Card image">
+            <h3 class="card-title">A Special Sparkle: Best Designer Jewelry Brands For Women</h3>
+          </a>
+        </div>
+
+        <div class="card">
+          <a href="#" class="morepostsLinks">
+            <img class="card-img" src="img/blogp1.jpg" alt="Card image">
+            <h3 class="card-title">A Special Sparkle: Best Designer Jewelry Brands For Women</h3>
+          </a>
+        </div>
+
+        <div class="card">
+          <a href="#" class="morepostsLinks">
+            <img class="card-img" src="img/blogp1.jpg" alt="Card image">
+            <h3 class="card-title">A Special Sparkle: Best Designer Jewelry Brands For Women</h3>
+          </a>
+        </div>
+
+        <div class="card">
+          <a href="#" class="morepostsLinks">
+            <img class="card-img" src="img/blogp1.jpg" alt="Card image">
+            <h3 class="card-title">A Special Sparkle: Best Designer Jewelry Brands For Women</h3>
+          </a>
+        </div>
+
+        <div class="card">
+          <a href="#" class="morepostsLinks">
+            <img class="card-img" src="img/blogp1.jpg" alt="Card image">
+            <h3 class="card-title">A Special Sparkle: Best Designer Jewelry Brands For Women</h3>
+          </a>
+        </div>
+
+        <div class="card">
+          <a href="#" class="morepostsLinks">
+            <img class="card-img" src="img/blogp1.jpg" alt="Card image">
+            <h3 class="card-title">A Special Sparkle: Best Designer Jewelry Brands For Women</h3>
+          </a>
+        </div>
+
+
+      </div>
     </div>
+  </div>
 </div>
-</section>
 
 
 
