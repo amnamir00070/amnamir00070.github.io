@@ -253,7 +253,9 @@ embed, iframe, img, object, video, .wp-caption {
   font-weight: 550;                                                          
 }
 #CardText:hover{
-  color: #60a3bc;
+  background: var(--gradient-color3);
+  -webkit-background-clip: text;
+  color: transparent;
 }
 #featuredCards a{
   text-decoration: none;

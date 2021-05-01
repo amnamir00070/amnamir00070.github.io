@@ -53,6 +53,8 @@ body{
     border: none;
     border-radius: 0%;
     width: 100%;
+    height: 130px;
+    object-fit:cover;
 }
 .morepostsLinks img:hover{
     opacity: .7;

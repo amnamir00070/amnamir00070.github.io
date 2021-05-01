@@ -6,7 +6,11 @@
 	font-family: Graphik;
 	src: url("fonts/Graphik-Regular.ttf");
 }
- 
+:root{
+  --gradient-color3: linear-gradient(to right bottom, #000000, #BA0C2F, #75787B, #861F41, #861F41, #75787B, #002855, #75787B);
+  --gradient-color2: linear-gradient(to right bottom, #000000, #BA0C2F, #75787B, #861F41, #75787B, #002855, #75787B, #861F41, #861F41, #000000);
+}
+
  /*medium+ screen sizes*/
 @media (min-width:992px) {
     .Moreposts {
@@ -62,7 +66,9 @@
   font-weight: 550;                                                          
 }
 #CardText:hover{
-  color: #60a3bc;
+  background: var(--gradient-color3);
+  -webkit-background-clip: text;
+  color: transparent;
 }
 #featuredCards a{
   text-decoration: none;
