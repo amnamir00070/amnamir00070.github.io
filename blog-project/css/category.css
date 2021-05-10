@@ -85,6 +85,32 @@
     background: linear-gradient(to right, rgba(36, 35, 35, 0.1), rgba(36, 35, 35, 0.1));
     letter-spacing: 1px;
 }
+.headUnderlined2{
+    font-family: Muli;
+    font-weight: 700;
+    color: #111; 
+    text-decoration: none;
+    padding-bottom: 3px;
+    border-width: 2px;
+    border-style: solid;
+    border-image: 
+    linear-gradient(
+        to right, 
+        #000000,#111 100%) 0 0 100%;
+}
+.headUnderlined1{
+    color: rgb(129, 127, 127); 
+    font-family: Muli;
+    font-weight: 700;
+    text-decoration: none;
+    padding-bottom: 3px;
+    border-width: 2px;
+    border-style: solid;
+    border-image: 
+    linear-gradient(
+        to right, 
+         #75787B, rgb(129, 127, 127) 100%) 0 0 100%;
+}
 @media (min-width: 576px) {
     .CateCards .content h4{
         font-size: 12px;

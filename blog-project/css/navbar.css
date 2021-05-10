@@ -112,16 +112,14 @@ nav{
       background-color: #000000!important;
       border-radius: 0%;
   }
-  .navbar-dark .navbar-nav .nav-link{
-      letter-spacing: 2px;
-  }
   .navbar-dark .navbar-nav .nav-link {
       letter-spacing: 3px;
       color: #FAFAFA;
+      padding: 6px;
   }
   .navbar-dark .navbar-nav .nav-link:hover{
-      border-bottom: 2px solid #FAFAFA;
-      padding-bottom: 18px;
+      background: rgb(95, 95, 95);
+      width: 100%;
   }
   .navbar-dark .navbar-nav #active-link{
       border-bottom: 2px solid #FAFAFA;
@@ -132,5 +130,16 @@ nav{
     .navbar-dark .navbar-nav .nav-link {
       padding: 28px;
     }
-  
+    .navbar-dark .navbar-nav .nav-link:hover{
+      border-bottom: 2px solid #FAFAFA;
+      padding-bottom: 18px;
+      opacity: 1;
+      background: #000;
+    }
+    .navbar-dark .navbar-nav .nav-link:active{
+      border-bottom: 2px solid #FAFAFA;
+      padding-bottom: 18px;
+      opacity: 1;
+      background: #000;
+    }
   }

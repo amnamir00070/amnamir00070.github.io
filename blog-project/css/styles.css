@@ -2,16 +2,34 @@
 	font-family: Poppins;
 	src: url("fonts/Poppins-Light.ttf");
 }
+@font-face{
+	font-family: Muli;
+	src: url("fonts/MuliExtralight-ywL02.ttf");
+}
+@font-face{
+	font-family: Graphik;
+	src: url("fonts/Graphik-Regular.ttf");
+}
+@font-face{
+	font-family: GreatVibes-Regular;
+	src: url("fonts/GreatVibes-Regular.ttf");
+}
+@font-face{
+	font-family: Montserrat-Regular;
+	src: url("fonts/Montserrat-Bold.ttf");
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   body{
-    font-family: Poppins;
+    font-family: Muli;
     background-color: #fafafa;
 }
-
+:root{
+  --gradient-color3: linear-gradient(to right bottom, #000000, #BA0C2F, #75787B, #861F41, #861F41, #75787B, #002855, #75787B);
+}
 .banner{
     background-color: #000000;
     height: 230px;
@@ -79,14 +97,53 @@
   .picture .back {
     width: 100%;
     height: 100%;
-    background-color: #333333;
+    background-color: #ebe9e9;
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
+    align-items: center;
     transform: rotateY(180deg);
   }
-  
+  .picture .back a{
+    padding: 5%;
+    font-family: Montserrat-Regular;
+    font-size: 14px;
+  }
+  .picture .back a:hover{
+    text-decoration: none;
+  }
+  .picture .back a .backText{
+    font-family: Montserrat-Regular;
+    font-size: 14px;
+    color: #616161;
+  }
+  .picture .back a .backText:hover{
+    text-decoration: none;
+    opacity: 0.6;
+  }
+  .picture .back .btn-outline-warning{
+    background: #111;
+    border-radius: 0%;
+    font-family: Muli;
+    font-weight: 500;
+    text-transform: uppercase;
+    background: var(--gradient-color3);
+    -webkit-background-clip: text;
+    color: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-image: 
+    linear-gradient(
+        to right, 
+        #000000, #BA0C2F, #75787B, #861F41, #861F41, #75787B, #002855, #75787B, #000000
+        
+      ) 1;
+      transition: .05s;
+  }
+  .picture .back .btn-outline-warning:hover{
+    opacity: .6;
+  }
   .picture .back button {
     width: 140px;
     height: 40px;
@@ -277,16 +334,16 @@ font-weight: 400;
 .btn-secondary{
   background: linear-gradient(to right, #403b4a, #bbbbb4);
   padding: 10px;
+  font-family: Poppins;
   border-radius: 50px;
   color: #FFF; 
   box-shadow: 5px 5px 2px -2px #a5a5a5;
   border: none;
 }
 .btn-secondary:hover{
-  transition: all .5s ease;
-  transform: translateX(10px);
+  transition: all .3s ease;
   cursor: pointer;
-  box-shadow: -6px -9px 2px -2px #a5a5a5;
+  background: #403b4a;
 }
 .card-footer{
   background: none;

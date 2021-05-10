@@ -47,6 +47,12 @@ embed, iframe, img, object, video, .wp-caption {
 .headText p{
     font-family: Muli, sans-serif;
     color: #5a5a5a;
+    font-size: 15px;
+}
+@media(min-width: 992px){
+  .headText p{
+    font-size: 20px;
+  }
 }
 .whiteCards{
     padding: 0 20px 50px 20px;
