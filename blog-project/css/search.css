@@ -19,8 +19,8 @@
 	src: url("fonts/GreatVibes-Regular.ttf");
 }
 :root{
-    --gradient-color3: linear-gradient(to right bottom, #000000, #BA0C2F, #75787B, #861F41, #861F41, #75787B, #002855, #75787B);
-    --gradient-color2: linear-gradient(to right bottom, #000000, #BA0C2F, #75787B, #861F41, #75787B, #002855, #75787B, #861F41, #861F41, #000000);
+    --gradient-color3: linear-gradient(to right bottom, #a71d31, #3f0d12);
+    --gradient-color2: linear-gradient(to right bottom, #a71d31, #3f0d12);
   }
 #searchResults{
     padding: 30px;
@@ -48,7 +48,7 @@
     border-image: 
     linear-gradient(
         to right, 
-        #000000, #BA0C2F, #75787B, #861F41, #861F41, #75787B, #002855, #75787B 100%) 0 0 100%;
+        #a71d31, #3f0d12 100%) 0 0 100%;
 }
 #searchResults{
     width: 100%;
@@ -71,7 +71,7 @@
 #searchResults #searchCards .card img{
     border: none;
     border-radius: 0%;
-    height: 200px;
+    height: 150px;
     width: 100%;
     object-fit: cover;
 }
@@ -93,15 +93,22 @@
 }
 @media (min-width:992px){
     #searchResults #searchCards .card .card-text{
-        text-align: right;
+
+    }
+    #searchResults #searchCards .card img{
+        border: none;
+        border-radius: 0%;
+        height: 200px;
+        width: 100%;
+        object-fit: cover;
     }
 }
 @media (min-width: 1632px){
     #searchResults #searchCards .card img{
         width: 300px;
+        height: 200px;
     }
     #searchResults #searchCards .card .card-text{
         font-size: 25px;
-        padding-left: 30%;
     }
 }
