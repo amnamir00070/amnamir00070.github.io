@@ -18,6 +18,10 @@
 	font-family: Montserrat-Regular;
 	src: url("fonts/Montserrat-Bold.ttf");
 }
+@font-face{
+	font-family: OpenSans-Regular;
+	src: url("fonts/OpenSans-Regular.ttf");
+}
 * {
     margin: 0;
     padding: 0;
@@ -28,7 +32,7 @@
     background-color: #fafafa;
 }
 :root{
-  --gradient-color3: linear-gradient(to right bottom, #000000, #BA0C2F, #75787B, #861F41, #861F41, #75787B, #002855, #75787B);
+  --gradient-color3: linear-gradient(to right bottom, #000,   #a71d31, #3f0d12, #000 );
 }
 .banner{
     background-color: #000000;
@@ -136,13 +140,17 @@
     border-image: 
     linear-gradient(
         to right, 
-        #000000, #BA0C2F, #75787B, #861F41, #861F41, #75787B, #002855, #75787B, #000000
+         #a71d31, #3f0d12
         
       ) 1;
       transition: .05s;
   }
   .picture .back .btn-outline-warning:hover{
-    opacity: .6;
+    background: linear-gradient(
+        to right, 
+         #a71d31, #3f0d12
+       );
+       color: #fafafa;
   }
   .picture .back button {
     width: 140px;
@@ -323,6 +331,17 @@ font-weight: 400;
 }
 #CradBody .card-title{
   margin-top: 12px;
+  color: #505050;
+  opacity: 0.9;
+  font-family: Montserrat-Regular;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 110%!important;
+}
+#CradBody .card-text{
+    color: #616161;
+    font-weight: 400;
+    font-family: OpenSans-Regular;
 }
 .cardDate{
   padding: 0%;
@@ -330,20 +349,41 @@ font-weight: 400;
   font-size: x-small;
   transform: translateY(-6px);
   float: right;
+  font-size: 12px;
+      background: var(--gradient-color3);
+    -webkit-background-clip: text;
+    color: transparent;
 }
 .btn-secondary{
-  background: linear-gradient(to right, #403b4a, #bbbbb4);
-  padding: 10px;
-  font-family: Poppins;
-  border-radius: 50px;
-  color: #FFF; 
-  box-shadow: 5px 5px 2px -2px #a5a5a5;
-  border: none;
+  background: #111;
+  border-radius: 0%;
+  font-family: Muli;
+  font-weight: 500;
+  text-transform: uppercase;
+  background: var(--gradient-color3);
+  -webkit-background-clip: text;
+  color: transparent;
+  border-width: 1px;
+  border-style: solid;
+  border-image: 
+  linear-gradient(
+      to right, 
+       #a71d31, #3f0d12
+      
+    ) 1;
+    transition: .05s;
+  transform: translateY(-15px);
 }
 .btn-secondary:hover{
   transition: all .3s ease;
   cursor: pointer;
-  background: #403b4a;
+  background: 
+  linear-gradient(
+      to right, 
+       #a71d31, #3f0d12
+      
+    );
+    color: #fafafa;
 }
 .card-footer{
   background: none;

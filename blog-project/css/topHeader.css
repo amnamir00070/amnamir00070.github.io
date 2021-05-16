@@ -7,8 +7,11 @@
 	src: url("fonts/Graphik-Regular.ttf");
 }
 :root{
-  --gradient-color3: linear-gradient(to right bottom, #000000, #BA0C2F, #75787B, #861F41, #861F41, #75787B, #002855, #75787B);
-  --gradient-color2: linear-gradient(to right bottom, #000000, #BA0C2F, #75787B, #861F41, #75787B, #002855, #75787B, #861F41, #861F41, #000000);
+  --gradient-color4: linear-gradient(to right bottom,   #a71d31, #3f0d12
+  );
+  --gradient-color1: linear-gradient(to right bottom, #09c6f9, #045de9
+  );
+  --gradient-color2: linear-gradient(to right, #041c84, #e84393 );
 }
 
  /*medium+ screen sizes*/
@@ -57,16 +60,17 @@
 }
 .Moreposts .container .card-deck .card .card-body{
   padding: 0;
-  padding-top: 10px;
+  padding-top: 6px;
   transform: translateX(-8%);
 }
 #CardText{
   font-family: Muli, sans-serif;
   color: #000000;
-  font-weight: 550;                                                          
+  font-weight: 550; 
+  font-size: large;                                                         
 }
 #CardText:hover{
-  background: var(--gradient-color3);
+  background: var(--gradient-color4);
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -76,7 +80,7 @@
 @media (max-width: 1024px) {
   .Moreposts .container .card-deck .card .card-body{
     padding: 0;
-    padding-top: 10px;
+    padding-top: 8px;
     transform: translateX(0%);
   }
 }

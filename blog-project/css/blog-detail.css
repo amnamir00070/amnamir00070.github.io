@@ -14,15 +14,21 @@ body{
     background: #fafafa;
 }
 :root{
-    --gradient-color3: linear-gradient(to right bottom, #000000, #BA0C2F, #75787B, #861F41, #861F41, #75787B, #002855, #75787B);
-    --gradient-color2: linear-gradient(to right bottom, #000000, #BA0C2F, #75787B, #861F41, #75787B, #002855, #75787B, #861F41, #861F41, #000000);
+    --gradient-color3: linear-gradient(to right bottom, #09c6f9, #045de9 );
+    --gradient-color2: linear-gradient(to right, #09c6f9, #045de9 );
   }
+.moreBlogPosts{
+    width: 100%;
+}
+.moreBlogPosts .container{
+    width: 100%;
+}
 .morePostHeading{
     padding: 0px 0px;
 }
 @media (min-width:992px){
     .morePostHeading{
-        padding: 50px 0px;
+        padding: 30px 0px;
     }
 }
 .morePostHeading h4{
@@ -30,7 +36,7 @@ body{
     color: #111;
 }
 .morePostUnderline{
-    background: linear-gradient(to left, #000000, #BA0C2F, #75787B, #861F41, #861F41, #75787B, #002855, #75787B 100%);
+    background: linear-gradient(to right,   #a71d31, #3f0d12 100%);
     background-position: 0 100%;
     background-size: 100% 2px;
     background-repeat: repeat-x;
@@ -47,7 +53,7 @@ body{
     background: none;
     border-radius: 0%;
     width: 100%;
-    margin-bottom: 35px;
+    margin-bottom: 50px;
 }
 .morepostsLinks img{
     border: none;
@@ -60,8 +66,8 @@ body{
     opacity: .7;
 }
 .morepostsLinks h3{
-    font-size: 15px;
-    font-family: Graphik, sans-serif;
+    font-size: large;
+    font-family: Muli, sans-serif;
     margin-top: 12px;
     letter-spacing: 1px;
     color: #111;
@@ -70,4 +76,67 @@ body{
     background: var(--gradient-color3);
     -webkit-background-clip: text;
     color: transparent;
+}
+.comment-section{
+    font-size: 28px;
+    margin-top: 50px;
+    margin-bottom: 30px; 
+    font-family: Muli;
+}
+.comment-section span{
+    font-size: 18px;
+}
+.commentSection label{
+    font-family: Muli;
+    font-size: larger;
+}
+.privacypolicy{
+    background: var(--gradient-color3);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.privacypolicy:hover{
+    text-decoration: none;
+    color: #111;
+}
+.commentSection input, select, textarea{
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    color: #333;
+    padding: 10px;
+    width: 100%;
+}
+@media (min-width: 992px) {
+    .commentSection input, select, textarea{
+        width: min-content;
+    }
+}
+.commentSection .btn-info{
+    background: #111;
+    border-radius: 0%;
+    font-family: Muli;
+    font-weight: 500;
+    text-transform: uppercase;
+    background: var(--gradient-color3);
+    -webkit-background-clip: text;
+    color: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-image: 
+    linear-gradient(
+        to right, 
+        #a71d31, #3f0d12
+        
+      ) 1;
+      transition: .05s;
+}
+.commentSection .btn-info:hover{
+    background: 
+    linear-gradient(
+        to right, 
+        #a71d31, #3f0d12
+        
+      );
+      color: #fafafa;
+      border: none;
 }

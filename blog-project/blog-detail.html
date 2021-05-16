@@ -17,8 +17,8 @@
     <style>
       /* to be added in the style tags*/
 :root{
-    --gradient-color3: linear-gradient(to right bottom, #000000, #BA0C2F, #75787B, #861F41, #861F41, #75787B, #002855, #75787B);
-    --gradient-color2: linear-gradient(to right bottom, #000000, #BA0C2F, #75787B, #861F41, #75787B, #002855, #75787B, #861F41, #861F41, #000000);
+    --gradient-color3: linear-gradient(to right bottom, #a71d31, #3f0d12 );
+    --gradient-color2: linear-gradient(to right, #a71d31, #3f0d12 );
   }
 #postDeets{
     width: 100%;
@@ -62,11 +62,10 @@
 }
 .deets p:first-child:first-letter{
     font-size: 80px;
-    padding: 1rem;
+    padding: 0.6rem;
     float: left;
-    line-height: 0.8;
-    border: 1px solid #111;
-    margin-right: 1rem;
+    line-height: 0.6;
+    margin-right: 0;
 }
 #postDeets #sellCards .card{
     border: none;
@@ -148,18 +147,20 @@
     border-image: 
     linear-gradient(
         to right, 
-        #000000, #BA0C2F, #75787B, #861F41, #861F41, #75787B, #002855, #75787B, #000000
+        #a71d31, #3f0d12
         
       ) 1;
       transition: .05s;
 }
 #postDeets #sellCards .card .card-footer .btn-info:hover{
-    border-image: 
+    background: 
     linear-gradient(
         to right, 
-        #000000, #BA0C2F, #75787B, #861F41, #861F41, #75787B, #002855, #75787B, #000000
+        #a71d31, #3f0d12
         
-      ) 1 1 100%;
+      );
+      color: #fafafa;
+      border: none;
 }
 .sellLists{
 margin-left: 30%;
@@ -215,14 +216,12 @@ margin-top: 10px;
     background: var(--gradient-color3);
     -webkit-background-clip: text;
     color: transparent; 
-    font-weight: 700;
     font-family: Muli;
 }
 a.postHighlight{
   background: var(--gradient-color3);
   -webkit-background-clip: text;
   color: transparent; 
-  font-weight: 700;
   font-family: Muli;
 }
 a.postHighlight:hover{
@@ -247,7 +246,7 @@ a.postHighlight:hover{
     border-image: 
     linear-gradient(
         to right, 
-        #000000, #BA0C2F, #75787B, #861F41, #861F41, #75787B, #002855, #75787B 100%) 0 0 100%;
+        #a71d31, #3f0d12 100%) 0 0 100%;
 }
 .textBtn{
     transform: scale(1.05);
@@ -263,26 +262,25 @@ a.postHighlight:hover{
     border-image: 
     linear-gradient(
         to right bottom, 
-        #000000, #BA0C2F, #75787B, #861F41, #861F41, #75787B, #002855, #75787B
+        #a71d31, #3f0d12
         
       ) 1;
 }
 .textBtn:hover{
-    border-image: 
+    background: 
     linear-gradient(
         to right, 
-        #000000, #BA0C2F, #75787B, #861F41, #861F41, #75787B, #002855, #75787B
+        #a71d31, #3f0d12
         
-      ) 1 1 100%;
-    background: var(--gradient-color3);
-    -webkit-background-clip: text;
-    color: transparent;
+      );
+    color: #fafafa;
+    border: none;
 }
 
 @media (min-width:992px) {
     #postDeets .container{
         width: 100%;
-        padding: 50px 30px 0px 30px;
+        padding: 50px 20px 0px 20px;
     }
     .sellLists{
         /*margin-left: 50px;*/
@@ -628,6 +626,27 @@ a.postHighlight:hover{
   
         <p class="postText">The Note Sleeve is simply the best all around wallet in <span class="postHighlight">Bellroy’s collection</span>. If you don’t want to spend a ton of time (or money) researching the best wallet, you can stop here. This one has everything you need. And it looks good too!</p>
       </div>
+
+
+
+      <h5 class="comment-section">
+        Leave a Reply<br>
+        <span>Your email address will not be published. Required fields are marked*</span>
+      </h5>
+
+      <form class="commentSection">
+        <label for="comment">Comment</label><br>
+        <textarea id="comment" rows="5" cols="45"></textarea><br><br>
+        <label for="fname">Name*</label><br>
+        <input type="text" id="fname" name="fname" value="" placeholder="John"><br><br>
+        <label for="email">Email address*</label><br>
+        <input type="email" id="email" placeholder="name@example.com"><br><br>
+        <input type="checkbox"> I accept the <a href="#" class="privacypolicy">Privacy Policy</a> for this year.<br><br>
+        <input type="submit" value="Submit" class="btn btn-info textBtn">
+      </form>
+      <br><br> 
+
+
 
       </div><!-- container end -->
     </div><!-- deck end -->

@@ -1,0 +1,15 @@
+#COL-Card .card-footer{
+    background: none;
+    border: none;
+    transform: translateY(-10px);
+}
+#COL-Card .card-img-top{
+    height: 150px;
+    object-fit: cover;
+}
+@media (min-width: 992px) {
+    #COL-Card .card-img-top{
+        height: 200px;
+        object-fit: cover;
+    }  
+}
