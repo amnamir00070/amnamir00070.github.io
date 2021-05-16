@@ -104,10 +104,12 @@ body{
     border: 1px solid #ddd;
     color: #333;
     padding: 10px;
+}
+.commentSection textarea{
     width: 100%;
 }
 @media (min-width: 992px) {
-    .commentSection input, select, textarea{
+    .commentSection textarea{
         width: min-content;
     }
 }
