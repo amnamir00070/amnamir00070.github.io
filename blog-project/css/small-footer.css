@@ -77,67 +77,86 @@ footer{
     height: 30px;
     display: inline-block;
     line-height: 1px;
-    transition: all 0.5s;
+    transition: all 0.3s;
   }
-  .social-icon:hover {
+  /*.social-icon:hover {
       transform: rotate(360deg)scale(1.2);
-    }
+    }*/
     /* Facebook Button Styling */
    .facebook {
       font-size: 14px;
       padding-top: 3px;
       padding-left: 1px;
-      border-color: #3b5998;
-      background-color: #3b5998;
-      color: #ffffff;
+      background-color: #ffffff;
+      border-color: #ffffff;
+      color: #3b5998;
      
     }
     .facebook:hover {
-      background-color: #ffffff;
-      color: #3b5998;
+      background-color: #3b5998;
+      border-color: #3b5998;
+      color: #ffffff;
     }
+
+    /* Whatsapp Button Styling */
+   .whatsapp {
+    font-size: 14px;
+    padding-top: 3px;
+    padding-left: 1px;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: #155E54;
+   
+  }
+  .whatsapp:hover {
+    background-color: #155E54;
+    border-color: #155E54;
+    color: #ffffff;
+  }
     /* Twitter Button Styling */
   .twitter {
       font-size: 12px;
       padding-top: 4px;
       padding-left: 1px;
-      border-color: #55acee;
-      background-color: #55acee;
-      color: #ffffff;
+      background-color: #ffffff;
+      border-color: #ffffff;
+      color: #55acee;
       
     }
     .twitter:hover {
-      background-color: #ffffff;
-      color: #55acee;
+      background-color: #55acee;
+      border-color: #55acee;
+      color: #ffffffff;
     }
     /* Google+ Button Styling */
-    .google-plus {
+    .envelope {
       font-size: 12px;
       padding-top: 4px;
       padding-left: 2px;
-      background-color: #dd4b39;
-      color: #ffffff;
-      border-color: #dd4b39;
+      background-color: #ffffff;
+      border-color: #ffffff;
+      color: #dd4b39;
       
     }
-    .google-plus :hover { 
-      background-color: #ffffff;
+    .envelope :hover { 
+      background-color: #dd4b39;
+      border-color: #dd4b39;
       color: #dd4b39;
     }
     /* Instagram Button Styling */
     .instagram {
-      font-size: 15px;
-      padding-top: 2px;
+      font-size: 14px;
+      padding-top: 3px;
       padding-left: 1px;
-      padding-right: 0.6px;
-      background-color: #ea4c89;
-      color: #ffffff;
-      border-color: #ea4c89;
-      
-    }
-    .instagram :hover {
       background-color: #ffffff;
+      border-color: #ffffff;
       color: #ea4c89;
+     
+    }
+    .instagram:hover {
+      background-color: #ea4c89;
+      border-color: #ea4c89;
+      color: #ffffff;
     }
     /* Youtube Button Styling */
    .youtube {
@@ -158,14 +177,15 @@ footer{
       font-size: 14px;
       padding-top: 3px;
       padding-left: 1px;
-      border-color: #3b5998;
-      background-color: #3b5998;
-      color: #ffffff;
+      border-color: #ffffff;
+      background-color: #ffffff;
+      color: #3b5998;
      
     }
     .linkedin:hover {
-      background-color: #ffffff;
-      color: #3b5998;
+      border-color: #3b5998;
+      background-color: #3b5998;
+      color: #ffffff;
     }
 
   .round-btn {display: inline;height: 40px; width: 40px; background:#fff;border-radius: 50%;float: left;margin: 15px 8px;box-shadow: 2px 2px 5px 0px rgb(82, 0, 67);border: 1px solid;/*border: 1px solid #622657;*/}
