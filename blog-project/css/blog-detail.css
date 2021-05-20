@@ -82,7 +82,12 @@ body{
     color: transparent;
 }
 .published-comments{
-    margin-bottom: 50px;
+    margin-bottom: 0px;
+}
+@media (min-width:992px) {
+    .published-comments{
+        margin-bottom: 50px;
+    } 
 }
 .commentsNumber{
     font-size: 22px;
