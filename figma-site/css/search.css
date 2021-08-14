@@ -1,0 +1,114 @@
+@font-face{
+	font-family: Muli;
+	src: url("fonts/MuliExtralight-ywL02.ttf");
+}
+@font-face{
+	font-family: Graphik;
+	src: url("fonts/Graphik-Regular.ttf");
+}
+@font-face{
+	font-family: Montserrat-Regular;
+	src: url("fonts/Montserrat-Bold.ttf");
+}
+@font-face{
+	font-family: OpenSans-Regular;
+	src: url("fonts/OpenSans-Regular.ttf");
+}
+@font-face{
+	font-family: GreatVibes-Regular;
+	src: url("fonts/GreatVibes-Regular.ttf");
+}
+:root{
+    --gradient-color3: linear-gradient(to right bottom, #a71d31, #3f0d12);
+    --gradient-color2: linear-gradient(to right bottom, #a71d31, #3f0d12);
+  }
+#searchResults{
+    padding: 30px;
+}
+#searchResults .headText{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0px 50px 0px;
+}
+#searchResults .headText h1{
+    font-family: GreatVibes-Regular, sans-serif;
+    font-weight: 300;
+    font-size: 60px;
+    color: #616161;
+}
+#searchResults .headText h1 span{
+    background: var(--gradient-color2);
+    -webkit-background-clip: text;
+    color: transparent; 
+    text-decoration: none;
+    padding-bottom: 3px;
+    border-width: 2px;
+    border-style: solid;
+    border-image: 
+    linear-gradient(
+        to right, 
+        #a71d31, #3f0d12 100%) 0 0 100%;
+}
+#searchResults{
+    width: 100%;
+}
+#searchResults #searchCards{
+    width: 100%;
+}
+#searchResults #searchCards .card{
+    border: none;
+    border-radius: 0%;
+    background: rgba(192, 192, 192, 0.1);
+    width: 100%;
+}
+#searchResults #searchCards .card:hover{
+    background: rgba(192, 192, 192, 0.2);
+}
+#searchResults #searchCards .card a:hover{
+    text-decoration: none;
+}
+#searchResults #searchCards .card img{
+    border: none;
+    border-radius: 0%;
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+}
+#searchResults #searchCards .card img:hover{
+    opacity: .7;
+}
+#searchResults #searchCards .card .card-text{
+    text-align: left;
+    font-family: Muli;
+    font-size: 22px;
+    line-height: 2rem;
+    color: #111;
+    padding-left: none;
+}  
+#searchResults #searchCards .card .card-text:hover{
+    background: var(--gradient-color2);
+    -webkit-background-clip: text;
+    color: transparent; 
+}
+@media (min-width:992px){
+    #searchResults #searchCards .card .card-text{
+
+    }
+    #searchResults #searchCards .card img{
+        border: none;
+        border-radius: 0%;
+        height: 200px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+@media (min-width: 1632px){
+    #searchResults #searchCards .card img{
+        width: 300px;
+        height: 200px;
+    }
+    #searchResults #searchCards .card .card-text{
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,49 @@
+#large-card{
+	border-radius: 25px;
+	margin-bottom: 1.5rem;
+	width: 730px;
+	height: 600px;
+	border: none;
+    box-shadow: 0px 5px 5px #888888;
+}
+#large-card img{
+	border-top-right-radius: 25px;
+	border-top-left-radius: 25px;
+	width: 730px;
+	height: 399px;
+	object-fit: cover;
+}
+.add-pic{
+	width: 300px;
+	height: 600px;
+	border: 1px solid #000000;
+}
+.add-pic:hover{
+	border: 2px solid blue;
+}
+#large-card .heading{
+	font-weight: 700;
+}
+
+#small-card{
+	border-radius: 25px;
+	margin: 1rem;
+	border: none;
+    box-shadow: 1px 5px 5px #888888;
+}
+#small-card img{
+	border-top-right-radius: 25px;
+	border-top-left-radius: 25px;
+}
+.add-part-mob{
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	margin-top: 2em;
+}
+.add-pic-mob{
+	border: 1px solid #000000;
+}
+.add-pic-mob:hover{
+	border: 2px solid blue;
+}

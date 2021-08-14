@@ -1,0 +1,32 @@
+body{
+	background: #F9FAFF;
+	font-family: Roboto;
+}
+.mob-body{
+	margin-top: 2rem;
+}
+#extra-part{
+
+}
+@media(min-width: 992px){
+	#extra-part{
+		margin-top: 50px;
+
+	}	
+}
+
+footer{
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	padding: 30px;
+
+}
+footer a{
+	color: #000000;
+}
+footer a:hover{
+	color: #000000;
+	text-decoration: underline 2px;
+	text-decoration-color: blue;
+}
