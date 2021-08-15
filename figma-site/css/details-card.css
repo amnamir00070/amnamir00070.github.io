@@ -12,6 +12,10 @@
     box-shadow: 0 5px 25px rgb(26 34 39 / 10%);
 }
 
+#large-card:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
 #large-card .post-image {
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
@@ -35,6 +39,10 @@
     margin: 1rem;
     border: none;
     box-shadow: 0 5px 25px rgb(26 34 39 / 10%);
+}
+
+#small-card:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 #small-card .post-image {
@@ -105,4 +113,83 @@
 .post .post-date:hover {
     text-decoration: underline 2px;
     text-decoration-color: blue;
+}
+
+.head {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.head .post-text {
+    width: 100%;
+    background-color: #ececec;
+    padding: 20px;
+    font-family: Roboto;
+    font-style: normal;
+}
+
+.head .post-text .post-heading {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.head .post-text .post-date {
+    font-family: Roboto;
+    font-size: 12px;
+    margin-top: 10px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    line-height: 16.41px;
+    font-style: normal;
+}
+
+.head .post-text .post-details {
+    font-weight: 400;
+}
+
+.post-text .title {
+    font-size: 15px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.post-text .further-details {
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.button-area {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.btn-grad {
+    background-image: linear-gradient(to right, #26D0CE, #1A2980);
+    background-color: none!important;
+    border: none!important;
+}
+
+.btn-grad {
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.btn-grad:hover {
+    background-image: none;
+    background-color: #fff;
+    border: 2px solid #1A2980!important;
+    /* change the direction of the change here */
+    color: #1A2980;
+    text-decoration: none;
+    font-weight: 700;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
