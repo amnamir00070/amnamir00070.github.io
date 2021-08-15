@@ -1,32 +1,44 @@
-body{
-	background: #F9FAFF;
-	font-family: Roboto;
-}
-.mob-body{
-	margin-top: 2rem;
-}
-#extra-part{
-
-}
-@media(min-width: 992px){
-	#extra-part{
-		margin-top: 50px;
-
-	}	
+@font-face {
+    font-family: Roboto;
+    src: url("fonts/Roboto-Light.ttf");
 }
 
-footer{
-	justify-content: center;
-	text-align: center;
-	align-items: center;
-	padding: 30px;
+.background {
+    background: #F9FAFF;
+    font-family: Roboto;
+}
 
+.mob-body {
+    margin-top: 2rem;
 }
-footer a{
-	color: #000000;
+
+@media(min-width: 992px) {
+    .main-content {
+        margin-top: 50px;
+    }
 }
-footer a:hover{
-	color: #000000;
-	text-decoration: underline 2px;
-	text-decoration-color: blue;
+
+footer {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+    height: 14px;
+}
+
+footer a {
+    color: #000000;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    text-align: center;
+    font-family: Roboto;
+}
+
+footer a:hover {
+    color: #000000;
+    text-decoration: underline 2px;
+    text-decoration-color: blue;
 }
