@@ -7,7 +7,7 @@
     border-radius: 25px;
     margin-bottom: 1.5rem;
     width: 100%;
-    height: 600px;
+    /*height: 600px;*/
     border: none;
     box-shadow: 0 5px 25px rgb(26 34 39 / 10%);
 }
@@ -65,75 +65,26 @@
     border: 2px solid blue;
 }
 
-.post .post-text {
-    text-decoration: none;
-    color: #000000;
-}
-
-.post .post-text:hover {
-    text-decoration: none;
-    color: #000000;
-}
-
-.post .post-title {
-    line-height: 29.3px;
-    font-size: 25px;
-    font-weight: 700;
-    font-family: Roboto;
-    margin-bottom: 23px;
-    font-style: normal;
-}
-
-.post .post-title:hover {
-    text-decoration: underline 2px;
-    text-decoration-color: blue;
-}
-
-.post .post-snippet {
-    font-family: Roboto;
-    font-size: 16px;
-    line-height: 18.75px;
-    margin-bottom: 23px;
-    font-style: normal;
-}
-
-.post .post-snippet:hover {
-    text-decoration: underline 2px;
-    text-decoration-color: blue;
-}
-
-.post .post-date {
-    font-family: Roboto;
-    font-size: 14px;
-    line-height: 16.41px;
-    margin-bottom: 23px;
-    font-style: normal;
-}
-
-.post .post-date:hover {
-    text-decoration: underline 2px;
-    text-decoration-color: blue;
-}
-
 .head {
     width: 100%;
     margin-top: 50px;
 }
 
-.head .post-text {
+.head .post-head-text {
     width: 100%;
     background-color: #ececec;
     padding: 20px;
     font-family: Roboto;
     font-style: normal;
+    border-radius: 25px;
 }
 
-.head .post-text .post-heading {
+.head .post-head-text .post-heading {
     font-weight: 700;
     margin-bottom: 10px;
 }
 
-.head .post-text .post-date {
+.head .post-head-text .post-date {
     font-family: Roboto;
     font-size: 12px;
     margin-top: 10px;
@@ -143,27 +94,45 @@
     font-style: normal;
 }
 
-.head .post-text .post-details {
+.head .post-head-text .post-details {
     font-weight: 400;
 }
 
-.post-text .title {
-    font-size: 15px;
-    font-weight: 700;
-    font-style: normal;
+#large-card .post-text {
+    padding: 0;
+    margin: 0;
 }
 
-.post-text .further-details {
+#large-card .post-text:hover {
+    text-decoration: none;
+    color: #000000;
+}
+
+#large-card .post-text:hover {
+    text-decoration: none;
+    color: #000000;
+}
+
+#large-card .post-text .title {
     font-size: 12px;
     font-weight: 400;
+    color: #818181;
     font-style: normal;
+    margin-top: 15px;
+}
+
+#large-card .post-text .further-details {
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+    color: #000000;
 }
 
 .button-area {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 15px;
+    margin-bottom: 20px;
 }
 
 .btn-grad {
@@ -192,4 +161,68 @@
     text-decoration: none;
     font-weight: 700;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+
+/* mobile version header*/
+
+.head .post-head-text-mob {
+    width: 100%;
+    background-color: #ececec;
+    padding: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    border-radius: 25px;
+}
+
+.head .post-head-text-mob .post-heading {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.head .post-head-text-mob .post-date {
+    font-family: Roboto;
+    font-size: 12px;
+    margin-top: 10px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    line-height: 16.41px;
+    font-style: normal;
+}
+
+.head .post-head-text-mob .post-details {
+    font-weight: 400;
+}
+
+
+/* mobile version card */
+
+#small-card .post-text {
+    padding: 0;
+    margin: 0;
+}
+
+#small-card .post-text:hover {
+    text-decoration: none;
+    color: #000000;
+}
+
+#small-card .post-text:hover {
+    text-decoration: none;
+    color: #000000;
+}
+
+#small-card .post-text .title {
+    font-size: 12px;
+    font-weight: 400;
+    color: #818181;
+    font-style: normal;
+    margin-top: 15px;
+}
+
+#small-card .post-text .further-details {
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+    color: #000000;
 }
