@@ -13,9 +13,13 @@
 }
 
 @media(min-width: 992px) {
+    .outer-wrapper{
+        margin-top: 53px;
+    }
     .main-content {
-        margin-top: 50px;
-        width: 1068px;
+        margin-right: auto;
+        margin-left: auto;
+        min-width: 1068px;
     }
 }
 
