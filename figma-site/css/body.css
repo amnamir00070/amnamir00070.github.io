@@ -11,15 +11,24 @@
 .mob-body {
     margin-top: 2rem;
 }
-
-@media(min-width: 992px) {
+only screen and (min-width: 992px){
     .outer-wrapper{
         margin-top: 53px;
     }
     .main-content {
         margin-right: auto;
         margin-left: auto;
-        min-width: 1068px;
+        width: 100%;
+    }
+}
+only screen and (min-width: 1280px) {
+    .outer-wrapper{
+        margin-top: 53px;
+    }
+    .main-content {
+        margin-right: auto;
+        margin-left: auto;
+        width: 1068px;
     }
 }
 
