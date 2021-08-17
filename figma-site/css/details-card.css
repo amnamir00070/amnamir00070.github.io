@@ -64,27 +64,21 @@
 .add-pic-mob:hover {
     border: 2px solid blue;
 }
-
-.head {
+.post-header{ /*larger screens*/
     width: 100%;
     margin-top: 50px;
 }
-
-.head .post-head-text {
-    width: 100%;
-    background-color: #ececec;
-    padding: 20px;
-    font-family: Roboto;
-    font-style: normal;
-    border-radius: 25px;
+.post-text-mob{
+    margin-top: 20px;
 }
-
-.head .post-head-text .post-heading {
+.post-text{
+    width:100%;
+}
+.post-text .post-heading {
     font-weight: 700;
     margin-bottom: 10px;
 }
-
-.head .post-head-text .post-date {
+.post-text .post-date{
     font-family: Roboto;
     font-size: 12px;
     margin-top: 10px;
@@ -93,11 +87,9 @@
     line-height: 16.41px;
     font-style: normal;
 }
-
-.head .post-head-text .post-details {
+.post-text .post-details{
     font-weight: 400;
 }
-
 #large-card .post-text {
     padding: 0;
     margin: 0;
@@ -162,39 +154,6 @@
     font-weight: 700;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
-
-
-/* mobile version header*/
-
-.head .post-head-text-mob {
-    width: 100%;
-    background-color: #ececec;
-    padding: 20px;
-    font-family: Roboto;
-    font-style: normal;
-    border-radius: 25px;
-}
-
-.head .post-head-text-mob .post-heading {
-    font-weight: 700;
-    margin-bottom: 10px;
-}
-
-.head .post-head-text-mob .post-date {
-    font-family: Roboto;
-    font-size: 12px;
-    margin-top: 10px;
-    font-weight: 400;
-    margin-bottom: 20px;
-    line-height: 16.41px;
-    font-style: normal;
-}
-
-.head .post-head-text-mob .post-details {
-    font-weight: 400;
-}
-
-
 /* mobile version card */
 
 #small-card .post-text {
@@ -213,16 +172,26 @@
 }
 
 #small-card .post-text .title {
-    font-size: 12px;
-    font-weight: 400;
+    font-size: 6px;
+    font-weight: 300;
     color: #818181;
     font-style: normal;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 #small-card .post-text .further-details {
-    font-size: 13px;
-    font-weight: 400;
+    font-size: 8px;
+    font-weight: 300;
     font-style: normal;
     color: #000000;
+}
+.mob-a{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.mob-b{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
 }
