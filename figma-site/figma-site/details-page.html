@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/flickity.min.css">
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" type="text/css" href="fontawesome-free-5.14.0-web/css/all.css">
+    <link rel="stylesheet" type="text/css" href="css/navbar.css">
+    <link rel="stylesheet" type="text/css" href="css/body.css">
+    <link rel="stylesheet" type="text/css" href="css/details-card.css">
+
+
+</head>
+
+<body class="background">
+    <!-- desktop version -->
+    <div class="large-nav">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light top-nav">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" height="35" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">HTML</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CSS</a>
+                    </li>
+                </ul>
+                <button class="btn my-2 my-sm-0 search" onclick="openSearch()"><i class="fas fa-search search-icon"></i></button>
+            </div>
+        </nav>
+
+        <!--header-->
+
+    <div class="container">
+        <div class="container">
+            <div class="container post-header">
+                <div class="container post-text">
+                    <h2 class="post-heading">19 CSS shape-outside example</h2>
+                    <p class="post-date">August 13, 2021</p>
+                    <p class="post-details">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!--end header-->
+        <!--cards-->
+            <div class="container outer-wrapper">
+                <div class="row main-content">
+                    <div class="col-8">
+                        <div class="card post" id="large-card">
+                            <img src="img/pic1.jpg" class="post-image" alt="...">
+                            <div class="card-body">
+                                <a class="post-text" href="#">
+                                    <div class="container mob-a">
+                                        <div class="row mob-b">
+                                            <div class="col-1"></div>
+                                            <div class="col-3">
+                                                <h6 class="title">Title</h6>
+                                                <p class="further-details">The best navbar ever</p>
+                                                <h6 class="title">Cascaded Using</h6>
+                                                <p class="further-details">HTML,CSS,JS</p>
+                                                <h6 class="title">Course description</h6>
+                                                <p class="further-details">N/A</p>
+                                            </div>
+                                            <div class="col-1"></div>
+                                            <div class="col-3">
+                                                <h6 class="title">Author</h6>
+                                                <p class="further-details">Tim</p>
+                                                <h6 class="title">Responsive</h6>
+                                                <p class="further-details">Yes</p>
+                                            </div>
+                                            <div class="col-1"></div>
+                                            <div class="col-3">
+                                                <h6 class="title">Made on</h6>
+                                                <p class="further-details">Aug. 12, 2021</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="button-area">
+                                    <a class="btn btn-primary btn-grad" href="#" role="button">Code and demo</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-4">
+                        <a href="#">
+                            <img src="img/advertisment.PNG" class="ad-1">
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+       
+
+
+
+    </div>
+    <!--large screens end here-->
+
+
+    <!--Search Box Pop Up-->
+    <div id="myOverlay" class="overlay">
+        <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+        <div class="overlay-content">
+            <form action="/action_page.php">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+    </div>
+
+
+    <!--mobile version-->
+
+    <div class="small-nav">
+        <nav class="navbar navbar-light bg-light justify-content-between top-nav">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" height="35" alt="">
+            </a>
+            <button class="btn my-2 my-sm-0 search" onclick="openSearch()"><i class="fas fa-search search-icon"></i></button>
+        </nav>
+
+        <!--navbar with menus menus-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light top-nav">
+
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav2" aria-controls="navbarNav2" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarNav2">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">HTML</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CSS</a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+
+        <!--header-->
+
+        <div class="container post-text post-text-mob">
+            <h2 class="post-heading">19 CSS shape-outside example</h2>
+            <p class="post-date">August 13, 2021</p>
+            <p class="post-details">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+        </div>
+        <!--end header-->
+
+        <div class="mob-body">
+
+            <div class="card post" id="small-card">
+                <img src="img/pic1.jpg" class="post-image" alt="...">
+                <div class="card-body">
+                    <a class="post-text" href="#">
+                        <div class="container mob-a">
+                            <div class="row mob-b">
+                                <div class="col-4">
+                                    <h6 class="title">Title</h6>
+                                </div>
+                                <div class="col-4">
+                                    <h6 class="title">Author</h6>
+                                </div>
+                                <div class="col-4">
+                                    <h6 class="title">Made on</h6>
+                                </div>
+                            </div>
+                            <div class="row mob-b">
+                                <div class="col-4">
+                                <p class="further-details">The best navbar ever</p>
+                                </div>
+                                <div class="col-4">
+                                    <p class="further-details">Tim</p>
+                                </div>
+                                <div class="col-4">
+                                    <p class="further-details">Aug. 12, 2021</p>
+                                </div>
+                            </div>
+                            <div class="row mob-b">
+                                <div class="col-4">
+                                    <h6 class="title">Cascaded Using</h6>
+                                </div>
+                                <div class="col-4">
+                                    <h6 class="title">Responsive</h6>
+                                </div>
+                                <div class="col-4">
+                                    <p class="title"></p>
+                                </div>
+                            </div>
+                            <div class="row mob-b">
+                                <div class="col-4">
+                                    <p class="further-details">HTML,CSS,JS</p>
+                                </div>
+                                <div class="col-4">
+                                    <p class="further-details">Yes</p>
+                                </div>
+                                <div class="col-4">
+                                    <p class="title"></p>
+                                </div>
+                            </div>
+                            <div class="row mob-b">
+                                <div class="col-4">
+                                    <h6 class="title">Course description</h6>
+                                </div>
+                                <div class="col-4">
+                                    <p class="further-details"></p>
+                                </div>
+                                <div class="col-4">
+                                    <p class="title"></p>
+                                </div>
+                            </div>
+                            <div class="row mob-b">
+                                <div class="col-4">
+                                    <p class="further-details">N/A</p>
+                                </div>
+                                <div class="col-4">
+                                    <p class="further-details"></p>
+                                </div>
+                                <div class="col-4">
+                                    <p class="title"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="button-area">
+                        <a class="btn btn-primary btn-grad" href="#" role="button">Code and demo</a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="add-part-mob">
+            <a href="#">
+                <img src="img/advertisment.PNG" class="add-pic-mob">
+            </a>
+        </div>
+
+
+
+
+
+    </div>
+    <!--mobile ends here-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <a href="#">©Aggregrate Trends | All rights reserved &nbsp;&nbsp;&nbsp;&nbsp; About &nbsp;&nbsp;&nbsp;&nbsp; Privacy Policy</a>
+    </footer>
+    <!-- Bootstrap core JavaScript -->
+
+
+
+
+
+
+
+
+
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+
+    <script src="js/scripts.js"></script>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+
+    <script src="js/flickity.pkgd.min.js"></script>
+    <!-- Font Awesome 5 links-->
+    <script src="https://kit.fontawesome.com/fddf5c0916.js" crossorigin="anonymous"></script>
+    <script src="js/search-popup.js"></script>
+</body>
+
+</html>

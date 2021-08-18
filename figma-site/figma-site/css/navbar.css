@@ -1,0 +1,239 @@
+@font-face {
+    font-family: Roboto;
+    src: url("fonts/Roboto-Light.ttf");
+}
+
+.top-nav {
+    background-color: #fff!important;
+    border: 2px solid #fff!important;
+}
+
+.top-nav .navbar-nav .nav-link {
+    color: #000000!important;
+    margin-right: 25px;
+    font-size: 16px;
+    line-height: 18.75px;
+    font-family: Roboto;
+    font-weight: 400;
+}
+
+.top-nav .navbar-nav .nav-link:hover {
+    text-decoration: underline 2px;
+    text-decoration-color: blue;
+}
+
+.top-nav .navbar-brand img {
+    width: 93px;
+    height: 22.23px;
+}
+
+
+/*medium+ screen sizes*/
+
+@media (min-width:992px) {
+    .large-nav {
+        display: block !important;
+    }
+}
+
+
+/*small screen sizes*/
+
+@media (max-width: 991px) {
+    .large-nav {
+        display: none !important;
+    }
+}
+
+.large-nav {
+    width: 100%;
+}
+
+:root {
+    --gradient-color3: linear-gradient(to right bottom, #a71d31, #3f0d12);
+}
+
+nav {
+    font-family: Roboto;
+    font-weight: 400;
+    border: #000000;
+}
+
+.search-box {
+    background: #000000;
+    border-radius: 30px;
+    padding: 0px;
+    height: 30px;
+}
+
+
+/*.search-box:hover>.search-txt{
+    width: 240px;
+    padding: 0 5px;
+    border-bottom: 2px solid #5c5757;
+    border-radius: 0%;
+  
+  }*/
+
+.search-box:hover>.search-btn {
+    background: #FAFAFA;
+    text-decoration: none;
+    background: var(--gradient-color3);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.search-btn {
+    color: #FAFAFA;
+    float: right;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 16px;
+    background: #000000;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: #FAFAFA;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 30px;
+    width: 0px;
+}
+
+
+/*search bar*/
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.overlay-content {
+    position: relative;
+    top: 46%;
+    width: 80%;
+    text-align: center;
+    margin-top: 30px;
+    margin: auto;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    cursor: pointer;
+    color: white;
+}
+
+.overlay .closebtn:hover {
+    color: #ccc;
+}
+
+.overlay input[type=text] {
+    padding: 15px;
+    font-size: 17px;
+    border: none;
+    float: left;
+    width: 80%;
+    background: white;
+}
+
+.overlay input[type=text]:hover {
+    background: #f1f1f1;
+}
+
+.overlay button {
+    float: left;
+    width: 20%;
+    padding: 15px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.overlay button:hover {
+    background: #bbb;
+}
+
+
+/*mobile size navbar*/
+
+
+/*medium+ screen sizes*/
+
+@media (min-width:992px) {
+    .small-nav {
+        display: none !important;
+    }
+}
+
+
+/*small screen sizes*/
+
+@media (max-width: 991px) {
+    .small-nav {
+        display: block !important;
+    }
+}
+
+
+/*mobile size search button*/
+
+.search {
+    border: #fff;
+    background: #fff;
+    color: #000;
+}
+
+
+/*  .search:hover
+  {
+    border: #000000;
+    background:  #000000;
+    background: var(--gradient-color3);
+    -webkit-background-clip: text;
+    color: transparent;
+  }*/
+
+.search i {
+    color: #000000;
+    font-size: 28px;
+    padding: 2px;
+    border: 2px solid #fff;
+}
+
+@media(min-width: 992px) {
+    .search i {
+        font-size: 18px;
+    }
+}
+
+.search i:hover {
+    border: 2px solid blue;
+}
+
+.navbar-nav .nav-item {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
