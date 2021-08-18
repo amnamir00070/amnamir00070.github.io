@@ -142,6 +142,7 @@
     line-height: 18.75px;
     margin-bottom: 23px;
     font-style: normal;
+    color: #707070;
 }
 
 .post .post-snippet:hover {
@@ -155,6 +156,7 @@
     line-height: 16.41px;
     margin-bottom: 23px;
     font-style: normal;
+    color: #707070;
 }
 
 .post .post-date:hover {
