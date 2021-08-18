@@ -83,7 +83,7 @@
     }
 }
 .ad-1:hover {
-    border: 2px solid blue;
+    border: 2px solid #3da9f0;
 }
 #small-card {
     border-radius: 25px;
@@ -109,7 +109,7 @@
 }
 
 .add-pic-mob:hover {
-    border: 2px solid blue;
+    border: 2px solid #3da9f0;
 }
 
 .post .post-text {
@@ -133,7 +133,7 @@
 
 .post .post-title:hover {
     text-decoration: underline 2px;
-    text-decoration-color: blue;
+    text-decoration-color: #3da9f0;
 }
 
 .post .post-snippet {
@@ -145,10 +145,10 @@
     color: #707070;
 }
 
-.post .post-snippet:hover {
+/*.post .post-snippet:hover {
     text-decoration: underline 2px;
-    text-decoration-color: blue;
-}
+    text-decoration-color: #3da9f0;
+}*/
 
 .post .post-date {
     font-family: Roboto;
@@ -159,7 +159,7 @@
     color: #707070;
 }
 
-.post .post-date:hover {
+/*.post .post-date:hover {
     text-decoration: underline 2px;
-    text-decoration-color: blue;
-}
+    text-decoration-color: #3da9f0;
+}*/
