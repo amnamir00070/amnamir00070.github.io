@@ -71,7 +71,6 @@ footer a {
 }
 
 footer a:hover {
-    color: #000000;
-    text-decoration: underline 2px;
-    text-decoration-color: #3da9f0;
+    color: #3da9f0;
+    text-decoration: none;
 }
