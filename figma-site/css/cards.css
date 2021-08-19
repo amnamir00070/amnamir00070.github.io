@@ -9,6 +9,7 @@
     height: 600px;
     margin-bottom: 42px;
     border-radius: 25px;
+    box-shadow: 0 5px 25px rgb(26 34 39 / 10%);
 }
 #large-card .post-image{
     height: 399px;
@@ -83,7 +84,7 @@
     }
 }
 .ad-1:hover {
-    border: 2px solid #3da9f0;
+    border: 2px solid #007bff;
 }
 #small-card {
     border-radius: 25px;
@@ -109,7 +110,7 @@
 }
 
 .add-pic-mob:hover {
-    border: 2px solid #3da9f0;
+    border: 2px solid #007bff;
 }
 
 .post .post-text {
@@ -132,7 +133,7 @@
 }
 
 .post .post-title:hover {
-    color: #3da9f0;
+    color: #007bff;
 }
 
 .post .post-snippet {

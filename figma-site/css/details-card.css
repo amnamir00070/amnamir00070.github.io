@@ -9,6 +9,8 @@
 #large-card{
     margin-bottom: 42px;
     border-radius: 25px;
+    background: none!important;
+    box-shadow: 0 5px 25px rgb(26 34 39 / 10%);
 }
 #large-card .post-image{
     height: 399px;
@@ -84,13 +86,14 @@
 }
 
 .ad-1:hover {
-    border: 2px solid #3da9f0;
+    border: 2px solid #007bff!important;
 }
 
 #small-card {
     border-radius: 25px;
     margin: 1rem;
     border: none;
+    background: none!important;
     box-shadow: 0 5px 25px rgb(26 34 39 / 10%);
 }
 
@@ -112,7 +115,7 @@
 }
 
 .add-pic-mob:hover {
-    border: 2px solid #3da9f0;
+    border: 2px solid #007bff!important;
 }
 .post-header{ /*larger screens*/
     width: 100%;
@@ -170,40 +173,6 @@
     color: #000000;
 }
 
-.button-area {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.btn-grad {
-    background-image: linear-gradient(to right, #26D0CE, #1A2980);
-    background-color: none!important;
-    border: none!important;
-}
-
-.btn-grad {
-    text-align: center;
-    text-transform: uppercase;
-    transition: 0.5s;
-    color: white;
-    box-shadow: 0 0 20px #eee;
-    border-radius: 25px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-.btn-grad:hover {
-    background-image: none;
-    background-color: #fff;
-    border: 2px solid #3da9f0!important;
-    /* change the direction of the change here */
-    color: #3da9f0;
-    text-decoration: none;
-    font-weight: 700;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-}
 /* mobile version card */
 
 #small-card .post-text {
@@ -245,3 +214,5 @@
     margin-right: auto;
     margin-left: auto;
 }
+
+

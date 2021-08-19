@@ -18,7 +18,7 @@
 }
 
 .top-nav .navbar-nav .nav-link:hover {
-    color:  #3da9f0!important;
+    color:  #007bff!important;
 }
 
 .top-nav .navbar-brand img {
@@ -32,6 +32,9 @@
 @media (min-width:992px) {
     .large-nav {
         display: block !important;
+    }
+    .top-nav .navbar-brand img {
+        margin-left: 25px;
     }
 }
 
@@ -140,7 +143,7 @@ nav {
 }
 
 .overlay .closebtn:hover {
-    color: #3da9f0;
+    color: #007bff!important;
 }
 
 .overlay input[type=text] {
@@ -167,7 +170,7 @@ nav {
 }
 
 .overlay button:hover {
-    background: #3da9f0;
+    background: #007bff!important;
 }
 
 
@@ -224,7 +227,7 @@ nav {
 }
 
 .search i:hover {
-    color:  #3da9f0;
+    color:  #007bff!important;
 }
 
 .navbar-nav .nav-item {
