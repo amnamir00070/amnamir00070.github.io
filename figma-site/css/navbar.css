@@ -7,11 +7,15 @@
     background-color: #fff!important;
     border: 2px solid #fff!important;
 }
-
+@media (min-width: 992px) {
+    .top-nav {
+        box-shadow: 0 5px 25px rgb(26 34 39 / 10%);
+    }  
+}
 .top-nav .navbar-nav .nav-link {
     color: #000000!important;
     margin-right: 25px;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 18.75px;
     font-family: Roboto;
     font-weight: 400;
@@ -30,7 +34,7 @@
 /*medium+ screen sizes*/
 
 @media (min-width:992px) {
-    .large-nav {
+    .main-container {
         display: block !important;
     }
     .top-nav .navbar-brand img {
@@ -42,12 +46,12 @@
 /*small screen sizes*/
 
 @media (max-width: 991px) {
-    .large-nav {
+    .main-container {
         display: none !important;
     }
 }
 
-.large-nav {
+.main-container {
     width: 100%;
 }
 
@@ -153,6 +157,8 @@ nav {
     float: left;
     width: 80%;
     background: white;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
 }
 
 .overlay input[type=text]:hover {
@@ -167,6 +173,8 @@ nav {
     font-size: 17px;
     border: none;
     cursor: pointer;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
 }
 
 .overlay button:hover {
@@ -180,7 +188,7 @@ nav {
 /*medium+ screen sizes*/
 
 @media (min-width:992px) {
-    .small-nav {
+    .main-container-mob {
         display: none !important;
     }
 }
@@ -189,7 +197,7 @@ nav {
 /*small screen sizes*/
 
 @media (max-width: 991px) {
-    .small-nav {
+    .main-container-mob {
         display: block !important;
     }
 }

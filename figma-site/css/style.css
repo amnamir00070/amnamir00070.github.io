@@ -7,7 +7,7 @@
 }
 /* General */
 .wrapper {
-  margin: 2% auto;
+  margin: 8px auto;
   text-align: center;
   transform-style: perserve-3d;
   perspecive: 500px;
@@ -23,7 +23,7 @@ a:hover, a:focus, a:active {
 /* fancy Button */
 .fancy-button {
   display: inline-block;
-  margin: 10px;
+  margin: 3px;
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
   font-size: 13px;
   letter-spacing: 0.02em;
@@ -34,7 +34,7 @@ a:hover, a:focus, a:active {
 .fancy-button:before {
   content: "";
   display: inline-block;
-  height: 20px;
+  height: 15px;
   position: absolute;
   bottom: -5px;
   left: 20px;
@@ -53,7 +53,7 @@ a:hover, a:focus, a:active {
 }
 .fancy-button span {
   display: inline-block;
-  padding: 15px 30px;
+  padding: 10px 20px;
   border-radius: 50em;
   position: relative;
   z-index: 2;
@@ -66,6 +66,14 @@ a:hover, a:focus, a:active {
 }
 .fancy-button:hover {
   color: #ffffff;
+}
+.fancy-button:hover span {
+  filter: brightness(1.05) contrast(1.05);
+  transform: scale(0.95);
+}
+.fancy-button:hover:before {
+  bottom: 0;
+  filter: blur(10px) brightness(0.95);
 }
 /*.fancy-button{
   box-shadow: 0 0 50px #00e2fa;

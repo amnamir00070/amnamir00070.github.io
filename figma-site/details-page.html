@@ -12,7 +12,7 @@
     <!-- Custom Fonts -->
     <link rel="stylesheet" type="text/css" href="fontawesome-free-5.14.0-web/css/all.css">
     <link rel="stylesheet" type="text/css" href="css/navbar.css">
-    <link rel="stylesheet" type="text/css" href="css/body.css">
+    <link rel="stylesheet" type="text/css" href="css/details-page-body.css">
     <link rel="stylesheet" type="text/css" href="css/details-card.css">
     <!--button gradient-->
     <link rel="stylesheet" href="css/style.css">
@@ -23,7 +23,7 @@
 
 <body class="background">
     <!-- desktop version -->
-    <div class="large-nav">
+    <div class="main-container">
         <nav class="navbar navbar-expand-lg navbar-light bg-light top-nav">
             <a class="navbar-brand" href="#">
                 <img src="img/logo.png" height="35" alt="">
@@ -44,76 +44,102 @@
             </div>
         </nav>
 
-        <!--header-->
-
-    <div class="container">
-        <div class="container">
-            <div class="container post-header">
-                <div class="container post-text">
-                    <h2 class="post-heading">19 CSS shape-outside example</h2>
-                    <p class="post-date">August 13, 2021</p>
-                    <p class="post-details">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-        <!--end header-->
         <!--cards-->
-            <div class="container-fluid outer-wrapper">
-                <div class="row main-content">
-                    <div class="col-8">
-                        <div class="main-col">
+
+                <div class="main-content">
+                    <div class="article-header">
+                        <h2 class="post-heading">19 CSS shape-outside example</h2>
+                        <p class="post-date">August 13, 2021</p>
+                        <p class="post-details">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    </div>
+                    <div class="grid-wrapper">
+                        <div class="article-content">
                             <div class="card post" id="large-card">
-                                <img src="img/pic1.jpg" class="post-image" alt="...">
+                                <a href="#" class="image-link"><img src="img/pic1.jpg" class="post-image" alt="..."></a>
                                 <div class="card-body">
-                                    <a class="post-text" href="#">
-                                        <div class="container mob-a">
-                                            <div class="row mob-b">
-                                                <div class="col-1"></div>
-                                                <div class="col-3">
-                                                    <h6 class="title">Title</h6>
-                                                    <p class="further-details">The best navbar ever</p>
-                                                    <h6 class="title">Cascaded Using</h6>
-                                                    <p class="further-details">HTML,CSS,JS</p>
-                                                    <h6 class="title">Course description</h6>
-                                                    <p class="further-details">N/A</p>
-                                                </div>
-                                                <div class="col-1"></div>
-                                                <div class="col-3">
-                                                    <h6 class="title">Author</h6>
-                                                    <p class="further-details">Tim</p>
-                                                    <h6 class="title">Responsive</h6>
-                                                    <p class="further-details">Yes</p>
-                                                </div>
-                                                <div class="col-1"></div>
-                                                <div class="col-3">
-                                                    <h6 class="title">Made on</h6>
-                                                    <p class="further-details">Aug. 12, 2021</p>
-                                                </div>
+                                    <div class="container-fluid desk-a">
+                                        <div class="row desk-b">
+                                            <div class="col-4">
+                                                <h6 class="title" id="card-left">Title</h6>
+                                            </div>
+                                            <div class="col-4">
+                                                <h6 class="title" id="card-center">Author</h6>
+                                            </div>
+                                            <div class="col-4">
+                                                <h6 class="title" id="card-right">Made on</h6>
                                             </div>
                                         </div>
-                                    </a>
+                                        <div class="row desk-b">
+                                            <div class="col-4">
+                                            <p class="further-details" id="card-left">The best navbar ever</p>
+                                            </div>
+                                            <div class="col-4">
+                                                <p class="further-details" id="card-center">Tim</p>
+                                            </div>
+                                            <div class="col-4">
+                                                <p class="further-details" id="card-right">Aug. 12, 2021</p>
+                                            </div>
+                                        </div>
+                                        <div class="row desk-b">
+                                            <div class="col-4">
+                                                <h6 class="title" id="card-left">Cascaded Using</h6>
+                                            </div>
+                                            <div class="col-4">
+                                                <h6 class="title" id="card-center">Responsive</h6>
+                                            </div>
+                                            <div class="col-4">
+                                                <p class="title" id="card-right"></p>
+                                            </div>
+                                        </div>
+                                        <div class="row desk-b">
+                                            <div class="col-4">
+                                                <p class="further-details" id="card-left">HTML,CSS,JS</p>
+                                            </div>
+                                            <div class="col-4">
+                                                <p class="further-details" id="card-center">Yes</p>
+                                            </div>
+                                            <div class="col-4">
+                                                <p class="title" id="card-right"></p>
+                                            </div>
+                                        </div>
+                                        <div class="row desk-b">
+                                            <div class="col-4">
+                                                <h6 class="title" id="card-left">Course description</h6>
+                                            </div>
+                                            <div class="col-4">
+                                                <p class="further-details" id="card-center"></p>
+                                            </div>
+                                            <div class="col-4">
+                                                <p class="title" id="card-right"></p>
+                                            </div>
+                                        </div>
+                                        <div class="row desk-b">
+                                            <div class="col-4">
+                                                <p class="further-details" id="card-left">N/A</p>
+                                            </div>
+                                            <div class="col-4">
+                                                <p class="further-details" id="card-center"></p>
+                                            </div>
+                                            <div class="col-4">
+                                                <p class="title" id="card-right"></p>
+                                            </div>
+                                        </div>
+                                    </div>
                                     <div class="wrapper">
                                         <a href="#" class="fancy-button bg-gradient1"><span>Code and Demo</span></a>
-                                    </div><!-- /.wrapper -->
+                                    </div>
                                 </div>
                             </div>
                         </div>
-
-                    </div>
-
-                    <div class="col-4">
-                        <div class="side-bar">
+                        <div class="sidebar">
                             <a href="#">
                                 <img src="img/advertisment.PNG" class="ad-1">
                             </a>
                         </div>
                     </div>
-
+            
                 </div>
-
-            </div>
-       
+    
 
     </div>
     <!--large screens end here-->
@@ -132,7 +158,7 @@
 
     <!--mobile version-->
 
-    <div class="small-nav">
+    <div class="main-container-mob">
         <nav class="navbar navbar-light bg-light justify-content-between top-nav">
             <a class="navbar-brand" href="#">
                 <img src="img/logo.png" height="35" alt="">
@@ -173,85 +199,80 @@
 
             <div class="card post" id="small-card">
                 <img src="img/pic1.jpg" class="post-image" alt="...">
-                <div class="card-body">
-                    <a class="post-text" href="#">
-                        <div class="container mob-a">
-                            <div class="row mob-b">
-                                <div class="col-4">
-                                    <h6 class="title">Title</h6>
-                                </div>
-                                <div class="col-4">
-                                    <h6 class="title">Author</h6>
-                                </div>
-                                <div class="col-4">
-                                    <h6 class="title">Made on</h6>
-                                </div>
-                            </div>
-                            <div class="row mob-b">
-                                <div class="col-4">
-                                <p class="further-details">The best navbar ever</p>
-                                </div>
-                                <div class="col-4">
-                                    <p class="further-details">Tim</p>
-                                </div>
-                                <div class="col-4">
-                                    <p class="further-details">Aug. 12, 2021</p>
-                                </div>
-                            </div>
-                            <div class="row mob-b">
-                                <div class="col-4">
-                                    <h6 class="title">Cascaded Using</h6>
-                                </div>
-                                <div class="col-4">
-                                    <h6 class="title">Responsive</h6>
-                                </div>
-                                <div class="col-4">
-                                    <p class="title"></p>
-                                </div>
-                            </div>
-                            <div class="row mob-b">
-                                <div class="col-4">
-                                    <p class="further-details">HTML,CSS,JS</p>
-                                </div>
-                                <div class="col-4">
-                                    <p class="further-details">Yes</p>
-                                </div>
-                                <div class="col-4">
-                                    <p class="title"></p>
-                                </div>
-                            </div>
-                            <div class="row mob-b">
-                                <div class="col-4">
-                                    <h6 class="title">Course description</h6>
-                                </div>
-                                <div class="col-4">
-                                    <p class="further-details"></p>
-                                </div>
-                                <div class="col-4">
-                                    <p class="title"></p>
-                                </div>
-                            </div>
-                            <div class="row mob-b">
-                                <div class="col-4">
-                                    <p class="further-details">N/A</p>
-                                </div>
-                                <div class="col-4">
-                                    <p class="further-details"></p>
-                                </div>
-                                <div class="col-4">
-                                    <p class="title"></p>
-                                </div>
-                            </div>
+                <div class="container-fluid mob-a">
+                    <div class="row mob-b">
+                        <div class="col-4">
+                            <h6 class="title" id="card-left">Title</h6>
                         </div>
-                    </a>
-                    <div class="wrapper">
-                        <a href="#" class="fancy-button bg-gradient1"><span>Code and Demo</span></a>
-                    </div><!-- /.wrapper -->
+                        <div class="col-4">
+                            <h6 class="title" id="card-center">Author</h6>
+                        </div>
+                        <div class="col-4">
+                            <h6 class="title" id="card-right">Made on</h6>
+                        </div>
+                    </div>
+                    <div class="row mob-b">
+                        <div class="col-4">
+                        <p class="further-details" id="card-left">The best navbar ever</p>
+                        </div>
+                        <div class="col-4">
+                            <p class="further-details" id="card-center">Tim</p>
+                        </div>
+                        <div class="col-4">
+                            <p class="further-details" id="card-right">Aug. 12, 2021</p>
+                        </div>
+                    </div>
+                    <div class="row mob-b">
+                        <div class="col-4">
+                            <h6 class="title" id="card-left">Cascaded Using</h6>
+                        </div>
+                        <div class="col-4">
+                            <h6 class="title" id="card-center">Responsive</h6>
+                        </div>
+                        <div class="col-4">
+                            <p class="title" id="card-right"></p>
+                        </div>
+                    </div>
+                    <div class="row mob-b">
+                        <div class="col-4">
+                            <p class="further-details" id="card-left">HTML,CSS,JS</p>
+                        </div>
+                        <div class="col-4">
+                            <p class="further-details" id="card-center">Yes</p>
+                        </div>
+                        <div class="col-4">
+                            <p class="title" id="card-right"></p>
+                        </div>
+                    </div>
+                    <div class="row mob-b">
+                        <div class="col-4">
+                            <h6 class="title" id="card-left">Course description</h6>
+                        </div>
+                        <div class="col-4">
+                            <p class="further-details" id="card-center"></p>
+                        </div>
+                        <div class="col-4">
+                            <p class="title" id="card-right"></p>
+                        </div>
+                    </div>
+                    <div class="row mob-b">
+                        <div class="col-4">
+                            <p class="further-details" id="card-left">N/A</p>
+                        </div>
+                        <div class="col-4">
+                            <p class="further-details" id="card-center"></p>
+                        </div>
+                        <div class="col-4">
+                            <p class="title" id="card-right"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <a href="#" class="fancy-button bg-gradient1"><span>Code and Demo</span></a>
                 </div>
             </div>
-
-
         </div>
+
 
         <div class="add-part-mob">
             <a href="#">
