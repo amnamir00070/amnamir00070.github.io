@@ -2,25 +2,28 @@
     font-family: Roboto;
     src: url("fonts/Roboto-Light.ttf");
 }
-#large-card{
+
+#large-card {
     margin-bottom: 42px;
     border-radius: 25px;
     background: none!important;
-    box-shadow: 0 5px 25px rgb(26 34 39 / 10%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: none;
 }
-#large-card:hover{
-    box-shadow: 1px 13px 25px 20px rgb(26 34 39 / 10%);
-}
-#large-card .post-image{
+
+#large-card .post-image {
     height: 399px;
     object-fit: cover;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
 }
-#large-card .card-body{
+
+#large-card .card-body {
     padding: 0;
+    border: none!important;
 }
-.desk-a{
+
+.desk-a {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
@@ -28,58 +31,61 @@
     padding-bottom: 0%;
     margin-top: 10px;
 }
-.desk-b{
+
+.desk-b {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
 }
-#card-left{
 
+#card-left {}
+
+#card-center {
+    text-align: center;
 }
-#card-center{
-   text-align: center; 
+
+#card-right {
+    text-align: right;
 }
-#card-right{
-   text-align: right; 
-}
-.ad-1{
+
+.ad-1 {
     height: 600px;
 }
-@media only screen and (min-width: 992px){
-    #large-card{
+
+@media only screen and (min-width: 992px) {
+    #large-card {
         width: 100%;
     }
-    #large-card .post-image{
+    #large-card .post-image {
         width: 100%;
     }
-    .ad-1{
+    .ad-1 {
         width: 100%;
         object-fit: cover;
         margin-left: 38px;
         float: right;
-
-     }
+    }
 }
+
 @media only screen and (min-width: 1280px) {
-    #large-card{
+    #large-card {
         width: 730px;
     }
-    #large-card .post-image{
+    #large-card .post-image {
         width: 100%;
     }
-    .sidebar a{
+    .sidebar a {
         padding: 0;
         margin: 0%;
     }
-    .ad-1{
-        width: 100%; 
+    .ad-1 {
+        width: 100%;
         object-fit: cover;
-
-     }
+    }
 }
 
 .ad-1:hover {
-    border: 2px solid #007bff!important;
+    border: 2px solid #3aabf0!important;
 }
 
 #small-card {
@@ -89,7 +95,6 @@
     background: none!important;
     box-shadow: 0 5px 25px rgb(26 34 39 / 10%);
 }
-
 
 #small-card .post-image {
     border-top-right-radius: 25px;
@@ -108,24 +113,30 @@
 }
 
 .add-pic-mob:hover {
-    border: 2px solid #007bff!important;
+    border: 2px solid #3aabf0!important;
 }
-.post-header{ /*larger screens*/
+
+.post-header {
+    /*larger screens*/
     width: 100%;
     margin-top: 50px;
 }
-.post-text-mob{
+
+.post-text-mob {
     margin-top: 20px;
 }
-.article-header{
-    font-family: Roboto;   
+
+.article-header {
+    font-family: Roboto;
 }
+
 .article-header .post-heading {
     font-weight: 700;
     font-size: 40px;
     margin-bottom: 10px;
 }
-.article-header .post-date{
+
+.article-header .post-date {
     font-family: Roboto;
     font-size: 14px;
     margin-top: 10px;
@@ -134,10 +145,12 @@
     line-height: 16.41px;
     font-style: normal;
 }
-.article-header .post-details{
+
+.article-header .post-details {
     font-weight: 400;
     font-size: 18px;
 }
+
 #large-card .post-text {
     padding: 0;
     margin: 0;
@@ -168,6 +181,7 @@
     color: #000000;
 }
 
+
 /* mobile version card */
 
 #small-card .title {
@@ -184,7 +198,8 @@
     font-style: normal;
     color: #000000;
 }
-.mob-a{
+
+.mob-a {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
@@ -192,7 +207,8 @@
     padding-bottom: 0%;
     margin-top: 10px;
 }
-.mob-b{
+
+.mob-b {
     width: 100%;
     margin-right: auto;
     margin-left: auto;

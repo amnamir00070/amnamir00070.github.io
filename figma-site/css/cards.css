@@ -2,53 +2,62 @@
     font-family: Roboto;
     src: url("fonts/Roboto-Light.ttf");
 }
-#large-card{
+
+#large-card {
     height: 600px;
     margin-bottom: 42px;
     border-radius: 25px;
-    box-shadow: 0 5px 25px rgb(26 34 39 / 10%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 0%;
 }
-#large-card .post-image{
+
+#large-card .card-body {
+    border: none;
+}
+
+#large-card .post-image {
     height: 399px;
     object-fit: cover;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
 }
-.ad-1{
+
+.ad-1 {
     height: 600px;
 }
 
-@media only screen and (min-width: 992px){
-    #large-card{
+@media only screen and (min-width: 992px) {
+    #large-card {
         width: 100%;
     }
-    #large-card .post-image{
+    #large-card .post-image {
         width: 100%;
     }
-    .ad-1{
+    .ad-1 {
         width: 100%;
         object-fit: cover;
         margin-left: 38px;
         float: right;
-
-     }
+    }
 }
+
 @media only screen and (min-width: 1280px) {
-    #large-card{
+    #large-card {
         width: 730px;
     }
-    #large-card .post-image{
+    #large-card .post-image {
         width: 100%;
     }
-    .ad-1{
-        width: 100%; 
+    .ad-1 {
+        width: 100%;
         object-fit: cover;
+    }
+}
 
-     }
-}
 .ad-1:hover {
-    border: 2px solid #007bff;
+    border: 2px solid #3aabf0;
 }
+
 #small-card {
     border-radius: 25px;
     margin: 1rem;
@@ -73,7 +82,7 @@
 }
 
 .add-pic-mob:hover {
-    border: 2px solid #007bff;
+    border: 2px solid #3aabf0;
 }
 
 .post .post-text {
@@ -89,14 +98,14 @@
 .post .post-title {
     line-height: 29.3px;
     font-size: 25px;
-    font-weight: 700;
+    font-weight: 400;
     font-family: Roboto;
     margin-bottom: 23px;
     font-style: normal;
 }
 
 .post .post-title:hover {
-    color: #007bff;
+    color: #3aabf0;
 }
 
 .post .post-snippet {
@@ -107,6 +116,7 @@
     font-style: normal;
     color: #707070;
 }
+
 
 /*.post .post-snippet:hover {
     text-decoration: underline 2px;
@@ -121,6 +131,7 @@
     font-style: normal;
     color: #707070;
 }
+
 
 /*.post .post-date:hover {
     text-decoration: underline 2px;
