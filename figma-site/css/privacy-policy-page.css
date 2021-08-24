@@ -39,6 +39,15 @@
     margin-top: 73px;
 }
 
+@media only screen and (min-width: 992px) {
+    .main-content {
+        height: 100%;
+    }
+    .main-col {
+        height: 100%;
+    }
+}
+
 @media only screen and (min-width: 1280px) {
     .main-content {
         width: 1068px;
