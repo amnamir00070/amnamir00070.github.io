@@ -7,7 +7,7 @@
     margin-bottom: 42px;
     border-radius: 25px;
     background: none!important;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgb(100 100 111 / 20%) 2px 2px 29px 11px;
     border: none;
 }
 
@@ -212,4 +212,8 @@
     width: 100%;
     margin-right: auto;
     margin-left: auto;
+}
+
+.bg-color {
+    background: #fff;
 }

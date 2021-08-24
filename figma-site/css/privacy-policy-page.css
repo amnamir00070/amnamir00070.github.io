@@ -42,15 +42,36 @@
 @media only screen and (min-width: 1280px) {
     .main-content {
         width: 1068px;
-        height: 1280px;
+        height: 1595px;
         margin-right: auto;
         margin-left: auto;
         padding: 0%;
     }
     .main-col {
         width: 730px;
-        height: 1240px;
+        height: 1593px;
         margin-right: 38px;
+    }
+    .policy-title {
+        font-size: 36px;
+        line-height: 42.19px;
+        color: #000000;
+        font-weight: 400;
+        font-family: Roboto;
+        font-style: normal;
+        margin-bottom: 31px;
+    }
+    .privacy-policy-text-container {
+        height: 1520px;
+        width: 730px;
+    }
+    .privacy-policy-text-container .policy-content {
+        font-size: 16px;
+        line-height: 18.75px;
+        color: #000000;
+        font-weight: 400;
+        font-family: Roboto;
+        font-style: normal;
     }
     .sidebar {
         width: 300px;
@@ -68,8 +89,8 @@ footer {
     text-align: center;
     align-items: center;
     height: 14px;
-    margin-bottom: 24px;
-    margin-top: 22px;
+    margin-bottom: 30px;
+    margin-top: 37px;
 }
 
 footer span {

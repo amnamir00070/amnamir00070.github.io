@@ -1,0 +1,86 @@
+        @font-face {
+            font-family: Roboto;
+            src: url("fonts/Roboto-Light.ttf");
+        }
+        
+        .Search {
+            height: 75px;
+            width: 300px;
+            margin-left: auto;
+            margin-right: auto;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin-top: 50px;
+            margin-bottom: 31px;
+        }
+        
+        .Search .upper-line {
+            margin-top: 0;
+            font-size: 14px;
+            line-height: 16.41px;
+            font-family: Roboto;
+            font-weight: 300;
+            font-style: normal;
+            color: #777777;
+        }
+        
+        .Search .search-text {
+            margin-top: 17px;
+            font-size: 16px;
+            line-height: 37.5px;
+            font-family: Roboto;
+            font-weight: 300;
+            font-style: normal;
+            color: #000000;
+            margin-left: 0;
+        }
+        
+        .Search .search-text .search-icon {
+            font-size: 16px;
+            margin-left: 200px;
+        }
+        
+        .Search .search-text {
+            border-bottom: 1px solid #E1E1E1;
+        }
+        
+        @media (min-width:992px) {
+            .Search {
+                height: 75px;
+                width: 600px;
+                margin-left: auto;
+                margin-right: auto;
+                justify-content: center;
+                text-align: center;
+                align-items: center;
+                margin-top: 50px;
+                margin-bottom: 31px;
+            }
+            .Search .upper-line {
+                margin-top: 0;
+                font-size: 14px;
+                line-height: 16.41px;
+                font-family: Roboto;
+                font-weight: 300;
+                font-style: normal;
+                color: #777777;
+            }
+            .Search .search-text {
+                margin-top: 17px;
+                font-size: 32px;
+                line-height: 37.5px;
+                font-family: Roboto;
+                font-weight: 300;
+                font-style: normal;
+                color: #000000;
+                margin-left: 0;
+            }
+            .Search .search-text .search-icon {
+                font-size: 25px;
+                margin-left: 400px;
+            }
+            .Search .search-text {
+                border-bottom: 1px solid #E1E1E1;
+            }
+        }
