@@ -3,6 +3,10 @@
             src: url("fonts/Roboto-Light.ttf");
         }
         
+        .main-content {
+            margin-top: 33px;
+        }
+        
         .Search {
             height: 75px;
             width: 300px;
@@ -11,7 +15,7 @@
             justify-content: center;
             text-align: center;
             align-items: center;
-            margin-top: 50px;
+            margin-top: 53px;
             margin-bottom: 31px;
         }
         
@@ -37,7 +41,8 @@
         }
         
         .Search .search-text .search-icon {
-            font-size: 16px;
+            height: 16px;
+            width: 16px;
             margin-left: 200px;
         }
         
@@ -54,7 +59,7 @@
                 justify-content: center;
                 text-align: center;
                 align-items: center;
-                margin-top: 50px;
+                margin-top: 53px;
                 margin-bottom: 31px;
             }
             .Search .upper-line {
@@ -77,7 +82,8 @@
                 margin-left: 0;
             }
             .Search .search-text .search-icon {
-                font-size: 25px;
+                height: 25px;
+                width: 25px;
                 margin-left: 400px;
             }
             .Search .search-text {

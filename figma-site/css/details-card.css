@@ -29,7 +29,6 @@
     margin-left: auto;
     padding: 10px;
     padding-bottom: 0%;
-    margin-top: 10px;
 }
 
 .desk-b {
@@ -131,8 +130,8 @@
 }
 
 .article-header .post-heading {
-    font-weight: 700;
-    font-size: 40px;
+    font-weight: 500;
+    font-size: 46px;
     margin-bottom: 10px;
 }
 

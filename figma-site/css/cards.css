@@ -65,9 +65,16 @@
     box-shadow: 0 5px 25px rgb(26 34 39 / 10%);
 }
 
+#small-card .image-link {
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    width: 100%;
+}
+
 #small-card .post-image {
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
+    width: 100%;
 }
 
 .add-part-mob {

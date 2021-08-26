@@ -179,6 +179,11 @@ nav {
     border-top-right-radius: 25px;
 }
 
+.overlay button svg {
+    height: 17px;
+    width: 17px;
+}
+
 .overlay button:hover {
     background: #3aabf0!important;
 }
@@ -223,21 +228,22 @@ nav {
     color: transparent;
   }*/
 
-.search i {
+.search svg {
     color: #000000;
-    font-size: 28px;
-    padding: 2px;
+    width: 22px;
+    height: 22px;
     border: 2px solid #fff;
 }
 
 @media(min-width: 992px) {
-    .search i {
-        font-size: 18px;
+    .search svg {
+        width: 25px;
+        height: 25px;
     }
 }
 
-.search i:hover {
-    color: #3aabf0!important;
+.search svg:hover {
+    fill: #3aabf0!important;
 }
 
 .navbar-nav .nav-item {
