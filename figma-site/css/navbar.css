@@ -21,6 +21,7 @@
     line-height: 18.75px;
     font-family: Roboto;
     font-weight: 400;
+    width: 100%;
 }
 
 .top-nav .navbar-nav .nav-link:hover {
@@ -180,8 +181,8 @@ nav {
 }
 
 .overlay button svg {
-    height: 17px;
-    width: 17px;
+    height: 23px;
+    width: 23px;
 }
 
 .overlay button:hover {
