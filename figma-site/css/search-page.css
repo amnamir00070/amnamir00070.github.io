@@ -40,9 +40,9 @@
             margin-left: 0;
         }
         
-        .Search .search-text .search-icon {
-            height: 16px;
-            width: 16px;
+        .Search .search-text i {
+            font-size: 16px;
+            font-weight: 400;
             margin-left: 200px;
         }
         
@@ -81,9 +81,9 @@
                 color: #000000;
                 margin-left: 0;
             }
-            .Search .search-text .search-icon {
-                height: 25px;
-                width: 25px;
+            .Search .search-text i {
+                font-size: 25px;
+                font-weight: 400;
                 margin-left: 400px;
             }
             .Search .search-text {

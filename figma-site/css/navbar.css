@@ -180,9 +180,9 @@ nav {
     border-top-right-radius: 25px;
 }
 
-.overlay button svg {
-    height: 23px;
-    width: 23px;
+.overlay button i {
+    font-size: 20px;
+    font-weight: 400;
 }
 
 .overlay button:hover {
@@ -229,22 +229,22 @@ nav {
     color: transparent;
   }*/
 
-.search svg {
+.search i {
     color: #000000;
-    width: 22px;
-    height: 22px;
+    font-size: 25px;
     border: 2px solid #fff;
+    font-weight: 400;
 }
 
 @media(min-width: 992px) {
-    .search svg {
-        width: 25px;
-        height: 25px;
+    .search i {
+        font-size: 20px;
+        font-weight: 400;
     }
 }
 
-.search svg:hover {
-    fill: #3aabf0!important;
+.search i:hover {
+    color: #3aabf0!important;
 }
 
 .navbar-nav .nav-item {
