@@ -56,6 +56,13 @@
         padding: 0 10px;
         justify-content: center;
     }
+    .article-header{
+        margin-right: auto;
+        margin-left: auto;
+        padding: 0 10px;
+        justify-content: center;
+        width: 1020px;
+    }
     .article-content {
         width: 664px;
     }
@@ -67,6 +74,12 @@
 
 @media only screen and (min-width: 1280px) {
     .main-content {
+        width: 1068px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 0%;
+    }
+    .article-header{
         width: 1068px;
         margin-right: auto;
         margin-left: auto;

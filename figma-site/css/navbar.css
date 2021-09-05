@@ -172,23 +172,30 @@ nav {
     float: left;
     width: 20%;
     padding: 15px;
-    background: #ddd;
+    background: #52A0FD;
+    background: linear-gradient(to right, #52A0FD 0%, #00e2fa 80%, #00e2fa 100%);
     font-size: 17px;
     border: none;
     cursor: pointer;
     border-bottom-right-radius: 25px;
     border-top-right-radius: 25px;
 }
-
+.overlay button::before{
+    z-index: -1;
+    border-radius: 30em;
+    filter: blur(20px) brightness(0.95);
+    transform-style: preserve-3d;
+    transition: all 0.3s ease-out;
+}
 .overlay button i {
     font-size: 20px;
     font-weight: 400;
+    color: #fff;
 }
 
 .overlay button:hover {
     background: #3aabf0!important;
 }
-
 
 /*mobile size navbar*/
 

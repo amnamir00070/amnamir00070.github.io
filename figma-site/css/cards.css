@@ -55,7 +55,7 @@
 }
 
 .ad-1:hover {
-    border: 2px solid #3aabf0;
+    
 }
 
 #small-card {
@@ -89,7 +89,7 @@
 }
 
 .add-pic-mob:hover {
-    border: 2px solid #3aabf0;
+    border: 1px solid #000000;
 }
 
 .post .post-text {
