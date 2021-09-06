@@ -60,14 +60,15 @@
           ::-ms-input-placeholder { /* Microsoft Edge */
            color: #000000;
           }
-          .textbox .btn {
+          .textbox .bttn {
               border: none;
+              background: none;
               cursor: pointer;
               margin: 0;
               padding: 0;
               margin-bottom: 0;
           }
-          .textbox .btn i{
+          .textbox .bttn i{
             color: #000000;
             font-size: 15px;
             font-weight: 400;
@@ -123,14 +124,21 @@
               ::-ms-input-placeholder { /* Microsoft Edge */
                color: #000000;
               }
-              .textbox .btn {
+              .textbox .bttn {
                   border: none;
                   cursor: pointer;
                   margin: 0;
                   padding: 0;
-                  margin-bottom: -30px;
+                  outline: none;
+                  margin-top: 10px;
               }
-              .textbox .btn i{
+              .textbox .bttn:active{
+                outline: none!important;
+              }
+              .textbox .bttn:focus{
+                outline: none!important;
+              }
+              .textbox .bttn i{
                 color: #000000;
                 font-size: 25px;
                 font-weight: 400;
