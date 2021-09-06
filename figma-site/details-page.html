@@ -17,8 +17,6 @@
     <!--button gradient-->
     <link rel="stylesheet" href="css/style.css">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-
-
 </head>
 
 <body class="background">
@@ -55,7 +53,95 @@
             <div class="grid-wrapper">
                 <div class="article-content">
                     <div class="card post" id="large-card">
-                        <video src="img/Countdown.mp4" type="video/mp4" class="clip" controls></video>
+                        <div class="video-overlay">
+                            <video class="clip" muted>
+                                <source src="img/Countdown.mp4" type="video/mp4" />
+                            </video>
+                          <div class="playpause"></div>
+                        </div>
+                        <div class="card-body">
+                            <div class="container-fluid desk-a">
+                                <div class="row desk-b">
+                                    <div class="col-4">
+                                        <h6 class="title" id="card-left">Title</h6>
+                                    </div>
+                                    <div class="col-4">
+                                        <h6 class="title" id="card-center">Author</h6>
+                                    </div>
+                                    <div class="col-4">
+                                        <h6 class="title" id="card-right">Made on</h6>
+                                    </div>
+                                </div>
+                                <div class="row desk-b">
+                                    <div class="col-4">
+                                        <p class="further-details" id="card-left">The best navbar ever</p>
+                                    </div>
+                                    <div class="col-4">
+                                        <p class="further-details" id="card-center">Tim</p>
+                                    </div>
+                                    <div class="col-4">
+                                        <p class="further-details" id="card-right">Aug. 12, 2021</p>
+                                    </div>
+                                </div>
+                                <div class="row desk-b">
+                                    <div class="col-4">
+                                        <h6 class="title" id="card-left">Cascaded Using</h6>
+                                    </div>
+                                    <div class="col-4">
+                                        <h6 class="title" id="card-center">Responsive</h6>
+                                    </div>
+                                    <div class="col-4">
+                                        <p class="title" id="card-right"></p>
+                                    </div>
+                                </div>
+                                <div class="row desk-b">
+                                    <div class="col-4">
+                                        <p class="further-details" id="card-left">HTML,CSS,JS</p>
+                                    </div>
+                                    <div class="col-4">
+                                        <p class="further-details" id="card-center">Yes</p>
+                                    </div>
+                                    <div class="col-4">
+                                        <p class="title" id="card-right"></p>
+                                    </div>
+                                </div>
+                                <div class="row desk-b">
+                                    <div class="col-4">
+                                        <h6 class="title" id="card-left">Course description</h6>
+                                    </div>
+                                    <div class="col-4">
+                                        <p class="further-details" id="card-center"></p>
+                                    </div>
+                                    <div class="col-4">
+                                        <p class="title" id="card-right"></p>
+                                    </div>
+                                </div>
+                                <div class="row desk-b">
+                                    <div class="col-12">
+                                        <p class="further-details" id="card-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                    </div>
+                                    <!--<div class="col-4">
+                                            <p class="further-details" id="card-center"></p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p class="title" id="card-right"></p>
+                                        </div>-->
+                                </div>
+                            </div>
+                            <div class="wrapper" id="bgFade">
+                                <a href="#" class="fancy-button bg-gradient1" ><span>Code and Demo</span></a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="card post" id="large-card">
+                        <div class="video-overlay">
+                            <video class="clip" muted>
+                                <source src="img/Countdown.mp4" type="video/mp4" />
+                            </video>
+                          <div class="playpause"></div>
+                        </div>
                         <div class="card-body">
                             <div class="container-fluid desk-a">
                                 <div class="row desk-b">
@@ -198,7 +284,12 @@
         <div class="mob-body">
 
             <div class="card post" id="small-card">
-                <video src="img/Countdown.mp4" type="video/mp4" loop class="clip" muted></video>
+                <div class="video-overlay">
+                    <video class="clip" muted>
+                        <source src="img/Countdown.mp4" type="video/mp4" />
+                    </video>
+                  <div class="playpause"></div>
+                </div>
                 <div class="container-fluid mob-a">
                     <div class="row mob-b">
                         <div class="col-4">
@@ -335,7 +426,7 @@
     <!-- Font Awesome 5 links-->
     <script src="https://kit.fontawesome.com/fddf5c0916.js" crossorigin="anonymous"></script>
     <script src="js/search-popup.js"></script>
-    
+    <script src="js/play-pause.js"></script>
 </body>
 
 </html>
