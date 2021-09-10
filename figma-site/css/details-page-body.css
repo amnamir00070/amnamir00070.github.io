@@ -137,18 +137,31 @@ footer .privacy-pages:hover {
 .clip {
     width: 100%;
     border: 1px solid black;
+    background-size:cover;
+}
+.mob-clip {
+    width: 100%;
+    border: 1px solid black;
 }
 .video-overlay{
     display:table;
     width:auto;
     position:relative;
     width:100%;
+    background-size:cover;
+}
+.mob-video-overlay{
+    display:table;
+    width:auto;
+    position:relative;
+    width:100%;
+    background-size:cover;
 }
 .playpause {
     background-image:url(../img/play-pause-btn.png);
     background-repeat:no-repeat;
-    width:50%;
-    height:50%;
+    width:20%;
+    height:20%;
     position:absolute;
     left:0%;
     right:0%;
@@ -157,4 +170,9 @@ footer .privacy-pages:hover {
     margin:auto;
     background-size:contain;
     background-position: center;
+      /*animate*/
+    transition:all .3s ease-in;
+}
+.video-overlay:hover .playpause{
+    display: none;
 }
