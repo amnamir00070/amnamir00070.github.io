@@ -5,6 +5,11 @@
   background-color: #fff!important;
   box-shadow: 0 5px 25px rgb(26 34 39 / 10%);
 }
+@media (min-width: 992px) {
+  .top-nav{
+    box-shadow: 0 5px 25px rgb(26 34 39 / 10%);
+  }
+}
 .top-nav .navbar-nav .nav-link{
   color: #000!important;
 }

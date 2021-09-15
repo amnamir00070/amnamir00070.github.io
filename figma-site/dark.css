@@ -4,7 +4,11 @@
 .top-nav{
   background-color: #1c1d22!important;
   border: none!important;
-  box-shadow: 0 4px 25px rgb(0 0 0 / 35%);
+}
+@media (min-width: 992px) {
+  .top-nav{
+    box-shadow: 0 4px 25px rgb(0 0 0 / 35%);
+  }
 }
 .top-nav .navbar-nav .nav-link{
   color: #fff!important;
