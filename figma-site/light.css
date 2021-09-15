@@ -2,8 +2,8 @@
   background-color: #F9FAFF;
 }
 .top-nav{
-  background-color: #fff!important;
   box-shadow: 0 5px 25px rgb(26 34 39 / 10%);
+  box-shadow: none;
 }
 @media (min-width: 992px) {
   .top-nav{
