@@ -86,9 +86,13 @@ a:active {
     color: #ffffff;
 }
 
-.fancy-button:hover span {
+.fancy-button span {
     filter: brightness(1.05) contrast(1.05);
     transform: scale(0.95);
+}
+.fancy-button:hover span {
+    filter: brightness(1.1) contrast(1.1);
+    transform: scale(1.02);
 }
 
 .fancy-button:hover:before {

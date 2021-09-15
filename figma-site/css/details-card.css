@@ -3,7 +3,7 @@
     src: url("fonts/Roboto-Light.ttf");
 }
 
-#large-card {
+.article-content .card {
     margin-bottom: 42px;
     border-radius: 25px;
     background: none!important;
@@ -11,14 +11,14 @@
     border: none;
 }
 
-#large-card .post-image {
+.article-content .card .post-image {
     height: 399px;
     object-fit: cover;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
 }
 
-#large-card .card-body {
+.article-content .card .card-body {
     padding: 0;
     border: none!important;
 }
@@ -55,10 +55,10 @@
 }
 
 @media only screen and (min-width: 992px) {
-    #large-card {
+    .article-content .card {
         width: 100%;
     }
-    #large-card .post-image {
+    .article-content .card .post-image {
         width: 100%;
     }
     .ad-1 {
@@ -70,10 +70,10 @@
 }
 
 @media only screen and (min-width: 1280px) {
-    #large-card {
+    .article-content .card {
         width: 730px;
     }
-    #large-card .post-image {
+    .article-content .card .post-image {
         width: 100%;
     }
     .sidebar a {
@@ -102,7 +102,10 @@
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
 }
-
+#small-card .mob-clip{
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
 .add-part-mob {
     justify-content: center;
     text-align: center;
@@ -153,22 +156,22 @@
     font-size: 18px;
 }
 
-#large-card .post-text {
+.article-content .card .post-text {
     padding: 0;
     margin: 0;
 }
 
-#large-card .post-text:hover {
+.article-content .card .post-text:hover {
     text-decoration: none;
     color: #000000;
 }
 
-#large-card .post-text:hover {
+.article-content .card .post-text:hover {
     text-decoration: none;
     color: #000000;
 }
 
-#large-card .title {
+.article-content .card .title {
     font-size: 13px;
     font-weight: 400;
     color: #818181;
@@ -176,7 +179,7 @@
     margin-top: 15px;
 }
 
-#large-card .further-details {
+.article-content .card .further-details {
     font-size: 16px;
     font-weight: 400;
     font-style: normal;

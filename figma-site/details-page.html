@@ -17,6 +17,7 @@
     <!--button gradient-->
     <link rel="stylesheet" href="css/style.css">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link id="mystylesheet" rel="stylesheet" type="text/css" href="light.css">
 </head>
 
 <body class="background">
@@ -41,7 +42,11 @@
                 <button class="btn my-2 my-sm-0 search" onclick="openSearch()"><i class="fal fa-search"></i></button>
             </div>
         </nav>
-
+<!-- dark light modes-->
+<div class="modes">
+    <button type="button" class="btn btn-light" onclick="swapStyle('light.css')">Light Mode</button>
+    <button type="button" class="btn btn-dark" onclick="swapStyle('dark.css')">Dark Mode</button>
+</div>
         <!--cards-->
 
         <div class="main-content">
@@ -428,6 +433,7 @@
     <script src="js/search-popup.js"></script>
     <script src="js/play-pause.js"></script>
     <script src="js/hover.js"></script>
+    <script src="js/modes.js"></script>
 </body>
 
 </html>
