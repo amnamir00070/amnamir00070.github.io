@@ -222,3 +222,11 @@ footer .privacy-pages:hover {
     border: 0px;
     outline: none;
 }
+.btn-light{
+    background: linear-gradient(to right, #52A0FD 0%, #00e2fa 80%, #00e2fa 100%);
+    color: #fff;
+  }
+  .btn-light:hover{
+    opacity: .8;
+    color: #fff;
+  }

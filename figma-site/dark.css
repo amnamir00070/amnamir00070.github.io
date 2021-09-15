@@ -81,6 +81,14 @@ footer span{
 .btn-dark:hover{
   opacity: .8;
 }
+.btn-light{
+  background: #F9FAFF;
+  color: #222 ;
+}
+.btn-light:hover{
+  opacity: .8;
+  color: #222;
+}
 .sidebar{
   box-shadow: 0 4px 30px rgb(0 0 0 / 50%);
   background-color: #4a4d58;
@@ -90,4 +98,51 @@ footer span{
 }
 .sidebar ul li a{
  color: #9b9b9b; 
+}
+/* for index.html page */
+.main-col .card{
+  background-color: #4a4d58!important;
+  box-shadow: 0 4px 30px rgb(0 0 0 / 50%);
+}
+.post .post-title{
+  color: #fff;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif; 
+}
+.post .post-snippet{
+  color: #F9FAFF;
+}
+.post .post-date{
+  color: #F9FAFF;
+}
+/* search page */
+.Search .upper-line{
+  color: #9b9b9b;
+}
+::placeholder {
+  color: #F9FAFF;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #F9FAFF;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: #F9FAFF;
+}
+.textbox .bttn i{
+  color: #F9FAFF;
+}
+/* privacy policy page */
+.page-title{
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 500;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+.privacy-policy-text-container .policy-content{
+  color: #F9FAFF;
+}
+.policy-content{
+  color: #F9FAFF;
 }

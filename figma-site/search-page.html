@@ -15,6 +15,7 @@
     <link rel="stylesheet" type="text/css" href="css/body.css">
     <link rel="stylesheet" type="text/css" href="css/cards.css">
     <link rel="stylesheet" href="css/search-page.css">
+    <link id="mystylesheet" rel="stylesheet" type="text/css" href="light.css">
 </head>
 
 <body class="background">
@@ -40,7 +41,11 @@
             </div>
         </nav>
 
-
+<!-- dark light modes-->
+<div class="modes">
+    <button type="button" class="btn btn-light" onclick="swapStyle('light.css')">Light Mode</button>
+    <button type="button" class="btn btn-dark" onclick="swapStyle('dark.css')">Dark Mode</button>
+</div>
 
         <div class="Search">
           <p class="upper-line">Showing for results</p>
@@ -81,9 +86,13 @@
                 </div>
             </div>
             <div class="sidebar">
-                <a href="#">
-                    <img src="img/advertisment.PNG" class="ad-1">
-                </a>
+                <ul class="sub-categories">
+                    <li><a href="#">Sub category <i class="fad fa-chevron-right"></i></a></li>
+                    <li><a href="#">Sub category <i class="fad fa-chevron-right"></i></a></li>
+                    <li><a href="#">Sub category <i class="fad fa-chevron-right"></i></a></li>
+                    <li><a href="#">Sub category <i class="fad fa-chevron-right"></i></a></li>
+                    <li><a href="#">Sub category <i class="fad fa-chevron-right"></i></a></li>
+                </ul>
             </div>
 
         </div>
@@ -136,7 +145,11 @@
             </div>
 
         </nav>
-
+        <!-- dark light modes-->
+        <div class="modes">
+            <button type="button" class="btn btn-light" onclick="swapStyle('light.css')">Light Mode</button>
+            <button type="button" class="btn btn-dark" onclick="swapStyle('dark.css')">Dark Mode</button>
+        </div>
         <div class="Search">
           <p class="upper-line">Showing for results</p>
           <div class="textbox">
@@ -240,6 +253,7 @@
     <!-- Font Awesome 5 links-->
     <script src="https://kit.fontawesome.com/fddf5c0916.js" crossorigin="anonymous"></script>
     <script src="js/search-popup.js"></script>
+    <script src="js/modes.js"></script>
 </body>
 
 </html>
