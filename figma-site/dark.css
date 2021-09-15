@@ -39,6 +39,22 @@
 .article-content .card .further-details{
   color: #ffffff;
 }
+/* mobile version */
+.post-text-mob .post-heading{
+  color: #fff;
+  font-weight: 500;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+.post-text-mob .post-date{
+  color: #ffffff;
+}
+.post-text-mob .post-details{
+  color: #ffffff;
+}
+#small-card .further-details{
+  color: #ffffff;
+}
+/* end */
 footer span{
   color: #ffffff;
 }
