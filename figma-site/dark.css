@@ -27,10 +27,15 @@
 .search i{
   color: #fff!important;
   border: 2px solid #1c1d22;
+  font-weight: 300;
 }
 .article-content .card{
   background-color: #4a4d58!important;
   box-shadow: 0 4px 30px rgb(0 0 0 / 50%);
+  border: none;
+}
+.article-content .card .clip{
+  border: none;
 }
 #small-card{
   background-color: #4a4d58!important;
@@ -75,29 +80,15 @@
 footer span{
   color: #ffffff;
 }
-.btn-dark{
-  background: linear-gradient(to right, #52A0FD 0%, #00e2fa 80%, #00e2fa 100%);
-}
-.btn-dark:hover{
-  opacity: .8;
-}
-.btn-light{
-  background: #F9FAFF;
-  color: #222 ;
-}
-.btn-light:hover{
-  opacity: .8;
-  color: #222;
-}
 .sidebar{
   box-shadow: 0 4px 30px rgb(0 0 0 / 50%);
   background-color: #4a4d58;
 }
-.sidebar ul li{
-  border-bottom: 1px solid #9b9b9b;
+.sidebar ul p{
+  color: #9b9b9b;
 }
 .sidebar ul li a{
- color: #9b9b9b; 
+ color: #fff; 
 }
 /* for index.html page */
 .main-col .card{
@@ -145,4 +136,10 @@ footer span{
 }
 .policy-content{
   color: #F9FAFF;
+}
+.btn-dark{
+  background: linear-gradient(to right, #52A0FD 0%, #00e2fa 80%, #00e2fa 100%);
+}
+.btn-dark{
+  display: none;
 }

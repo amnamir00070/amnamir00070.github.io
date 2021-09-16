@@ -87,11 +87,11 @@ a:active {
 }
 .fancy-button span {
     filter: brightness(1.05) contrast(1.05);
-    transform: scale(0.95);
+    transform: scale(0.88);
 }
 .fancy-button:hover span {
     filter: brightness(1.1) contrast(1.1);
-    transform: scale(1.02);
+    transform: scale(1.01);
 }
 
 .fancy-button:hover:before {

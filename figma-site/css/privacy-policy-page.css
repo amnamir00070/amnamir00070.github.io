@@ -38,29 +38,30 @@
     border-radius: 25px;
     background-color: #fafafa;
 }
-.sidebar ul {
-    width: 100%;
-    height: 100%;
-    padding: 0%;
+.sidebar ul{
     margin: 0%;
+    padding: 0%;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.sidebar ul p{
+    margin: 0%;
+    padding: 0%;
+    font-size: 12px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    font-weight: 500;
+    color: #818181;
+    margin-bottom: 2px;
 }
 .sidebar ul li{
-    width: 100%;
     list-style: none;
-    padding: 13.8px;
-    border-bottom: 1px solid #e1e1e1;
-    font-size: 15px;
-    padding-left: 8%;
-}
-.sidebar ul li:nth-child(5){
-    border-bottom: none;
+    font-size: 16px;
+    padding: 2px;
+    margin-left: 5px;
+    color: #000000;
 }
 .sidebar ul li a{
-    text-decoration: none;
-    color: #222;
-}
-.sidebar ul li a i{
-    padding-left: 8px;
+    color: #000000;
 }
 .sidebar ul li:hover a{
     color: #007bff!important;
@@ -162,26 +163,105 @@ footer .privacy-pages:hover {
     text-decoration: none;
 }
 .modes{
-    width: 100%;
-    position: relative;
-    display: block;
-    text-align: right;
-    margin: 0%;
     padding: 0%;
-
+    margin: 0%;
+    margin-left: 12px;
 }
 .modes button{
-    margin-top: 20px;
-    margin-right: 15px;
-    margin-bottom: 0%;
-    border: 0px;
-    outline: none;
+    padding: 0;
+    margin: 0%;
+    height: 30px;
+    width: 30px;
+    font-size: 18px;
+    border-radius: 25px;
 }
-.btn-light{
+.modes .btn-light{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border: none;
+}
+.modes .btn-light:hover{
+    color: #f9c72a;
+    background-color: #fff;
+    border: none;
+}
+.modes .btn-dark{
+    box-shadow: 2px 2px 2px #888888;
+    border: none;
+}
+.modes .btn-dark:hover{
+    background-color: #4b8ad1a2;
+    border: none;
+}
+/* mobile modes */
+.mob-modes{
+    padding: 0%;
+    margin: 0%;
+}
+.mob-modes button{
+    padding: 0;
+    margin: 0%;
+    height: 30px;
+    width: 30px;
+    font-size: 18px;
+    border-radius: 25px;
+}
+.mob-modes .btn-light{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border: none;
+}
+.mob-modes .btn-light:hover{
+    color: #f9c72a;
+    background-color: #fff;
+    border: none;
+}
+.mob-modes .btn-dark{
+    box-shadow: 2px 2px 2px #888888;
+    border: none;
+}
+.mob-modes .btn-dark:hover{
+    background-color: #4b8ad1a2;
+    border: none;
+}
+/* back to top button */
+#button {
+    display: inline-block;
     background: linear-gradient(to right, #52A0FD 0%, #00e2fa 80%, #00e2fa 100%);
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 25px;
+    position: fixed;
+    bottom: 80px;
+    right: 30px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  @media (min-width:992px) {
+    #button{
+        bottom: 30px;
+    }
+    }
+  #button::after {
+    content: "\f106";
+    font-family: FontAwesome;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    padding: 8px;
     color: #fff;
   }
-  .btn-light:hover{
-    opacity: .8;
-    color: #fff;
+  #button:hover {
+    cursor: pointer;
+    background-color: #333;
   }
+  #button:active {
+    background-color: #555;
+  }
+  #button.show {
+    opacity: 1;
+    visibility: visible;
+  }
+  

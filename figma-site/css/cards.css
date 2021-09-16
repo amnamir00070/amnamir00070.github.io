@@ -16,6 +16,7 @@
 }
 
 .main-col .card .post-image {
+    border: none;
     height: 399px;
     object-fit: cover;
     border-top-right-radius: 25px;
@@ -104,8 +105,8 @@
 .post .post-title {
     line-height: 29.3px;
     font-size: 25px;
-    font-weight: 400;
-    font-family: Roboto;
+    font-weight: 500;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
     margin-bottom: 23px;
     font-style: normal;
 }

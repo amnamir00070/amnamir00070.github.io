@@ -37,13 +37,13 @@
                     </li>
                 </ul>
                 <button class="btn my-2 my-sm-0 search" onclick="openSearch()"><i class="fal fa-search"></i></button>
+                <!-- dark light modes-->
+                <div class="modes">
+                    <button type="button" class="btn btn-light" onclick="swapStyle('light.css')"><i class="fad fa-sun"></i></button>
+                    <button type="button" class="btn btn-dark" onclick="swapStyle('dark.css')"><i class="fad fa-moon"></i></button>
+                </div>
             </div>
         </nav>
-<!-- dark light modes-->
-<div class="modes">
-    <button type="button" class="btn btn-light" onclick="swapStyle('light.css')">Light Mode</button>
-    <button type="button" class="btn btn-dark" onclick="swapStyle('dark.css')">Dark Mode</button>
-</div>
 
 
 
@@ -77,11 +77,14 @@
             </div>
             <div class="sidebar">
                 <ul class="sub-categories">
-                    <li><a href="#">Sub category <i class="fad fa-chevron-right"></i></a></li>
-                    <li><a href="#">Sub category <i class="fad fa-chevron-right"></i></a></li>
-                    <li><a href="#">Sub category <i class="fad fa-chevron-right"></i></a></li>
-                    <li><a href="#">Sub category <i class="fad fa-chevron-right"></i></a></li>
-                    <li><a href="#">Sub category <i class="fad fa-chevron-right"></i></a></li>
+                    <p>Categories</p>
+                    <li><a href="#">Sub category</a></li>
+                    <li><a href="#">Sub category</a></li>
+                    <li><a href="#">Sub category</a></li>
+                    <li><a href="#">Sub category</a></li>
+                    <li><a href="#">Sub category</a></li>
+                    <li><a href="#">Sub category</a></li>
+                    <li><a href="#">Sub category</a></li>
                 </ul>
             </div>
 
@@ -118,7 +121,11 @@
 
         <!--navbar with menus menus-->
         <nav class="navbar navbar-expand-lg navbar-light bg-light top-nav">
-
+            <!-- dark light modes-->
+            <div class="modes">
+                <button type="button" class="btn btn-light" onclick="swapStyle('light.css')"><i class="fad fa-sun"></i></button>
+                <button type="button" class="btn btn-dark" onclick="swapStyle('dark.css')"><i class="fad fa-moon"></i></button>
+            </div>
             <a class="navbar-brand" href="#"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav2" aria-controls="navbarNav2" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -135,11 +142,6 @@
             </div>
 
         </nav>
-<!-- dark light modes-->
-<div class="modes">
-    <button type="button" class="btn btn-light" onclick="swapStyle('light.css')">Light Mode</button>
-    <button type="button" class="btn btn-dark" onclick="swapStyle('dark.css')">Dark Mode</button>
-</div>
 
 
         <div class="mob-body">
@@ -187,7 +189,8 @@
     </div>
     <!--mobile ends here-->
 
-
+<!-- Back to top button -->
+<a id="button"></a>
 
 
 
