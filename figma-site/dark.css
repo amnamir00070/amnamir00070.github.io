@@ -90,6 +90,17 @@ footer span{
 .sidebar ul li a{
  color: #fff; 
 }
+/* mobile sidebar */
+.add-part-mob{
+  box-shadow: 0 4px 30px rgb(0 0 0 / 50%);
+  background-color: #4a4d58;
+}
+.add-part-mob ul p{
+  color: #9b9b9b;
+}
+.add-part-mob ul li a{
+ color: #fff; 
+}
 /* for index.html page */
 .main-col .card{
   background-color: #4a4d58!important;
