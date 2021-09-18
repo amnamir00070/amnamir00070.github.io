@@ -74,7 +74,7 @@ a:active {
     z-index: 2;
     will-change: transform, filter;
     transform-style: preserve-3d;
-    transition: all 0.3s ease-out;
+    /*transition: all 0.3s ease-out;*/
 }
 
 .fancy-button:focus,
@@ -90,14 +90,16 @@ a:active {
     transform: scale(0.88);
 }
 .fancy-button:hover span {
-    filter: brightness(1.1) contrast(1.1);
-    transform: scale(1.01);
+    /*filter: brightness(1.1) contrast(1.1);
+    transform: scale(1.01);*/
+    background: #52A0FD;
+
 }
 
-.fancy-button:hover:before {
+/*.fancy-button:hover:before {
     bottom: 0;
     filter: blur(10px) brightness(0.95);
-}
+}*/
 
 
 /*.fancy-button{

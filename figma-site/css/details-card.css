@@ -93,6 +93,7 @@
 #small-card {
     border-radius: 25px;
     margin: 1rem;
+    margin-bottom: 42px;
     border: none;
     background: none!important;
     box-shadow: 0 5px 25px rgb(26 34 39 / 10%);
@@ -106,7 +107,7 @@
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
 }
-.add-part-mob {
+/*.add-part-mob {
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -119,7 +120,7 @@
 
 .add-pic-mob:hover {
     border: 1px solid #000000;
-}
+}*/
 
 .post-header {
     /*larger screens*/

@@ -65,16 +65,55 @@
     list-style: none;
     font-size: 16px;
     padding: 2px;
-    margin-left: 5px;
+    padding-left: 0%;
     color: #000000;
 }
 .sidebar ul li a{
     color: #000000;
 }
 .sidebar ul li:hover a{
-    color: #007bff!important;
+    color: #3aabf0!important;
     text-decoration: none;
 }
+/* Sidebar mobile */
+.add-part-mob {
+    height: 250px;
+    box-shadow: rgb(100 100 111 / 20%) 2px 2px 29px 11px;
+    border-radius: 25px;
+    background-color: #fafafa;
+    margin: 1rem;
+}
+.add-part-mob ul{
+    margin: 0%;
+    padding: 0%;
+    margin-left: 25px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.add-part-mob ul p{
+    margin: 0%;
+    padding: 0%;
+    font-size: 12px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    font-weight: 500;
+    color: #818181;
+    margin-bottom: 2px;
+}
+.add-part-mob ul li{
+    list-style: none;
+    font-size: 16px;
+    padding: 2px;
+    padding-left: 0%;
+    color: #000000;
+}
+.add-part-mob ul li a{
+    color: #000000;
+}
+.add-part-mob ul li:hover a{
+    color: #3aabf0!important;
+    text-decoration: none;
+}
+/* Sidebar mobile */
 .grid-wrapper {
     margin-top: 23px;
 }
@@ -221,20 +260,27 @@ footer .privacy-pages:hover {
     border-radius: 25px;
 }
 .modes .btn-light{
+    /*color: #f4db87;*/
+    font-size: 20px;
+    color: #f9d71c;
+    background-color: #fff;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border: none;
 }
 .modes .btn-light:hover{
-    color: #f9c72a;
+    color: #000;
     background-color: #fff;
     border: none;
 }
 .modes .btn-dark{
+    font-size: 15px;
+    color: #FFD700;
+    background-color: #3c3d46;
     box-shadow: 2px 2px 2px #888888;
     border: none;
 }
 .modes .btn-dark:hover{
-    background-color: #4b8ad1a2;
+    color: #fff;
     border: none;
 }
 /* mobile modes */
@@ -251,20 +297,24 @@ footer .privacy-pages:hover {
     border-radius: 25px;
 }
 .mob-modes .btn-light{
+    color: #f9d71c;
+    font-size: 20px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border: none;
 }
 .mob-modes .btn-light:hover{
-    color: #f9c72a;
+    color: #000;
     background-color: #fff;
     border: none;
 }
 .mob-modes .btn-dark{
+    font-size: 15px;
+    color: #FFD700;
     box-shadow: 2px 2px 2px #888888;
     border: none;
 }
 .mob-modes .btn-dark:hover{
-    background-color: #4b8ad1a2;
+    color: #fff;
     border: none;
 }
 

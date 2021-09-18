@@ -2,7 +2,7 @@
   background-color: #2c303a;
 }
 .top-nav{
-  background-color: #1c1d22!important;
+  background-color: #3c3d46!important;
   border: none!important;
   box-shadow: none;
 }
@@ -21,12 +21,12 @@
   color: #fff!important;
 }
 .search {
-  border: 1px solid #1c1d22;
-  background: #1c1d22;
+  border: 1px solid #3c3d46;
+  background: #3c3d46;
 }
 .search i{
   color: #fff!important;
-  border: 2px solid #1c1d22;
+  border: 2px solid #3c3d46;
   font-weight: 300;
 }
 .article-content .card{
