@@ -2,7 +2,7 @@
   background-color: #2c303a;
 }
 .top-nav{
-  background-color: #3c3d46!important;
+  background-color: #4a4d58!important;
   border: none!important;
   box-shadow: none;
 }
@@ -21,12 +21,12 @@
   color: #fff!important;
 }
 .search {
-  border: 1px solid #3c3d46;
-  background: #3c3d46;
+  border: 1px solid #4a4d58;
+  background: #4a4d58;
 }
 .search i{
   color: #fff!important;
-  border: 2px solid #3c3d46;
+  border: 2px solid #4a4d58;
   font-weight: 300;
 }
 .article-content .card{
@@ -148,9 +148,6 @@ footer span{
 .policy-content{
   color: #F9FAFF;
 }
-.btn-dark{
-  background: linear-gradient(to right, #52A0FD 0%, #00e2fa 80%, #00e2fa 100%);
-}
-.btn-dark{
+.btn-light{
   display: none;
 }

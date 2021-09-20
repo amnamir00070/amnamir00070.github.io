@@ -6,7 +6,7 @@
 .article-content .card {
     margin-bottom: 42px;
     border-radius: 25px;
-    background: none!important;
+    background: #fff!important;
     box-shadow: rgb(100 100 111 / 20%) 2px 2px 29px 11px;
     border: none;
 }

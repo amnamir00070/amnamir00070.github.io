@@ -22,12 +22,12 @@
   border: 2px solid #fff;
 }
 .article-content .card{
-  background: none!important;
+  background: #fff!important;
   box-shadow: rgb(100 100 111 / 20%) 2px 2px 29px 11px;
   border: none;
 }
 #small-card{
-  background: none!important;
+  background: #fff!important;
   box-shadow: rgb(100 100 111 / 20%) 2px 2px 29px 11px;
   border: none;
 }
@@ -63,6 +63,6 @@
 footer span{
   color: #000000;
 }
-.btn-light{
+.btn-dark{
   display: none;
 }

@@ -121,21 +121,17 @@
     <!--mobile version-->
 
     <div class="main-container-mob">
-        <nav class="navbar navbar-light bg-light justify-content-between top-nav">
+        <!--navbar with menus menus-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light top-nav">
             <a class="navbar-brand" href="#">
                 <img src="img/logo.png" height="35" alt="">
             </a>
             <button class="btn my-2 my-sm-0 search" onclick="openSearch()"><i class="fal fa-search"></i></button>
-        </nav>
-
-        <!--navbar with menus menus-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light top-nav">
-                <!-- dark light modes-->
-                <div class="modes">
-                    <button type="button" class="btn btn-light" onclick="swapStyle('light.css')"><i class="fad fa-sun"></i></button>
-                    <button type="button" class="btn btn-dark" onclick="swapStyle('dark.css')"><i class="fad fa-moon"></i></button>
-                </div>
-            <a class="navbar-brand" href="#"></a>
+            <!-- dark light modes-->
+            <div class="mob-modes">
+                <button type="button" class="btn btn-light" onclick="swapStyle('light.css')"><i class="fad fa-sun"></i></button>
+                <button type="button" class="btn btn-dark" onclick="swapStyle('dark.css')"><i class="fad fa-moon"></i></button>
+            </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav2" aria-controls="navbarNav2" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
