@@ -151,3 +151,18 @@ footer span{
 .btn-light{
   display: none;
 }
+/* mobile menus*/
+.menus{
+  background-color: #4a4d58;
+  box-shadow: 0 4px 25px rgb(0 0 0 / 35%);
+}
+.menus a{
+  color: #fff!important;
+}
+.menus a{
+  color: #fff;
+}
+.menus a:hover{
+  color: #3aabf0!important;
+  text-decoration: none;
+}

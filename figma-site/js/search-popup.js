@@ -7,7 +7,18 @@ function openSearch() {
     document.getElementById("myOverlay").style.display = "none";
     document.getElementById("bgFade").style.display = "block";
   }
+// menu
+function openMenu() {
+  document.getElementById("menuBars").style.display = "none";
+  document.getElementById("closeCross").style.display = "block";
+  document.getElementById("menus").style.display = "block";    
+}
 
+function closeMenu() {
+  document.getElementById("menuBars").style.display = "block";
+  document.getElementById("closeCross").style.display = "none";
+  document.getElementById("menus").style.display = "none"; 
+}
 // button
 var btn = $('#button');
 

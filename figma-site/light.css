@@ -66,3 +66,18 @@ footer span{
 .btn-dark{
   display: none;
 }
+.main-container-mob .navbar-nav .nav-item .list-menu i{
+  color: #000;
+}
+/* mobile menus*/
+.menus{
+  background-color: #fff!important;
+  box-shadow: 0 5px 25px rgb(26 34 39 / 10%);
+}
+.menus a{
+  color: #000;
+}
+.menus a:hover{
+  color: #3aabf0!important;
+  text-decoration: none;
+}
