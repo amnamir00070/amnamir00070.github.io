@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Copy Code To Clipboard</title>
+    <link rel="stylesheet" href="style.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="text-boxes">
+    <div class="text-box HTMLBox">
+      <div class="topic">HTML Code:</div>
+      <textarea id="HTMLBox" readonly >
+        <!--code to be copied-->
+        <div class="card post" id="small-card">
+          <a href="details-page.html" class="image-link"><img src="img/pic1.jpg" class="post-image" alt="..."></a>
+          <div class="card-body">
+              <a class="post-text" href="#">
+                  <h2 class="post-title">50 CSS Navbar Examples</h2>
+                  <p class="post-snippet">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                      specimen book.
+                  </p>
+                  <p class="post-date">July 27, 2021</p>
+              </a>
+          </div>
+      </div>
+
+      </textarea>
+      <button id="HTMLButton">Copy Codes</button>
+    </div>
+    <div class="text-box CSSBox">
+      <div class="topic">CSS Code:</div>
+      <textarea id="CSSBox" readonly >
+        /* code to be copied*/
+        .top-nav {
+          background-color: #fff!important;
+          border: none!important;
+      }
+      
+      @media (min-width: 992px) {
+          .top-nav {
+              box-shadow: 0 5px 25px rgb(26 34 39 / 10%);
+          }
+      }
+      .navbar {
+          padding: .6rem 1rem;
+      }
+      .top-nav .navbar-nav .nav-link {
+          color: #000000!important;
+          margin-right: 25px;
+          font-size: 18px;
+          line-height: 18.75px;
+          font-family: Roboto;
+          font-weight: 400;
+          width: 100%;
+      }
+      
+      .top-nav .navbar-nav .nav-link:hover {
+          color: #3aabf0!important;
+      }
+      
+      .top-nav .navbar-brand img {
+          width: 93px;
+          height: 22.23px;
+      }
+      
+      
+      /*medium+ screen sizes*/
+      
+      @media (min-width:992px) {
+          .main-container {
+              display: block !important;
+          }
+          .top-nav .navbar-brand img {
+              margin-left: 25px;
+          }
+      }
+      
+      
+      /*small screen sizes*/
+      
+      @media (max-width: 991px) {
+          .main-container {
+              display: none !important;
+          }
+      }
+      
+      .main-container {
+          width: 100%;
+      }
+      
+      nav {
+          font-family: Roboto;
+          font-weight: 400;
+          border: #000000;
+      }
+      
+      .search-box {
+          background: #000000;
+          border-radius: 30px;
+          padding: 0px;
+          height: 30px;
+      }
+      
+      
+      </textarea>
+      <button id="CSSButton">Copy Codes</button>
+    </div>
+    <div class="text-box JSBox">
+      <div class="topic">JavaScript Code:</div>
+      <textarea id="JSBox" readonly >
+        /* code to be copied */
+        const clip = document.querySelectorAll('.clip');
+        for (let i = 0; i < clip.length; i++) {
+            clip[i].addEventListener('mouseenter', function(e) {
+                clip[i].play()
+            })
+            clip[i].addEventListener('mouseout', function(e) {
+                clip[i].pause()
+            })
+        }
+      </textarea>
+      <button id="JSButton">Copy Codes</button>
+    </div>
+  </div>
+
+  <script>
+  // HTML BOx JS Code
+    let HTMLBox = document.getElementById("HTMLBox");
+    let HTMLButton = document.getElementById("HTMLButton");
+
+    HTMLButton.onclick = function() {
+      HTMLBox.select();
+      document.execCommand("copy");
+      HTMLButton.innerText = "Codes Copied"
+    }
+
+    // CSS Box Js Code
+      let CSSBox = document.getElementById("CSSBox");
+      let CSSButton = document.getElementById("CSSButton");
+
+      CSSButton.onclick = function() {
+        CSSBox.select();
+        document.execCommand("copy");
+        CSSButton.innerText = "Codes Copied"
+      }
+    // JavaScript BOx JS Code
+      let JSBox = document.getElementById("JSBox");
+      let JSButton = document.getElementById("JSButton");
+
+      JSButton.onclick = function() {
+        JSBox.select();
+        document.execCommand("copy");
+        JSButton.innerText = "Codes Copied"
+      }
+  </script>
+
+
+</body>
+</html>

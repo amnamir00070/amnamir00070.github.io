@@ -166,3 +166,10 @@ footer span{
   color: #3aabf0!important;
   text-decoration: none;
 }
+footer .privacy-pages {
+  cursor: pointer;
+  color: #fff;
+}
+.text-part{
+  color: #fff;
+}

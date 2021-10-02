@@ -56,7 +56,7 @@ a:active {
     border-radius: 30em;
     filter: blur(20px) brightness(0.95);
     transform-style: preserve-3d;
-    transition: all 0.3s ease-out;
+    transition: all 0.8s ease-out;
 }
 
 .fancy-button i {
@@ -74,7 +74,8 @@ a:active {
     z-index: 2;
     will-change: transform, filter;
     transform-style: preserve-3d;
-    /*transition: all 0.3s ease-out;*/
+    transition-property: color;
+    transition: all 0.8s ease-out;
 }
 
 .fancy-button:focus,
@@ -92,7 +93,7 @@ a:active {
 .fancy-button:hover span {
     /*filter: brightness(1.1) contrast(1.1);
     transform: scale(1.01);*/
-    background: #52A0FD;
+    background: linear-gradient(to left, #52A0FD 0%, #00e2fa 70%, #00e2fa 100%);
 
 }
 

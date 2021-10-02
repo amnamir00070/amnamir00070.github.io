@@ -7,3 +7,5 @@ for (let i = 0; i < clip.length; i++) {
         clip[i].pause()
     })
 }
+
+
