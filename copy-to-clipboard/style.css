@@ -11,6 +11,13 @@ body{
   width: 100%;
   background: #fdfcfc;
 }
+.topic{
+  font-size: 18px;
+  font-weight: 600;
+  color: #265df2;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
 .text-boxes{
   height: 100%;
   width: 100%;
@@ -21,16 +28,12 @@ body{
   margin-bottom: 60px;
 }
 .text-boxes .text-box{
+  display: flex;
+  justify-content: center;
   height: 380px;
   max-width: 660px;
   width: 100%;
-  margin: 55px 0;
-}
-.text-boxes .text-box .topic{
-  font-size: 18px;
-  font-weight: 600;
-  color: #265df2;
-  margin: 4px;
+  margin-left: 35px;
 }
 .text-boxes .text-box textarea{
   height: 100%;
@@ -47,8 +50,8 @@ body{
   display: none;
 }
 .text-boxes .text-box button{
+  transform: translateX(-42px);
   height: 45px;
-  width: 155px;
   color: #fff;
   background: #265df2;
   outline: none;
@@ -59,14 +62,14 @@ body{
   margin: 8px 0;
   cursor: pointer;
   transition: all 0.4s ease;
+  padding: 10px;
+}
+.text-boxes .text-box button i{
+ color: #fff;
+
 }
 .text-boxes .text-box button:hover{
   background: #0e4bf1;
-}
-@media (max-width: 400px) {
-  .text-boxes .text-box button{
-    width: 100%;
-  }
 }
 
 

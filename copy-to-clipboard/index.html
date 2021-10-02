@@ -5,11 +5,12 @@
     <title>Copy Code To Clipboard</title>
     <link rel="stylesheet" href="style.css">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" type="text/css" href="fontawesome-pro-5.14.0/fontawesome-pro-5.14.0-web/css/all.css">
    </head>
 <body>
   <div class="text-boxes">
+    <div class="topic">HTML Code:</div>
     <div class="text-box HTMLBox">
-      <div class="topic">HTML Code:</div>
       <textarea id="HTMLBox" readonly >
         <!--code to be copied-->
         <div class="card post" id="small-card">
@@ -24,12 +25,12 @@
               </a>
           </div>
       </div>
-
+      <!--End code to be copied-->
       </textarea>
-      <button id="HTMLButton">Copy Codes</button>
+      <button id="HTMLButton"><i class="fal fa-copy"></i></button>
     </div>
+    <div class="topic">CSS Code:</div>
     <div class="text-box CSSBox">
-      <div class="topic">CSS Code:</div>
       <textarea id="CSSBox" readonly >
         /* code to be copied*/
         .top-nav {
@@ -104,10 +105,10 @@
       
       
       </textarea>
-      <button id="CSSButton">Copy Codes</button>
+      <button id="CSSButton"><i class="fal fa-copy"></i></button>
     </div>
+    <div class="topic">JavaScript Code:</div>
     <div class="text-box JSBox">
-      <div class="topic">JavaScript Code:</div>
       <textarea id="JSBox" readonly >
         /* code to be copied */
         const clip = document.querySelectorAll('.clip');
@@ -120,7 +121,7 @@
             })
         }
       </textarea>
-      <button id="JSButton">Copy Codes</button>
+      <button id="JSButton"><i class="fal fa-copy"></i></button>
     </div>
   </div>
 
@@ -132,7 +133,7 @@
     HTMLButton.onclick = function() {
       HTMLBox.select();
       document.execCommand("copy");
-      HTMLButton.innerText = "Codes Copied"
+      HTMLButton.innerText = "✔"
     }
 
     // CSS Box Js Code
@@ -142,7 +143,7 @@
       CSSButton.onclick = function() {
         CSSBox.select();
         document.execCommand("copy");
-        CSSButton.innerText = "Codes Copied"
+        CSSButton.innerText = "✔"
       }
     // JavaScript BOx JS Code
       let JSBox = document.getElementById("JSBox");
@@ -151,7 +152,7 @@
       JSButton.onclick = function() {
         JSBox.select();
         document.execCommand("copy");
-        JSButton.innerText = "Codes Copied"
+        JSButton.innerText = "✔"
       }
   </script>
 
