@@ -9,7 +9,7 @@
 body{
   min-height: 100vh;
   width: 100%;
-  background: #fdfcfc;
+  background: #2c303b;
 }
 .topic{
   font-size: 18px;
@@ -42,9 +42,10 @@ body{
   font-size: 15px;
   font-weight: 400;
   outline: none;
-  border: 1px solid #265df2;
+  border: 1px solid #151f28;
   border-radius: 8px;
-  background: #e7edfe;
+  background: #151f28;
+  color: #fff;
 }
 .text-box textarea::-webkit-scrollbar{
   display: none;

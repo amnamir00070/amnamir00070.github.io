@@ -10,7 +10,7 @@
 <body>
   <div class="text-boxes">
     <div class="topic">HTML Code:</div>
-    <div class="text-box HTMLBox">
+    <div class="text-box HTMLBox" style="height: 500px;">
       <textarea id="HTMLBox" readonly >
         <!--code to be copied-->
         <div class="card post" id="small-card">
@@ -30,7 +30,7 @@
       <button id="HTMLButton"><i class="fal fa-copy"></i></button>
     </div>
     <div class="topic">CSS Code:</div>
-    <div class="text-box CSSBox">
+    <div class="text-box CSSBox" style="height: 1800px;">
       <textarea id="CSSBox" readonly >
         /* code to be copied*/
         .top-nav {
@@ -108,7 +108,7 @@
       <button id="CSSButton"><i class="fal fa-copy"></i></button>
     </div>
     <div class="topic">JavaScript Code:</div>
-    <div class="text-box JSBox">
+    <div class="text-box JSBox" style="height: 380px;">
       <textarea id="JSBox" readonly >
         /* code to be copied */
         const clip = document.querySelectorAll('.clip');
@@ -155,7 +155,12 @@
         JSButton.innerText = "✔"
       }
   </script>
-
+  <script>
+    function auto_grow(element){
+    element.style.height = "5px";
+    element.style.height = (element.scrollHeight)+"px";
+  }
+  </script>
 
 </body>
 </html>
