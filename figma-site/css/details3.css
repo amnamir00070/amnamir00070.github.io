@@ -40,16 +40,16 @@
   display: none;
 }
 .text-boxes .text-box button{
-  transform: translateX(-55px);
+  transform: translateX(-49px);
   height: 40px;
   color: #fff;
   background-image: linear-gradient(to right, #52A0FD 0%, #00e2fa 70%, #52A0FD 100%);
   outline: none;
   border: none;
-  border-radius: 25px;
+  border-top-right-radius: 25px;
   font-size: 13px;
   font-weight: 400;
-  margin: 8px 0;
+
   cursor: pointer;
   transition: all 0.4s ease;
   padding: 10px;
