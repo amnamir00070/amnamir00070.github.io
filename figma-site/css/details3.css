@@ -32,7 +32,7 @@
 .text-boxes .text-box textarea{
   height: 100%;
   width: 100%;
-  padding: 30px;
+  padding: 10px;
   padding-top: 50px;
   font-size: 15px;
   font-weight: 400;
@@ -62,6 +62,9 @@
   cursor: pointer;
   transition: all 0.4s ease;
   padding: 10px;
+}
+.text-boxes .text-box button:active{
+  transform: translateX(-64px);
 }
 .text-boxes .text-box button i{
  color: #fff;
