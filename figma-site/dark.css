@@ -20,14 +20,17 @@
 .top-nav .navbar-nav .nav-link{
   color: #fff!important;
 }
-.search {
+#navbarNav .search {
   border: 1px solid #4a4d58;
   background: #4a4d58;
 }
-.search i{
+#navbarNav .search i{
   color: #fff!important;
-  border: 2px solid #4a4d58;
+  border: 2px solid #4a4d58!important;
   font-weight: 300;
+}
+#navbarNav .search:active {
+  border: 1px solid #4a4d58;
 }
 .article-content .card{
   background-color: #4a4d58!important;
@@ -181,4 +184,13 @@ footer .privacy-pages {
 }
 .article-text{
   color: #fff;
+}
+.main-container-mob .navbar-nav .nav-item .search{
+  color: #fff!important;
+}
+.main-container-mob .navbar-nav .nav-item .search i{
+  color: #fff!important;
+}
+.textbox input {
+  color: #fff!important;
 }

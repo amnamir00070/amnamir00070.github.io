@@ -32,7 +32,7 @@
     width: 300px;
     height: 250px;
     box-shadow: rgb(100 100 111 / 20%) 2px 2px 29px 11px;
-    border-radius: 25px;
+    border-radius: 10px;
     background-color: #fafafa;
 }
 .sidebar ul{
@@ -68,7 +68,7 @@
 .add-part-mob {
     height: 250px;
     box-shadow: rgb(100 100 111 / 20%) 2px 2px 29px 11px;
-    border-radius: 25px;
+    border-radius: 10px;
     background-color: #fafafa;
     margin: 1rem;
 }

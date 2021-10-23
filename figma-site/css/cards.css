@@ -6,7 +6,7 @@
 .main-col .card {
     height: 600px;
     margin-bottom: 42px;
-    border-radius: 25px;
+    border-radius: 10px;
     box-shadow: rgb(100 100 111 / 20%) 2px 2px 29px 11px;
     border: 0!important;
 }
@@ -19,8 +19,8 @@
     border: none;
     height: 399px;
     object-fit: cover;
-    border-top-right-radius: 25px;
-    border-top-left-radius: 25px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
 .ad-1 {
@@ -60,7 +60,7 @@
 }
 
 #small-card {
-    border-radius: 25px;
+    border-radius: 10px;
     margin: 1rem;
     margin-bottom: 42px;
     border: none;
@@ -68,13 +68,13 @@
 }
 
 #small-card .image-link {
-    border-top-right-radius: 25px;
-    border-top-left-radius: 25px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
     width: 100%;
 }
 #small-card .post-image {
-    border-top-right-radius: 25px;
-    border-top-left-radius: 25px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
     width: 100%;
 }
 

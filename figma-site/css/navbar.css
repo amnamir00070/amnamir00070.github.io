@@ -159,13 +159,19 @@ nav {
     padding: 15px;
     font-size: 17px;
     border: none;
+    outline: none!important;
     float: left;
     width: 80%;
     background: white;
     border-bottom-left-radius: 25px;
     border-top-left-radius: 25px;
 }
-
+.overlay input[type=text]:active{
+    outline: none!important;
+}
+.overlay input[type=text]:focus{
+    outline: none!important;
+}
 .overlay input[type=text]:hover {
     background: #f1f1f1;
 }
@@ -222,12 +228,14 @@ nav {
 
 /*mobile size search button*/
 
-.search {
+#navbarNav .search {
     border: #fff;
     background: #fff;
     color: #000;
 }
-
+#navbarNav .search:active{
+    border: 1px solid #fff;
+}
 
 /*  .search:hover
   {
@@ -238,21 +246,20 @@ nav {
     color: transparent;
   }*/
 
-.search i {
+#navbarNav .search i {
     color: #000000;
     font-size: 25px;
     border: 2px solid #fff;
     font-weight: 400;
 }
-
 @media(min-width: 992px) {
-    .search i {
+    #navbarNav .search i {
         font-size: 20px;
         font-weight: 400;
     }
 }
 
-.search i:hover {
+#navbarNav .search i:hover {
     color: #3aabf0!important;
 }
 
@@ -291,6 +298,7 @@ nav {
 }
 .main-container-mob .navbar-nav .nav-item .search i{
     font-size: 20px;
+    font-weight: 400;
 }
 .main-container-mob .navbar-nav .nav-item .list-menu{
     background: none!important;
