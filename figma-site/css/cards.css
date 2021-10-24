@@ -4,7 +4,6 @@
 }
 
 .main-col .card {
-    height: 600px;
     margin-bottom: 42px;
     border-radius: 10px;
     box-shadow: rgb(100 100 111 / 20%) 2px 2px 29px 11px;
@@ -17,7 +16,6 @@
 
 .main-col .card .post-image {
     border: none;
-    height: 399px;
     object-fit: cover;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
