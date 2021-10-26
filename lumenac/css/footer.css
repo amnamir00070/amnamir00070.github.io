@@ -31,20 +31,33 @@
 	margin: 0 0 20px 0;
 	padding: 2px 0 2px 0;
 	line-height: 1;
-	font-family:Open Sans Bold;
+  font-family: Montserrat;
 	color: #fff;
 	font-weight: 400;
 	letter-spacing: 1.5px;
 	text-transform: uppercase;
 }
+#footer .footer-top .footer-info p{
+  margin-top: 40px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF80;
+}
+#footer .footer-top .footer-info p i{
+  color: #fff;
+}
 #footer .footer-top .footer-info h3 span{
-	font-family:Open Sans Regular;
+  font-family: Montserrat;
 }
 #footer .footer-top .social-links a{
 	font-size: 18px;
 	display: inline-block;
-	background: #007bff;
-	color: #fff;
+	color: #FFFFFF80;
 	line-height: 1;
 	padding: 8px 0;
 	margin-right: 4px;
@@ -56,7 +69,8 @@
 }
 #footer .footer-top .social-links a:hover{
 	background: #0067d5;
-	color: #fff; 
+	color: #fff;
+  text-decoration: none; 
 }
 #footer .footer-top h4{
 	font-size: 14px;
@@ -81,10 +95,12 @@
 	padding-top: 0;
 }
 #footer .footer-top .footer-links ul a{
-	color: #ecf5ff;
+  font-family: Montserrat;
+  color: #FFFFFF80;
 }
 #footer .footer-top .footer-links ul a:hover{
 	color: #74b5fc;
+  text-decoration: none;
 }
 #footer .footer-top .footer-contact{
 	margin-bottom: 30px;

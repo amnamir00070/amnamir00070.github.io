@@ -56,13 +56,13 @@
 }
 #carouselContent .carousel-inner #apes17{
   /*background: linear-gradient(to right bottom,rgba(0,40,85,.3),rgba(0,98,155,.3) 0,rgba(0,181,226,.8),rgba(255,255,255,0.3) 100%), url("../img/APES'17.JPG");*/
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%), url("../img/Rectangle13.png");
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%), url("../img/slider-bg.jpg");
   background-attachment: fixed;
   background-position:center center;
   background-repeat:no-repeat;background-size:cover
 }
 #carouselContent .carousel-inner #apes18{
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%), url("../img/Rectangle13.png");
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%), url("../img/slider-bg.jpg");
   background-attachment: fixed;
   background-position:center center;
   background-repeat:no-repeat;background-size:cover
@@ -81,7 +81,6 @@
     letter-spacing: 0em;
     text-align: left;
     margin-left: 150px;
-
 }
 #carouselContent .carousel-inner p{
     font-size: 15px;
@@ -94,7 +93,6 @@
     letter-spacing: 0em;
     text-align: left;
     margin-left: 150px;
-
 }
 @media(min-width: 992px){
   #carouselContent .carousel-inner h4{
@@ -111,7 +109,14 @@
     letter-spacing: 0em;
     text-align: left;
     margin-left: 150px;
-  }
+}
+@media(min-width: 1920px){
+    #text-slider{
+        width: 100%;
+        background-color: #fff;
+        max-width: 1720px;
+      }
+}
   #carouselContent .carousel-inner p{
     font-size: 15px;
     color:#FFFFFF80;
@@ -124,26 +129,56 @@
     margin-left: 150px;
   }
 }
+.grides{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.grides .product img{
+    margin-top: 150px;
+    margin-left: -100px;
+}
 
 /*////////////////////////////*/
 /*flickity slider*/
 /* external css: flickity.css */
-
+.product-slider{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.flickity-prev-next-button.previous {
+    left: -65px;
+}
+.flickity-prev-next-button.next {
+    right: -65px
+;
+}
 .carousel {
   
 }
 
 .carousel-cell {
-  width: 28%;
-  height: 200px;
-  margin-right: 10px;
-  border-radius: 5px;
+  height: 300px;
+  margin-right: 5px;
   /*counter-increment: carousel-cell;*/
 }
-
-.carousel-cell.is-selected {
-
+.carousel-cell img{
+    height: 282px;
+    width: 282px;
+    left: 0px;
+    top: 0px;
+    margin: 0%;
+    border-radius: 0px;
+    object-fit: cover;
+    border: 1px solid #000;
 }
+.flickity-button {
+    position: absolute;
+    background: none!important;
+    border: none;
+    color: #333;
+}
+
 /* cell number 
 .carousel-cell:before {
   display: block;
@@ -232,8 +267,6 @@
 
 /*contact us*/
 .contact-us{
-    display: flex;
-    flex-wrap: wrap;
     height: 288px;
     padding-top: 100px;
     background: #F4F4F4;
@@ -255,14 +288,19 @@
     line-height: 21.94px;
     text-transform: capitalize;
 }
-
+.contact-us .contact-button{
+}
 .contact-us .contact-button button{
-    right: 100px;
     font-weight: 700;
     font-size: 36px;
     padding: 0%;
     width: 336px;
     height: 108px;
+}
+@media (min-width: 1920px) {
+    .contact-us .contact-button button{
+        right: -100px;
+    }
 }
 .contact-us .contact-button button i{
     margin-right: 20px;
