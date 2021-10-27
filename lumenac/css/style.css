@@ -167,9 +167,6 @@
     margin-right: 20px;
     margin-bottom: 20px;
 }
-.carousel-cell:nth-child(1){
-  margin-right: 0px;
-}
 /*.carousel-cell::before{
     content: '';
     right: -30px;
