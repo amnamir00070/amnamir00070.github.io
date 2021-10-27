@@ -600,4 +600,72 @@
 
 
 
+/* features*/
+
+* {
+	font-family: Montserrat;
+}
+.features {
+	background: rgba(38, 38, 38, 0.05);
+	display: flex;
+	padding: 120px 100px;
+	flex-wrap: wrap;
+  margin-top: 127px;
+  margin-bottom: 96px;
+}
+.features > div {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex: 0 50%;
+}
+.features h3 {
+	color: #00539f;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+	text-transform: uppercase;
+}
+.features p {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+	color: rgba(0, 0, 0, 0.5);
+}
+.right-align {
+	text-align: right;
+}
+.left-align {
+	text-align: left;
+}
+.icon {
+	align-self: center;
+	padding: 0px 20px;
+}
+.feature-icon {
+	background-color: rgba(26, 26, 26, 0.05);
+	border-radius: 100%;
+	font-size: 45px;
+  width: 100px;
+  height: 100px;
+	color: #00539f;
+}
+.fa-signal-alt-3{
+padding-left: 25px;
+padding-top: 20px;
+}
+.fa-cog{
+  padding-left: 28px;
+  padding-top: 28px;
+}
+.fa-award{
+  padding-left: 34px;
+  padding-top: 28px;
+}
+.fa-tools{
+  padding-left: 25px;
+  padding-top: 30px;
+}
 
