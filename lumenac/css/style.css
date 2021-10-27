@@ -543,9 +543,7 @@
     margin-left: 100px;
     font-family: Montserrat;     
   }
-  .about-us .outliner-img{
-    position: relative;
-  }
+
   /*.about-us .outliner-img::before{
       position: absolute;
       content: '';
@@ -555,14 +553,27 @@
       width: 500px;
       height: 100%;
   }*/
+  .about-us .outliner-img{
+    overflow: hidden;
+  }
   .about-us .outliner-img img{
+      display: block;  
+      width: 600px;
       height: 400px;
+      object-fit: cover;
       float: right;
       margin-right: 70px;
       margin-top: 62px;
+      transition: transform .5s, filter .2s ease-in-out;
+      filter: grayscale(100%);
+      transform: scale(1.05);
   }
-
-
+  .about-us .outliner-img img:hover{
+    filter: grayscale(0);
+}
+.about-us .outliner-img:hover img{
+  transform: scale(1);
+}
 
   .heading3 h1{
     font-family: Montserrat;
