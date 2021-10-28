@@ -2,6 +2,10 @@
   font-family: Montserrat;
   src: url("fonts/Montserrat-Regular.ttf");
 }
+@font-face {
+  font-family: MontserratBold;
+  src: url("fonts/Montserrat-Bold.ttf");
+}
 .bg-light{
   background: #fff!important; 
 }
@@ -30,7 +34,7 @@
   text-align: center;
 }
 .top-nav .nav-link{
-  font-family: Montserrat;
+  font-family: MontserratBold;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -38,6 +42,7 @@
   letter-spacing: 0em;
   text-align: left;
   margin-right: 10px;  
+  color: #000!important;
 }
 .top-nav .nav-link:hover{
   color: #00539F;
