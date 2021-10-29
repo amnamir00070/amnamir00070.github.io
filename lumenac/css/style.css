@@ -171,13 +171,13 @@
   margin-left: 100px;
   margin-right: 100px;
 }
-.product-slider .products{
+.product-slider .products {
   padding-right: 0px;
   padding-left: 0px;
   margin: 0%;
 }
 @media (min-width: 1280px) {
-  .product-slider .products{
+  .product-slider .products {
     padding-right: 0px;
     padding-left: 0px;
     padding: 0%;
@@ -185,7 +185,7 @@
   }
 }
 @media (min-width: 1920px) {
-  .product-slider .products{
+  .product-slider .products {
     padding-right: 100px;
     padding-left: 100px;
   }
@@ -207,7 +207,7 @@
   height: 282px;
   width: 282px;
   margin-right: 25px;
-  margin-bottom: 30px;
+  margin-bottom: 80px;
 }
 
 .carousel-cell:hover {
@@ -271,10 +271,10 @@
 }
 
 .overlay-text {
-  color: white;
+  color: black;
   font-size: 20px;
   position: absolute;
-  top: 50%;
+  bottom: -90px;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -442,12 +442,12 @@ h6 {
   text-align: center;
   margin-top: 100px;
   margin-bottom: 0px;
-  text-transform: uppercase; 
+  text-transform: uppercase;
 }
 .heading h1 i {
   color: #00539f !important;
   font-weight: 900;
-  text-transform: uppercase; 
+  text-transform: uppercase;
 }
 .heading2 h1 {
   font-family: MontserratBold;
@@ -459,7 +459,7 @@ h6 {
   margin-top: 100px;
   margin-bottom: 100px;
   margin-left: 80px;
-  text-transform: uppercase; 
+  text-transform: uppercase;
 }
 .heading2 h1 i {
   color: #00539f !important;
@@ -637,21 +637,21 @@ h6 {
 }*/
 .about-us .contain2 {
   height: 284px !important;
-  width: 563px; 
+  width: 563px;
   position: relative;
   float: right;
   margin-right: 70px;
   border: 1px solid #000000;
   margin-top: 50px;
 }
-.about-us .contain2 img{
+.about-us .contain2 img {
   width: 100%;
   height: 100%;
   position: absolute;
   object-fit: cover;
   filter: grayscale(100%);
 }
-.about-us .contain2 img:hover{
+.about-us .contain2 img:hover {
   filter: grayscale(0);
 }
 .contain2 .contain-img2 {
@@ -685,74 +685,68 @@ h6 {
       height: 100%;
   }*/
 
-.heading3 h1 {
-  font-family: MontserratBold;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 44px;
-  letter-spacing: 0em;
-  margin-top: 100px;
-  margin-bottom: 80px;
-  margin-left: 80px;
-  text-transform: uppercase;
-}
-.heading3 h1 i {
-  color: #00539f !important;
-  font-weight: 900;
-}
-.heading3 a {
-  text-decoration: none;
-  float: right;
-  margin-right: 124px;
-  margin-top: 95px;
-  font-family: MontserratBold;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 22px;
-  letter-spacing: 0em;
-  text-transform: uppercase;
-}
-
-.button{
-  display: inline-block;
-  margin: 3px;
-  text-align: center;
-  text-transform: uppercase;
-  transition: 0.5s;
-  background-size: 200% auto;
-  color: white;
- /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
-  border-radius: 12px;
-  padding: 15px 45px;
-  background: linear-gradient(-45deg, #2c3e50, #3498db,#2c3e50, #3498db);
-	background-size: 400% 400%;
-	animation: gradient 1s ease infinite;
-}
-.button:hover{
-  color: white;
-}
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
-.button i{
-  font-weight: 900;
-}
-/*.btn-1 {
-  background-image: linear-gradient(to right, #0052A2 0%, #03407c 51%, #89b1d6 100%);
-  transform: scale(0.88);
-  /*background-image: linear-gradient(to right, #52A0FD 0%, #00e2fa 80%, #00e2fa 100%);*/
-}*/
-
+  .heading3 h1 {
+    font-family: MontserratBold;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    margin-left: 80px;
+    text-transform: uppercase;
+  }
+  .heading3 h1 i {
+    color: #00539f !important;
+    font-weight: 900;
+  }
+  .heading3 a {
+    text-decoration: none;
+    float: right;
+    margin-right: 124px;
+    margin-top: 95px;
+    font-family: MontserratBold;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+  }
+  
+  .button{
+    display: inline-block;
+    margin: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+   /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+    border-radius: 12px;
+    padding: 15px 45px;
+    background: linear-gradient(-45deg, #2c3e50, #3498db,#2c3e50, #3498db);
+    background-size: 400% 400%;
+    animation: gradient 1s ease infinite;
+  }
+  .button:hover{
+    color: white;
+  }
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .button i{
+    font-weight: 900;
+  }
 /* features*/
 
 * {
@@ -794,22 +788,6 @@ h6 {
 .left-align {
   text-align: left;
 }
-/*.icon {
-  margin: 10px 20px;
-  align-self: center;
-}
-.icon img{
-      background-color: rgba(26, 26, 26, 0.05);
-      height: 70px;
-      width: 70px;
-      justify-content: center;
-      text-align: center;
-      padding: 20px;
-      border-radius: 50%;
-}
-.feature-icon {
-
-}*/
 .icon{
   margin-left: 20px;
   margin-right: 20px;
@@ -833,4 +811,73 @@ h6 {
  width: 48px;
 }
 
+.slider-outline {
+  height: 284px !important;
+  width: 563px;
+  position: relative;
+  float: right;
+  margin-right: 70px;
+  border: 1px solid #000000;
+  margin-top: 50px;
+}
 
+@keyframes display {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  10% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  20% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  30% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+}
+
+.pic-ctn {
+  position: absolute;
+  height: 284px !important;
+  width: 563px;
+  transform: translate(-20px, -20px) !important;
+  filter: grayscale(100%);
+}
+
+.pic-ctn:hover {
+  filter: grayscale(0);
+}
+
+.pic {
+  height: 284px !important;
+  width: 563px;
+}
+
+.pic-ctn > img {
+  position: absolute;
+  top: 0;
+  /* left: calc(50% - 100px); */
+  opacity: 0;
+  animation: display 10s infinite;
+}
+
+img:nth-child(2) {
+  animation-delay: 2s;
+}
+img:nth-child(3) {
+  animation-delay: 4s;
+}
+img:nth-child(4) {
+  animation-delay: 6s;
+}
+img:nth-child(5) {
+  animation-delay: 8s;
+}

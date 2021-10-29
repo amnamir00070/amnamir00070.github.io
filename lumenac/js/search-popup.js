@@ -1,11 +1,13 @@
 function openSearch() {
-    document.getElementById("myOverlay").style.display = "block";
-    document.getElementById("bgFade").style.display = "none";    
+    document.getElementById("contact-form-content").style.display = "block";
+    document.getElementById("contact-form2").style.display = "block";
+    document.getElementById("contact-form").style.display = "none";    
   }
   
   function closeSearch() {
-    document.getElementById("myOverlay").style.display = "none";
-    document.getElementById("bgFade").style.display = "block";
+    document.getElementById("contact-form-content").style.display = "none";
+    document.getElementById("contact-form2").style.display = "none";
+    document.getElementById("contact-form").style.display = "block"; 
   }
 // menu
 function openMenu() {
