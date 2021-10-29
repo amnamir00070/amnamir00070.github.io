@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/flickity.min.css">
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" type="text/css" href="fontawesome-pro-5.14.0/fontawesome-pro-5.14.0-web/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/navbar.css">
+</head>
+
+
+<body>
+    
+<div class="top-bar">
+    <h2>Welcome to Lumenac, SA</h2>
+</div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light top-nav">
+    <a class="navbar-brand" href="#">
+        <img src="img/logo.png" height="35" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Projects</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Catelogue
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Company
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+        </ul>
+        <button type="button" class="btn btn-info">CONTACT US</button>
+        <div class="btn my-2 my-sm-0 search" onclick="openSearch()"><i class="fal fa-search"></i></div>
+        <!-- dark light modes-->
+    </div>
+</nav>
+
+<!-- Apes -->
+<section class="text-slider" id="ApeS">
+    <div class="container" id="text-slider">
+        <div id="carouselContent" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active p-4" id="apes17">
+                    <div class="grides">
+                        <div class="content">
+                            <h4>Mega</h4>
+                            <p class="text-left">El nuevo proyector led Mega fue diseñado para la iluminación de grandes áreas y espacios<br> deportivos gracias a su nueva óptica que incorpora lentes haciendo que la iluminación<br> llegue a más distancia. Cuenta con Leds de alta calidad<br> garantizando una eficiencia máxima. Posee un diseño innovador</p>
+                            <button type="button" class="btn btn-info">VIEW Product</button>
+                        </div>
+                        <div class="product">
+                            <img src="img/slide-1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item p-4" id="apes18">
+                    <div class="grides">
+                        <div class="content">
+                            <h4>Mega</h4>
+                            <p class="text-left">El nuevo proyector led Mega fue diseñado para la iluminación de grandes áreas y espacios<br> deportivos gracias a su nueva óptica que incorpora lentes haciendo que la iluminación<br> llegue a más distancia. Cuenta con Leds de alta calidad<br> garantizando una eficiencia máxima. Posee un diseño innovador</p>
+                            <button type="button" class="btn btn-info">VIEW Product</button>
+                        </div>
+                        <div class="product">
+                            <img src="img/slide-1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselContent" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselContent" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    </section>
+    <!-- Apes -->
+
+<section class="heading">
+    <h1><i class="fal fa-horizontal-rule"></i> New Products</h1>
+</section>
+<!-- Flickity HTML init -->
+<section class="product-slider">
+    <div class="carousel" data-flickity='{ "groupCells": true }'>
+        <div class="carousel-cell">
+            <img src="img/slide1.png" alt="">
+        </div>
+        <div class="carousel-cell">
+            <img src="img/slide2.png" alt="">
+        </div>
+        <div class="carousel-cell">
+            <img src="img/slide3.png" alt="">
+        </div>
+        <div class="carousel-cell">
+            <img src="img/slide4.png" alt="">
+        </div>
+        <div class="carousel-cell">
+            <img src="img/slide5.png" alt="">
+        </div>
+        <div class="carousel-cell">
+            <img src="img/slide1.png" alt="">
+        </div>
+        <div class="carousel-cell">
+            <img src="img/slide2.png" alt="">
+        </div>
+        <div class="carousel-cell">
+            <img src="img/slide3.png" alt="">
+        </div>
+        <div class="carousel-cell">
+            <img src="img/slide4.png" alt="">
+        </div>
+        <div class="carousel-cell">
+            <img src="img/slide5.png" alt="">
+        </div>
+    </div>
+</section>
+  <section class="heading2">
+    <h1><i class="fal fa-horizontal-rule"></i> Categories</h1>
+</section>
+  <div class="categories">
+      <img src="img/cate1.png" alt="">
+      <img src="img/cate1.png" alt="">
+      <img src="img/cate1.png" alt="">
+      <img src="img/cate1.png" alt="">
+      <img src="img/cate1.png" alt="">
+      <img src="img/cate1.png" alt="">
+      <img src="img/cate1.png" alt="">
+      <img src="img/cate1.png" alt="">
+  </div>
+  <section class="heading">
+    <h1><i class="fal fa-horizontal-rule"></i> New Products</h1>
+</section>
+
+<!-- Services -->
+   <section class="content-section text-white text-center" id="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 mb-5 mb-lg-0">
+          <span class="service-icon rounded-circle mx-auto mb-3">
+            <i class="fad fa-users-class"></i>
+          </span>
+        </div>
+        <div class="col-lg-6 col-md-6 mb-5 mb-lg-0">
+          <span class="service-icon rounded-circle mx-auto mb-3">
+            <i class="fad fa-users-class"></i>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="heading">
+    <h1><i class="fal fa-horizontal-rule"></i> Categories</h1>
+</section>
+
+  <div class="projects">
+      <img src="img/project1.png" alt="">
+      <img src="img/project2.png" alt="">
+      <img src="img/project1.png" alt="">
+      <img src="img/project2.png" alt="">
+      <img src="img/project1.png" alt="">
+  </div>
+  <br><br>
+ <center class="centeral-btn">
+    <button type="button" class="btn btn-info">CONTACT US</button>
+ </center>
+ <br><br>
+<section class="contact-us">
+<div class="container-fluid">
+<div class="row">
+    <div class="col-md-8 contact-text">
+        <h2>Contact Us</h2>
+        <p>Do you need help with some of our products? Feel free to write to us and an<br> advisor will contact you soon!</p>
+    </div>
+    <div class="col-md-4 contact-button">
+        <button type="button" class="btn btn-info"><i class="fal fa-phone-alt"></i> 4709-3300</button>
+    </div>
+</div>
+</div>
+</section>
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 footer-info">
+                <img class="img-fluid" src="img/logo.png" alt="">
+                <p>Lumenac has been present for years among the leading companies in the lighting market. For 37 years, it has produced and manufactured in Argentina a wide range of products for industrial, commercial and residential lighting.
+                <br><br><br>
+                <i class="fal fa-map-marker-alt"></i>&nbsp; William Morris 567. Villa Martelli. Buenos Aires
+                <br><br>
+                <i class="fal fa-phone-alt"></i>&nbsp; 4709-3300
+                <br><br>
+                <i class="fal fa-envelope"></i>&nbsp; SALES@LUMENAC.COM.AR
+                </p>
+
+          </div>
+          <div class="col-md-2 footer-links">
+                <h4>NAVIGATE</h4>
+                 <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">PROJECT</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                 </ul>
+            </div>
+              <div class="col-md-2 footer-links">
+                <h4>CATALOGUE</h4>
+                 <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">PROJECT</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                 </ul>
+              </div>
+              <div class="col-md-2 footer-links">
+                <ul>
+                    <li><a href="summit-on-soft-skills.html">Summit on Soft Skills 2021</a></li>
+                    <li><a href="Elektron Magazine.html">Elektron Magazine</a></li>
+                    <li><a href="#ApeS">Apes 2020 Coming Soon</a></li>
+                 </ul>
+              </div>
+        </div>
+      </div>
+    </div> 
+        <div class="container footer-end">
+          <div class="copyright">
+            &copy; Copyright 2021-Planlab Solutions-All Rights Reserved 
+          </div>
+        </div> 
+  </footer>
+
+
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+
+    <script src="js/scripts.js"></script>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!-- Font Awesome 5 links-->
+    <script src="https://kit.fontawesome.com/fddf5c0916.js" crossorigin="anonymous"></script>
+    <script src="js/search-popup.js"></script>
+    <script src="js/modes.js"></script>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+
+    <script src="js/flickity.pkgd.min.js" ></script>
+</body>
+
+</html>

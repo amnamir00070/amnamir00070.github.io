@@ -1,0 +1,66 @@
+@font-face {
+  font-family: Montserrat;
+  src: url("fonts/Montserrat-Regular.ttf");
+}
+.bg-light{
+  background: #fff!important; 
+}
+.top-nav{
+  height: 144px;
+  border-radius: 0px;
+  background: #fff;
+
+}
+.top-nav .navbar-brand img{
+  height: 64px;
+  margin-left: 20px;
+}
+#navbarNav .btn-info{
+  height: 48px;
+  width: 192px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.top-nav .nav-link{
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-right: 10px;  
+}
+.top-nav .nav-link:hover{
+  color: #00539F;
+  border-bottom: 2px solid #00539F;
+}
+.top-nav .dropdown-menu{
+  background: #fff!important;
+  border-radius: 0%;
+}
+.top-nav .search{
+  font-size: 24px;
+  margin-left: 10px;
+  margin-right: 50px;
+}
+@media (min-width: 1280px) {
+  .top-nav .navbar-brand img{
+    margin-left: 100px;
+  }
+  .top-nav .nav-link{
+    margin-right: 60px; 
+  }
+  .top-nav .search{
+    margin-left: 40px;
+    margin-right: 100px;
+  }
+}
