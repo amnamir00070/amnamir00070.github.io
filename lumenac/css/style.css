@@ -703,10 +703,9 @@ h6 {
 }
 .heading3 a {
   text-decoration: none;
-  color: #e50000;
   float: right;
   margin-right: 124px;
-  margin-top: 125px;
+  margin-top: 95px;
   font-family: MontserratBold;
   font-size: 18px;
   font-style: normal;
@@ -715,6 +714,44 @@ h6 {
   letter-spacing: 0em;
   text-transform: uppercase;
 }
+
+.button{
+  display: inline-block;
+  margin: 3px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+ /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+  border-radius: 12px;
+  padding: 15px 45px;
+  background: linear-gradient(-45deg, #2c3e50, #3498db,#2c3e50, #3498db);
+	background-size: 400% 400%;
+	animation: gradient 1s ease infinite;
+}
+.button:hover{
+  color: white;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.button i{
+  font-weight: 900;
+}
+/*.btn-1 {
+  background-image: linear-gradient(to right, #0052A2 0%, #03407c 51%, #89b1d6 100%);
+  transform: scale(0.88);
+  /*background-image: linear-gradient(to right, #52A0FD 0%, #00e2fa 80%, #00e2fa 100%);*/
+}*/
 
 /* features*/
 
@@ -757,32 +794,43 @@ h6 {
 .left-align {
   text-align: left;
 }
-.icon {
+/*.icon {
+  margin: 10px 20px;
   align-self: center;
-  padding: 0px 20px;
+}
+.icon img{
+      background-color: rgba(26, 26, 26, 0.05);
+      height: 70px;
+      width: 70px;
+      justify-content: center;
+      text-align: center;
+      padding: 20px;
+      border-radius: 50%;
 }
 .feature-icon {
+
+}*/
+.icon{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+.icon button{
+  height: 128px;
+  width: 128px;
+  outline: none;
+  border: none;
+  padding: 25px;
   background-color: rgba(26, 26, 26, 0.05);
-  border-radius: 100%;
-  font-size: 45px;
-  width: 100px;
-  height: 100px;
-  color: #00539f;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  cursor:default;
 }
-.fa-signal-alt-3 {
-  padding-left: 25px;
-  padding-top: 20px;
+.icon button img{
+ height: 48px;
+ width: 48px;
 }
-.fa-cog {
-  padding-left: 28px;
-  padding-top: 28px;
-}
-.fa-award {
-  padding-left: 34px;
-  padding-top: 28px;
-}
-.fa-tools {
-  padding-left: 25px;
-  padding-top: 30px;
-}
+
 
