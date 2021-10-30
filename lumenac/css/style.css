@@ -261,14 +261,16 @@
   width: 100%;
   opacity: 0;
   transition: 0.5s ease;
-  background-color: #1a1a1abf;
 }
 
-.carousel-cell:hover .overlay-content {
+.carousel-cell .overlay-content {
   opacity: 1;
 }
 
-.overlay-text {
+.carousel-cell:hover .overlay-content {
+  background-color: #1a1a1abf;
+}
+.carousel-cell .overlay-content .overlay-text {
   color: black;
   font-size: 20px;
   position: absolute;
