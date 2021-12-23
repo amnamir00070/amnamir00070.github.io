@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" type="text/css" href="fontawesome-pro-5.14.0/fontawesome-pro-5.14.0-web/css/all.css">
+    <link rel="stylesheet" type="text/css" href="css/navbar.css">
+    <link rel="stylesheet" type="text/css" href="css/body.css">
+    <link rel="stylesheet" type="text/css" href="css/cards.css">
+    <link rel="stylesheet" href="css/main-page.css">
+    <link rel="stylesheet" href="css/video.css">
+    <link id="mystylesheet" rel="stylesheet" type="text/css" href="light.css">
+</head>
+
+<body class="background">
+    <!-- desktop version -->
+    <div class="main-container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light top-nav">
+                <a class="navbar-brand" href="#"><img src="img/logo.png" height="35" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Get a demo</a>
+                        </li>
+                      <div class="btn my-2 my-sm-0 search" onclick="openSearch()"><i class="fad fa-bell"><span class="badge">3</span></i></div>
+                        
+                      <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fad fa-sign-in"></i> LOGIN</a>
+                      </li>
+                    </ul>
+            <!-- dark light modes-->
+            <div class="modes">
+                <button type="button" class="btn btn-light" onclick="swapStyle('dark.css')"><i class="fad fa-sun"></i></button>
+                <button type="button" class="btn btn-dark" onclick="swapStyle('light.css')"><i class="fad fa-moon"></i></button>
+            </div>
+                </div>
+            </nav>
+
+<div class="jumbotron big-banner">
+    <div class="container">
+        <h2>Get it constructed in front of you!</h2>
+        <br>
+        <button type="button" class="btn btn-outline-secondary btn-lg">Learn More</button>
+    </div>
+</div>
+<div class="jumbotron about-us">
+<center>
+    <h2>Our Services</h2>
+    <br>
+</center>
+    <div class="container">
+        <div class="card-deck">
+            <div class="card text-center">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+
+              <div class="card text-center">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+
+              <div class="card text-center">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+
+              <div class="card text-center">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
+
+        <div class="main-content">
+        <div class="main-grid">
+            <div class="main-col">
+                <!--<div class="mob-video-overlay">
+                    <video class="mob-clip" muted loop>
+                        <source src="img/Countdown.mp4" type="video/mp4" />
+                    </video>
+                  <div class="playpause"></div>
+                </div>-->
+                <div class="heading-1">
+                  <h2><i class="fad fa-record-vinyl live-dot"></i> Live Stream</h2>
+                </div>
+                <div class="mob-video-overlay">
+                    <img src="{% url 'livecam_feed' %}" class="live-video" alt="" srcset="">
+                  <div class="playpause"></div>
+                </div>
+                <br><br><br>
+                <a class="btn btn-danger btn-lg btn-block" href="{% url 'next_page' %}" role="button">NEXT PAGE</a>
+            </div>
+            <div class="sidebar">
+              <div class="heading-1">
+                <h2><i class="fad fa-record-vinyl"></i> Video Parts</h2>
+              </div>
+                <div class="video-1">
+                    <div class="video-overlay">
+                        <video class="clip" muted>
+                            <source src="img/Countdown.mp4" type="video/mp4" />
+                        </video>
+                      <div class="playpause"></div>
+                    </div>
+                </div>
+                <div class="video-2">
+                    <div class="video-overlay">
+                        <video class="clip" muted>
+                            <source src="img/Countdown.mp4" type="video/mp4" />
+                        </video>
+                      <div class="playpause"></div>
+                    </div>
+                </div>
+                <div class="video-3">
+                    <div class="video-overlay">
+                        <video class="clip" muted>
+                            <source src="img/Countdown.mp4" type="video/mp4" />
+                        </video>
+                      <div class="playpause"></div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <!--<div class="more-videos">
+            <div class="more-clips">
+                <div class="card-deck">
+                    <div class="card">
+                        <div class="video-overlay">
+                            <video class="clip" muted>
+                                <source src="img/Countdown.mp4" type="video/mp4" />
+                            </video>
+                          <div class="playpause"></div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="video-overlay">
+                            <video class="clip" muted>
+                                <source src="img/Countdown.mp4" type="video/mp4" />
+                            </video>
+                          <div class="playpause"></div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="video-overlay">
+                            <video class="clip" muted>
+                                <source src="img/Countdown.mp4" type="video/mp4" />
+                            </video>
+                          <div class="playpause"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>-->
+
+        </div>
+
+
+
+    </div>
+    <!--large screens end here-->
+</div>
+
+    <!--Search Box Pop Up-->
+    <div id="myOverlay" class="overlay">
+        <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+        <div class="overlay-content">
+            <div class="container">
+                <div class="row notification">
+                    <div class="col-12">27 Oct. 2021 | Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!--mobile version-->
+
+    <div class="main-container-mob">
+        <!--navbar with menus menus-->
+                <!--Navbar-->
+                <nav class="navbar navbar-expand-lg navbar-light bg-light top-nav" style="width:100%">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/logo.png" height="35" alt="">
+                    </a>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <div class="search" onclick="openSearch()"><i class="fal fa-search"></i></div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="modes">
+                                <button type="button" class="btn btn-light" onclick="swapStyle('dark.css')"><i class="fad fa-sun"></i></button>
+                                <button type="button" class="btn btn-dark" onclick="swapStyle('light.css')"><i class="fad fa-moon"></i></button>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <button class="list-menu" id="menuBars" onclick="openMenu()"><i class="fal fa-bars"></i></button>
+                            <button class="list-menu" id="closeCross" onclick="closeMenu()"><i class="fal fa-window-close"></i></button>
+                        </li>
+                    </ul>
+                </nav>
+<div class="menus" id="menus">
+    <div class="menu1"><a href="#">HTML</a></div>
+    <div class="menu2"><a href="#">CSS</a></div>
+</div>
+
+
+        <div class="mob-body">
+
+
+
+
+
+
+        </div>
+    </div>
+    <!--mobile ends here-->
+
+<!-- Back to top button -->
+<a id="button"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+    <div class="footer-container">
+      <div class="left-col">
+        <img src="logo.png" alt="" class="logo">
+        <div class="social-media">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <p class="rights-text">© 2020 Created By DarkCode All Rights Reserved.</p>
+      </div>
+
+      <div class="right-col">
+        <h1>Our Newsletter</h1>
+        <div class="border"></div>
+        <p>Enter Your Email to get our news and updates.</p>
+        <form action="" class="newsletter-form">
+          <input type="text" class="txtb" placeholder="Enter Your Email">
+          <input type="submit" class="btn" value="submit">
+        </form>
+      </div>
+    </div>
+  </footer>
+    <!-- Bootstrap core JavaScript -->
+
+
+
+
+
+
+
+
+
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+
+    <script src="js/scripts.js"></script>
+
+    <script src="js/play-pause.js"></script>
+    <script src="js/hover.js"></script>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!-- Font Awesome 5 links-->
+    <script src="https://kit.fontawesome.com/fddf5c0916.js" crossorigin="anonymous"></script>
+    <script src="js/search-popup.js"></script>
+    <script src="js/modes.js"></script>
+</body>
+
+</html>

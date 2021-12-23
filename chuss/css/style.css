@@ -1,0 +1,140 @@
+/* Mixins */
+
+
+/* bg shortcodes */
+
+.bg-gradient1 span,
+.bg-gradient1:before {
+    background: #52A0FD;
+    background: linear-gradient(to right, #52A0FD 0%, #00e2fa 80%, #00e2fa 100%);
+}
+
+
+/* General */
+
+.wrapper {
+    margin-top: 1px;
+    margin-bottom: 17px;
+    text-align: center;
+    transform-style: perserve-3d;
+    perspecive: 500px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+}
+
+
+/* fancy Button */
+
+.fancy-button {
+    display: inline-block;
+    margin: 3px;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #ffffff;
+    position: relative;
+}
+
+.fancy-button:before {
+    content: "";
+    display: inline-block;
+    height: 15px;
+    position: absolute;
+    bottom: -5px;
+    left: 20px;
+    right: 20px;
+    z-index: -1;
+    border-radius: 30em;
+    filter: blur(20px) brightness(0.95);
+    transform-style: preserve-3d;
+    transition: all 0.5s ease-out;
+}
+
+.fancy-button i {
+    margin-top: -1px;
+    margin-right: 20px;
+    font-size: 1.265em;
+    vertical-align: middle;
+}
+
+.fancy-button span {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 50em;
+    position: relative;
+    z-index: 2;
+    will-change: transform, filter;
+    transform-style: preserve-3d;
+    transition-property: color;
+    transition: all 0.8s ease-out;
+}
+
+.fancy-button:focus,
+.fancy-button:active {
+    color: #ffffff;
+}
+
+.fancy-button:hover {
+    color: #ffffff;
+}
+.fancy-button span {
+    filter: brightness(1.05) contrast(1.05);
+    transform: scale(0.88);
+}
+.fancy-button:hover span {
+    /*filter: brightness(1.1) contrast(1.1);
+    transform: scale(1.01);*/
+    background: linear-gradient(to left, #52A0FD 0%, #00e2fa 70%, #00e2fa 100%);
+
+}
+
+/*.fancy-button:hover:before {
+    bottom: 0;
+    filter: blur(10px) brightness(0.95);
+}*/
+
+
+/*.fancy-button{
+  box-shadow: 0 0 50px #00e2fa;
+  border-radius: 30em;
+}*/
+
+
+
+
+
+
+.button{
+    display: inline-block;
+    margin: 3px;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+   /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+    border-radius: 25px;
+    padding: 10px 20px;
+    border-radius: 50em;
+}
+.button:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+}
+.btn-1 {
+    background-image: linear-gradient(to right, #52A0FD 0%, #00e2fa 51%, #52A0FD 100%);
+    transform: scale(0.88);
+    /*background-image: linear-gradient(to right, #52A0FD 0%, #00e2fa 80%, #00e2fa 100%);*/
+}

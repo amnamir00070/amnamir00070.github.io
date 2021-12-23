@@ -1,0 +1,236 @@
+@font-face {
+    font-family: Roboto;
+    src: url("fonts/Roboto-Light.ttf");
+}
+
+.article-content .card {
+    margin-bottom: 42px;
+    border-radius: 25px;
+    background: #fff!important;
+    box-shadow: rgb(100 100 111 / 20%) 2px 2px 29px 11px;
+    border: none;
+}
+
+.article-content .card .post-image {
+    height: 399px;
+    object-fit: cover;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.article-content .card .card-body {
+    padding: 0;
+    border: none!important;
+}
+.clip{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.desk-a {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0px 10px;
+}
+
+.desk-b {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#card-left {}
+
+#card-center {
+    text-align: center;
+}
+
+#card-right {
+    text-align: right;
+}
+
+.ad-1 {
+    height: 600px;
+}
+
+@media only screen and (min-width: 992px) {
+    .article-content .card {
+        width: 100%;
+    }
+    .article-content .card .post-image {
+        width: 100%;
+    }
+    .ad-1 {
+        width: 100%;
+        object-fit: cover;
+        margin-left: 38px;
+        float: right;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .article-content .card {
+        width: 730px;
+    }
+    .article-content .card .post-image {
+        width: 100%;
+    }
+    .sidebar a {
+        padding: 0;
+        margin: 0%;
+    }
+    .ad-1 {
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.ad-1:hover {
+    
+}
+
+#small-card {
+    border-radius: 25px;
+    margin: 1rem;
+    margin-bottom: 42px;
+    border: none;
+    background: none!important;
+    box-shadow: 0 5px 25px rgb(26 34 39 / 10%);
+}
+
+#small-card .post-image {
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+#small-card .mob-clip{
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+/*.add-part-mob {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.add-pic-mob {
+    border: 1px solid #000000;
+}
+
+.add-pic-mob:hover {
+    border: 1px solid #000000;
+}*/
+
+.post-header {
+    /*larger screens*/
+    width: 100%;
+    margin-top: 50px;
+}
+
+.post-text-mob {
+    margin-top: 20px;
+}
+
+.article-header {
+    font-family: Roboto;
+}
+
+.article-header .post-heading {
+    font-weight: 500;
+    font-size: 46px;
+    margin-bottom: 10px;
+}
+
+.article-header .post-date {
+    font-family: Roboto;
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    line-height: 16.41px;
+    font-style: normal;
+}
+
+.article-header .post-details {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.article-content .card .post-text {
+    padding: 0;
+    margin: 0;
+}
+
+.article-content .card .post-text:hover {
+    text-decoration: none;
+    color: #000000;
+}
+
+.article-content .card .post-text:hover {
+    text-decoration: none;
+    color: #000000;
+}
+
+.article-content .card .title {
+    font-size: 13px;
+    font-weight: 400;
+    color: #818181;
+    font-style: normal;
+    margin-top: 15px;
+}
+
+.article-content .card .further-details {
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    color: #000000;
+    margin-top: 1rem;
+}
+
+
+/* mobile version card */
+
+#small-card .title {
+    font-size: 10px;
+    font-weight: 300;
+    color: #818181;
+    font-style: normal;
+    margin-top: 10px;
+}
+
+#small-card .further-details {
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+    color: #000000;
+}
+
+.mob-a {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    padding-bottom: 0%;
+    margin-top: 10px;
+}
+
+.mob-b {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.bg-color {
+    background: #fff;
+}
+
+.hover-video {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #fff;
+    padding: 5px 10px;
+    background: #3aabf1;
+    background: linear-gradient( 225deg, #0c71b1 0, #3aabf0 75%);
+    transition: 0.3s;
+}

@@ -1,0 +1,317 @@
+@font-face {
+    font-family: Roboto;
+    src: url("fonts/Roboto-Light.ttf");
+}
+
+.background {
+    background: #F9FAFF;
+    font-family: Roboto;
+    padding: 0;
+    margin: 0;
+}
+
+.mob-body {
+    margin-top: 2rem;
+}
+
+.main-content {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+}
+
+.grid-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-col {
+    width: 730px;
+    margin-right: 38px;
+}
+
+.sidebar {
+    width: 300px;
+    height: 250px;
+    box-shadow: rgb(100 100 111 / 20%) 2px 2px 29px 11px;
+    border-radius: 25px;
+    background-color: #fafafa;
+}
+.sidebar ul{
+    margin: 0%;
+    padding: 0%;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.sidebar ul p{
+    margin: 0%;
+    padding: 0%;
+    font-size: 12px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    font-weight: 500;
+    color: #818181;
+    margin-bottom: 2px;
+}
+.sidebar ul li{
+    list-style: none;
+    font-size: 16px;
+    padding: 2px;
+    padding-left: 0%;
+    color: #000000;
+}
+.sidebar ul li a{
+    color: #000000;
+}
+.sidebar ul li:hover a{
+    color: #3aabf0!important;
+    text-decoration: none;
+}
+/* Sidebar mobile */
+.add-part-mob {
+    height: 250px;
+    box-shadow: rgb(100 100 111 / 20%) 2px 2px 29px 11px;
+    border-radius: 25px;
+    background-color: #fafafa;
+    margin: 1rem;
+}
+.add-part-mob ul{
+    margin: 0%;
+    padding: 0%;
+    margin-left: 25px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.add-part-mob ul p{
+    margin: 0%;
+    padding: 0%;
+    font-size: 12px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    font-weight: 500;
+    color: #818181;
+    margin-bottom: 2px;
+}
+.add-part-mob ul li{
+    list-style: none;
+    font-size: 16px;
+    padding: 2px;
+    padding-left: 0%;
+    color: #000000;
+}
+.add-part-mob ul li a{
+    color: #000000;
+}
+.add-part-mob ul li:hover a{
+    color: #3aabf0!important;
+    text-decoration: none;
+}
+/* Sidebar mobile */
+.main-content {
+    margin-top: 73px;
+}
+
+@media only screen and (min-width: 992px) {
+    .main-content {
+        margin-right: auto;
+        margin-left: auto;
+        padding: 0px 10px;
+        justify-content: center;
+    }
+    .main-col {
+        width: 100%;
+    }
+    .main-col {
+        width: 664px;
+    }
+    .sidebar {
+        width: 300px;
+        height: 250px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .main-content {
+        width: 1068px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 0%;
+    }
+    .main-col {
+        width: 730px;
+        margin-right: 38px;
+    }
+    .page-title {
+        font-size: 36px;
+        line-height: 42.19px;
+        color: #000000;
+        font-weight: 400;
+        font-family: Roboto;
+        font-style: normal;
+        margin-bottom: 31px;
+    }
+    .privacy-policy-text-container {
+        width: 730px;
+    }
+    .privacy-policy-text-container .policy-content {
+        font-size: 16px;
+        line-height: 18.75px;
+        color: #000000;
+        font-weight: 400;
+        font-family: Roboto;
+        font-style: normal;
+    }
+    .sidebar {
+        width: 300px;
+        height: 250px;
+    }
+    footer {
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+footer {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 14px;
+    margin-bottom: 30px;
+    margin-top: 37px;
+}
+
+footer span {
+    color: #000000;
+    height: 100%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14.06px;
+    /* identical to box height */
+    text-align: center;
+    font-family: Roboto;
+}
+
+footer .privacy-pages {
+    cursor: pointer;
+    color: #000000;
+}
+
+footer .privacy-pages:hover {
+    color: #3aabf0!important;
+    text-decoration: none;
+}
+.modes{
+    padding: 0%;
+    margin: 0%;
+    margin-left: 12px;
+}
+.modes button{
+    padding: 0;
+    margin: 0%;
+    height: 30px;
+    width: 30px;
+    font-size: 18px;
+    border-radius: 25px;
+}
+.modes .btn-light{
+    /*color: #f4db87;*/
+    font-size: 20px;
+    color: #f9d71c;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border: none;
+}
+.modes .btn-light:hover{
+    color: #000;
+    background-color: #fff;
+    border: none;
+}
+.modes .btn-dark{
+    font-size: 15px;
+    color: #FFD700;
+    background-color: #3c3d46;
+    box-shadow: 2px 2px 2px #888888;
+    border: none;
+}
+.modes .btn-dark:hover{
+    color: #fff;
+    border: none;
+}
+/* mobile modes */
+.mob-modes{
+    padding: 0%;
+    margin: 0%;
+}
+.mob-modes button{
+    padding: 0;
+    margin: 0%;
+    height: 30px;
+    width: 30px;
+    font-size: 18px;
+    border-radius: 25px;
+}
+.mob-modes .btn-light{
+    color: #f9d71c;
+    font-size: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border: none;
+}
+.mob-modes .btn-light:hover{
+    color: #000;
+    background-color: #fff;
+    border: none;
+}
+.mob-modes .btn-dark{
+    font-size: 15px;
+    color: #FFD700;
+    box-shadow: 2px 2px 2px #888888;
+    border: none;
+}
+.mob-modes .btn-dark:hover{
+    color: #fff;
+    border: none;
+}
+/* back to top button */
+#button {
+    display: inline-block;
+    background: linear-gradient(to right, #52A0FD 0%, #00e2fa 80%, #00e2fa 100%);
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 25px;
+    position: fixed;
+    bottom: 80px;
+    right: 30px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  @media (min-width:992px) {
+    #button{
+        bottom: 30px;
+    }
+    }
+  #button::after {
+    content: "\f106";
+    font-family: FontAwesome;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    padding: 8px;
+    color: #fff;
+  }
+  #button:hover {
+    cursor: pointer;
+    background-color: #333;
+  }
+  #button:active {
+    background-color: #555;
+  }
+  #button.show {
+    opacity: 1;
+    visibility: visible;
+  }
+  

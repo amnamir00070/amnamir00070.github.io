@@ -1,0 +1,145 @@
+@font-face {
+    font-family: Roboto;
+    src: url("fonts/Roboto-Light.ttf");
+}
+
+.main-col .card {
+    margin-bottom: 42px;
+    border-radius: 10px;
+    box-shadow: rgb(100 100 111 / 20%) 2px 2px 29px 11px;
+    border: 0!important;
+}
+
+.main-col .card .card-body {
+    border: none;
+}
+
+.main-col .card .post-image {
+    border: none;
+    object-fit: cover;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.ad-1 {
+    height: 600px;
+}
+
+@media only screen and (min-width: 992px) {
+    .main-col .card {
+        width: 100%;
+    }
+    .main-col .card .post-image {
+        width: 100%;
+    }
+    .ad-1 {
+        width: 100%;
+        object-fit: cover;
+        margin-left: 38px;
+        float: right;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .main-col .card {
+        width: 730px;
+    }
+    .main-col .card .post-image {
+        width: 100%;
+    }
+    .ad-1 {
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.ad-1:hover {
+    
+}
+
+#small-card {
+    border-radius: 10px;
+    margin: 1rem;
+    margin-bottom: 42px;
+    border: none;
+    box-shadow: 0 5px 25px rgb(26 34 39 / 10%);
+}
+
+#small-card .image-link {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+}
+#small-card .post-image {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+}
+
+/*.add-part-mob {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.add-pic-mob {
+    border: 1px solid #000000;
+}
+
+.add-pic-mob:hover {
+    border: 1px solid #000000;
+}*/
+
+.post .post-text {
+    text-decoration: none;
+    color: #000000;
+}
+
+.post .post-text:hover {
+    text-decoration: none;
+    color: #000000;
+}
+
+.post .post-title {
+    line-height: 29.3px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    margin-bottom: 23px;
+    font-style: normal;
+}
+
+.post .post-title:hover {
+    color: #3aabf0;
+}
+
+.post .post-snippet {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 18.75px;
+    margin-bottom: 23px;
+    font-style: normal;
+    color: #707070;
+}
+
+
+/*.post .post-snippet:hover {
+    text-decoration: underline 2px;
+    text-decoration-color: #3da9f0;
+}*/
+
+.post .post-date {
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 16.41px;
+    margin-bottom: 23px;
+    font-style: normal;
+    color: #707070;
+}
+
+
+/*.post .post-date:hover {
+    text-decoration: underline 2px;
+    text-decoration-color: #3da9f0;
+}*/

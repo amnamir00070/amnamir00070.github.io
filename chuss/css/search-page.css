@@ -1,0 +1,146 @@
+        @font-face {
+            font-family: Roboto;
+            src: url("fonts/Roboto-Light.ttf");
+        }
+        
+        .main-content {
+            margin-top: 33px;
+        }
+        
+        .Search {
+            height: 75px;
+            width: 300px;
+            margin-left: auto;
+            margin-right: auto;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin-top: 53px;
+            margin-bottom: 35px;
+        }
+        
+        .Search .upper-line {
+            margin-top: 0;
+            font-size: 14px;
+            line-height: 16.41px;
+            font-family: Roboto;
+            font-weight: 300;
+            font-style: normal;
+            color: #777777;
+        }
+        
+        .Search .search-text {
+            border-bottom: 1px solid #E1E1E1;
+        }
+        
+
+        .textbox{
+            width: 100%;
+            overflow: hidden;
+            border-bottom: 1px solid #E1E1E1;
+          }
+          .textbox input{
+            border: none;
+            outline: none;
+            background: none;
+            color: #000000;
+            width: 80%;
+            float: left;
+            margin: 0 10px;
+          }
+          ::placeholder {
+            color: #000000;
+            opacity: 1; /* Firefox */
+          }
+          
+          :-ms-input-placeholder { /* Internet Explorer 10-11 */
+           color: #000000;
+          }
+          
+          ::-ms-input-placeholder { /* Microsoft Edge */
+           color: #000000;
+          }
+          .textbox .bttn {
+              border: none;
+              background: none;
+              cursor: pointer;
+              margin: 0;
+              padding: 0;
+              margin-bottom: 0;
+          }
+          .textbox .bttn i{
+            color: #000000;
+            font-size: 15px;
+            font-weight: 400;
+          }
+          @media (min-width:992px) {
+            .Search {
+                height: 75px;
+                width: 600px;
+                margin-left: auto;
+                margin-right: auto;
+                justify-content: center;
+                text-align: center;
+                align-items: center;
+                margin-top: 53px;
+                margin-bottom: 75px;
+            }
+            .Search .upper-line {
+                margin-top: 0;
+                font-size: 14px;
+                line-height: 16.41px;
+                font-family: Roboto;
+                font-weight: 300;
+                font-style: normal;
+                color: #777777;
+            }
+            .textbox{
+                width: 100%;
+                overflow: hidden;
+                border-bottom: 1px solid #E1E1E1;
+              }
+              .textbox input{
+                border: none;
+                outline: none;
+                background: none;
+                color: #000000;
+                width: 80%;
+                float: left;
+                margin: 0 10px;
+              }
+              .textbox input[type="text"]{
+                font-size: 32px;
+                padding: 0%;
+              }
+              ::placeholder {
+                color: #000000;
+                opacity: 1; /* Firefox */
+              }
+              
+              :-ms-input-placeholder { /* Internet Explorer 10-11 */
+               color: #000000;
+              }
+              
+              ::-ms-input-placeholder { /* Microsoft Edge */
+               color: #000000;
+              }
+              .textbox .bttn {
+                  border: none;
+                  cursor: pointer;
+                  margin: 0;
+                  padding: 0;
+                  outline: none;
+                  margin-top: 10px;
+              }
+              .textbox .bttn:active{
+                outline: none!important;
+              }
+              .textbox .bttn:focus{
+                outline: none!important;
+              }
+              .textbox .bttn i{
+                color: #000000;
+                font-size: 25px;
+                font-weight: 400;
+              }
+        }
