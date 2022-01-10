@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+     <title>Zavirite</title>
+<!--
+
+DIGITAL TREND
+
+https://templatemo.com/tm-538-digital-trend
+
+-->
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="description" content="">
+     <meta name="keywords" content="">
+     <meta name="author" content="">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/font-awesome.min.css">
+     <link rel="stylesheet" href="css/aos.css">
+     <link rel="stylesheet" href="css/owl.carousel.min.css">
+     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+     <link rel="stylesheet" type="text/css" href="fontawesome-pro-5.14.0/fontawesome-pro-5.14.0-web/css/all.css">
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+     <link rel="stylesheet" href="css/main.css">
+     <!-- MAIN CSS -->
+     <link rel="stylesheet" href="css/templatemo-digital-trend.css">
+     <link rel="stylesheet" href="css/flickity.min.css">
+     <link rel="stylesheet" href="css/chapters_members.css">
+     <link rel="stylesheet" href="css/newsletter.css">
+     <link rel="stylesheet" href="css/navbar.css">
+     <link rel="stylesheet" href="css/video.css">
+</head>
+<body>
+
+     <!-- MENU BAR -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+               <i class="fal fa-eye-evil"></i>
+               Zavirite
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                         <a href="#bg-animation" class="nav-link smoothScroll"><i class="fas fa-home-lg-alt"></i> Home</a>
+                     </li>
+                     <li class="nav-item">
+                      <div class="btn my-2 my-sm-0 search" onclick="openSearch()"><i class="fad fa-bell"><span class="badge">3</span></i></div>
+                     </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link contact">Sign Up/Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!--Live Video-->
+<section class="live-stream">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9 col-12 main-col">
+        <div class="heading-1">
+          <h2><i class="fad fa-record-vinyl live-dot"></i> Live Stream</h2>
+        </div>
+            <!--<img src="{% url 'livecam_feed' %}" class="live-video" alt="" srcset="">-->
+            <img src="images/blog-sidebar-image.jpg" alt="" srcset="">
+        <br><br><br>
+        <a class="btn btn-danger btn-lg btn-block" href="{% url 'next_page' %}" role="button">Next page</a>
+      </div>
+      <div class="col-md-3 col-12 sidebar">
+        <div class="heading-1">
+          <h2><i class="fad fa-record-vinyl"></i> Events</h2>
+        </div>
+          <div class="video-1">
+              <div class="video-overlay">
+                  <video class="clip" muted>
+                      <source src="images/Countdown.mp4" type="video/mp4" />
+                  </video>
+                <div class="playpause"></div>
+              </div>
+          </div>
+          <div class="video-1">
+              <div class="video-overlay">
+                  <video class="clip" muted>
+                      <source src="images/Countdown.mp4" type="video/mp4" />
+                  </video>
+                <div class="playpause"></div>
+              </div>
+          </div>
+          <div class="video-1">
+              <div class="video-overlay">
+                  <video class="clip" muted>
+                      <source src="images/Countdown.mp4" type="video/mp4" />
+                  </video>
+                <div class="playpause"></div>
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+    <!--Search Box Pop Up-->
+    <div id="myOverlay" class="overlay">
+      <span class="closebtn" onclick="closeSearch()" title="Close Overlay"><i class="fad fa-times-octagon"></i></span>
+      <div class="overlay-content">
+          <div class="container">
+              <div class="row notification">
+                  <div class="col-12">27 Oct. 2021 | Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+              </div>
+
+          </div>
+      </div>
+  </div>
+<!--footer-->
+<footer class="site-footer" id="contact">
+     <div class="container">
+          <div class="row">
+               <div class="col-lg-3 col-md-6 col-12" data-aos="fade-up">
+                    <h4 class="my-4">Main Menu</h4>        
+                    <p class="mb-1">
+                      <a href="#">
+                        <i class="fas fa-home-lg-alt mr-2 footer-icon"></i> Home
+                      </a>
+                      <br>
+                      <a href="#">
+                        <i class="fad fa-user-friends mr-2 footer-icon"></i> Our Team
+                       </a>
+                       <br>
+                       <a href="#">
+                        <i class="fas fa-scroll-old mr-2 footer-icon"></i> About us
+                        </a>
+                      <br>
+                      <a href="#">
+                         <i class="fad fa-desktop mr-2 footer-icon"></i> Get a demo
+                       </a>
+                    </p>
+               </div>
+               <div class="col-lg-3 col-md-6 col-12" data-aos="fade-up" data-aos-delay="200">
+                    <h4 class="my-4">News and Resources</h4>
+
+                    <p class="mb-1">
+                         <a href="#">
+                              <i class="fas fa-splotch mr-2 footer-icon"></i> Blog
+                         </a>
+                    </p>
+               </div>
+               <div class="col-lg-3 col-md-6 col-12" data-aos="fade-up" data-aos-delay="300">
+                    <h4 class="my-4">Contact Info</h4>
+
+                    <p class="mb-1">
+                      <i class="fa fa-phone mr-2 footer-icon"></i> 
+                      +99 080 070 4224
+                    </p>
+        
+                    <p>
+                      <a href="#">
+                        <i class="fa fa-envelope mr-2 footer-icon"></i>
+                        hello@company.com
+                      </a>
+                    </p>
+               </div>
+               <div class="col-lg-3 col-md-6 col-12" data-aos="fade-up" data-aos-delay="400">
+                    <h4 class="my-4">Our Office</h4>
+
+                    <p class="mb-1">
+                      <i class="fa fa-home mr-2 footer-icon"></i> 
+                      Av. Lúcio Costa - Barra da Tijuca, Rio de Janeiro - RJ, Brazil
+                    </p>
+                    <div class="social-links">
+                         <a href="https://twitter.com/IEEEUETLahore" class="twitter"><i class="fab fa-twitter"></i></a>
+                         <a href=" https://www.facebook.com/ieeeuet/" class="twitter"><i class="fab fa-facebook-f"></i></a>
+                         <a href="https://www.instagram.com/ieeeuetlahore/" class="twitter"><i class="fab fa-instagram"></i></a>
+                         <a href="youtube.com/channel/UCrOtKM-JNFKCovCNYhAvYrg" class="twitter"><i class="fab fa-youtube"></i></a>
+                         <a href="https://www.linkedin.com/company/ieee-uet-lahore" class="twitter"><i class="fab fa-linkedin-in"></i></a>
+                       </div>
+               </div>
+          </div>
+     </div>
+</footer>
+<div class="footer-end">
+     <div class="container">
+          <div class="d-flex justify-content-center align-items-center">
+               <h2>
+                    © Copyright Zavirite. All Rights Reserved
+               </h2>
+          </div>
+     </div>
+</div>
+
+     <!-- SCRIPTS -->
+     <script src="js/jquery.min.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/aos.js"></script>
+     <script src="js/owl.carousel.min.js"></script>
+     <script src="js/smoothscroll.js"></script>
+     <script src="js/custom.js"></script>
+     <script src="js/flickity.pkgd.min.js"></script>
+     <script src="js/jquery-3.6.0.min.js"></script>
+
+     <script src="js/p5.min.js"></script>
+     <script src="js/vanta.topology.min.js"></script>
+     <script src="js/team.js"></script>
+     <script src="js/newsletter.js"></script>
+    <script src="js/hover.js"></script>
+    <script src="js/play-pause.js"></script>
+    <script src="js/search-popup.js"></script>
+</body>
+</html>

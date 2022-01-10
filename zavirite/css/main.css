@@ -11,7 +11,7 @@
 .btn-success{
   border-radius: 100px;
    padding: 0.6em 2em 0.8em 2em;
-   border: 2px solid #89964e;
+   border: 2px solid #89964e!important;
    background: #89964e!important;
    color: #fff;
    font-family: var(--font-bold-family);
@@ -40,7 +40,7 @@
   margin-right: 10px!important;
   border-radius: 5px;
   /*border-left: 2px solid #ececec;*/
-  border: 2px solid #909090;
+  border: 2px solid #ebebeb;
 
 }
 .carousel-cell img{
@@ -314,9 +314,58 @@ footer .social-links a:hover{
     grid-template-columns: 1fr;
   }
 }
-
-
-
+/* app */
+.live-video{
+  width: 100%;
+  border-radius: 15px;
+}
+.heading-1{
+  width: 100%;
+  height: 30px;
+}
+.heading-1 h2{
+  font-size: 15px;
+  font-weight: 500;
+  font-family: var(--font-bold-family);
+}
+.heading-1 h2 .live-dot{
+  color: #dc3545;
+}
+.live-stream{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.live-stream .main-col img{
+ width: 100%;
+}
+.live-stream .sidebar{
+  margin-top: 30px;
+}
+.live-stream .sidebar .video-1{
+  margin-bottom: 20px;
+}
+@media (min-width: 992px) {
+  .live-stream .sidebar{
+    margin-top: 0px;
+  }
+  .live-stream .sidebar .video-1{
+    margin-bottom: 10px;
+  }
+  
+}
+/* button*/
+.btn-danger{
+  background-color: #89964e;
+  border: 1px solid #89964e;
+  font-family: var(--font-bold-family);
+  text-transform: capitalize;
+}
+.btn-danger:hover{
+  background-color: none!important;
+  background: none!important;
+  border: 2px solid #89964e;
+  color: #89964e!important;
+}
 
 
 
