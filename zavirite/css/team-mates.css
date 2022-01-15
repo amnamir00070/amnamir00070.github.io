@@ -1,0 +1,41 @@
+.team-mates{
+  margin-bottom: 20px;
+  background-color: #909090;
+  padding-top: 20px;
+  padding-bottom: 20px!important;
+}
+.team-mates h1{
+  color: #fff;
+}
+.team-mates .container{
+  border-bottom: 1px solid #ececec;
+}
+.team-mates .container-1{
+  margin-top: 40px;
+  background-color: #f0f8ff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.team-mates .container-2{
+  background-color: #ececec;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.team-mates .container-3{
+  background-color: #f0f8ff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.team-mates .container-4{
+  background-color: #ececec;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.team-mates .container img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}

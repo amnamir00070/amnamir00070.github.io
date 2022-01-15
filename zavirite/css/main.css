@@ -367,22 +367,15 @@ footer .social-links a:hover{
   color: #89964e!important;
 }
 
-
-
-
-
-@import url('https://fonts.googleapis.com/css?family=Poppins|Ubuntu&display=swap');
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0
+.about-info .heading-about{
+  color: #666262!important;
+  font-weight: 700;
+  margin-bottom: -8px!important;
+  margin-top: 25px!important;
 }
 
-body {
-    background: #eee;
-    font-family: 'Ubuntu', sans-serif
-}
+
+
 
 .box {
     position: relative;
@@ -411,25 +404,25 @@ body {
 
 .our-services:hover h4,
 .our-services:hover p {
-    color: #fff
+    color: #000
 }
 
 .speedup:hover {
     box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
     cursor: pointer;
-    background-image: linear-gradient(-45deg, #fb0054 0%, #f55b2a 100%)
+    background-image: linear-gradient(-45deg, #89964e 0%, #f0f8ff 100%);
 }
 
 .settings:hover {
     box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
     cursor: pointer;
-    background-image: linear-gradient(-45deg, #34b5bf 0%, #210c59 100%)
+    background-image: linear-gradient(-45deg, #f0f8ff 0%, #89964e 100%)
 }
 
 .privacy:hover {
     box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
     cursor: pointer;
-    background-image: linear-gradient(-45deg, #3615e7 0%, #44a2f6 100%)
+    background-image: linear-gradient(-45deg, #89964e 0%, #f0f8ff 100%)
 }
 
 .backups:hover {
