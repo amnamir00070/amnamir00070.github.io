@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 
-     <title>Construction Site Surveillance System</title>
+     <title>Zavirite</title>
 <!--
 
 DIGITAL TREND
@@ -22,204 +22,247 @@ https://templatemo.com/tm-538-digital-trend
      <link rel="stylesheet" href="css/aos.css">
      <link rel="stylesheet" href="css/owl.carousel.min.css">
      <link rel="stylesheet" href="css/owl.theme.default.min.css">
-
+     <link rel="stylesheet" type="text/css" href="fontawesome-pro-5.14.0/fontawesome-pro-5.14.0-web/css/all.css">
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+     <link rel="stylesheet" href="css/main.css">
      <!-- MAIN CSS -->
      <link rel="stylesheet" href="css/templatemo-digital-trend.css">
-     <link rel="stylesheet" href="css/main.css">
+     <link rel="stylesheet" href="css/flickity.min.css">
+     <link rel="stylesheet" href="css/chapters_members.css">
+     <link rel="stylesheet" href="css/newsletter.css">
+     <link rel="stylesheet" href="css/video.css">
+     <link rel="stylesheet" href="css/navbar.css">
 </head>
 <body>
 
      <!-- MENU BAR -->
-     <nav class="navbar navbar-expand-lg">
-      <div class="container">
-          <a class="navbar-brand" href="index.html">
-             <i class="fal fa-eye-evil"></i>
-             Zavirite
-          </a>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+               <i class="fal fa-eye-evil"></i>
+               Zavirite
+            </a>
 
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-          <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ml-auto">
-                  <li class="nav-item">
-                       <a href="#bg-animation" class="nav-link smoothScroll">Home</a>
-                   </li>
-                  <li class="nav-item">
-                      <a href="index.html#about" class="nav-link smoothScroll">About us</a>
-                  </li>
-                  <li class="nav-item">
-                      <a href="index.html#features" class="nav-link smoothScroll">Features</a>
-                  </li>
-                  <li class="nav-item">
-                      <a href="team.html" class="nav-link">Our Team</a>
-                  </li>
-                  <li class="nav-item">
-                       <a href="index.html#contact" class="nav-link">Contact</a>
-                   </li>
-                   <li class="nav-item">
-                       <a href="demo.html" class="nav-link">Get a demo</a>
-                   </li>
-                  <li class="nav-item">
-                      <a href="signup.html" class="nav-link contact">Sign Up/Login</a>
-                  </li>
-              </ul>
-          </div>
-      </div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                         <a href="#bg-animation" class="nav-link smoothScroll"><i class="fas fa-home-lg-alt"></i> Home</a>
+                     </li>
+                     <li class="nav-item">
+                      <div class="btn my-2 my-sm-0 search" onclick="openSearch()"><i class="fad fa-bell"><span class="badge">3</span></i></div>
+                     </li>
+                    <li class="nav-item">
+                        <a href="signup.html" class="nav-link contact">Sign Up/Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!--Navbar end-->
+<!--sidebar started-->
+<div class="wrapper d-flex align-items-stretch">
+  <nav id="sidebar">
+    <div class="custom-menu">
+      <button type="button" id="sidebarCollapse" class="btn btn-primary">
+        <i class="fal fa-eye-evil"></i>
+        <span class="sr-only">Toggle Menu</span>
+      </button>
+    </div>
+    <h1><a href="demo.html" class="logo">Dashboard</a></h1>
+    <ul class="list-unstyled components mb-5">
+      <li class="active" onclick="openTab1()">
+        <a href="#"><span class="fa fa-home mr-3"></span> Homepage</a>
+      </li>
+      <li onclick="openTab2()">
+          <a href="#"><span class="fa fa-user mr-3"></span> Vehicle Entering</a>
+      </li>
+      <li onclick="openTab3()">
+        <a href="#"><span class="fa fa-sticky-note mr-3"></span> No of Labour</a>
+      </li>
+      <li onclick="openTab4()">
+        <a href="#"><span class="fa fa-sticky-note mr-3"></span>Statistics</a>
+      </li>
+    </ul>
+
   </nav>
 
-
-     <!-- PROJECT DETAIL -->
-     <section class="project-detail section-padding-half">
-          <div class="container">
-               <div class="row">
-
-                    <div class="col-lg-9 mx-auto col-md-10 col-12 mt-lg-5 text-center" data-aos="fade-up">
-
-                      <h4>Construction Site Surveillance System</h4>
-
-                      <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h1>
-                    </div>
-
-               </div>
+    <!-- Page Content  -->
+  <div id="content" class="p-4 p-md-5 pt-5">
+    <div id="tab1">
+      <h2 class="mb-4">Welcome Back!</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    <div id="tab2">
+      <h2 class="mb-4">Vehicle Entering</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col-8">
+            <div class="video-overlay">
+              <video class="clip" muted>
+                  <source src="images/video1.mp4" type="video/mp4" />
+              </video>
+            <div class="playpause"></div>
+            </div>
           </div>
-     </section>
+          <div class="col-2"></div>
+        </div>
+        <br>
+        <h4>Time of entery: 2:32pm<br>Time of exit: 2:53pm</h4>
 
-     <div class="full-image text-center" data-aos="zoom-in">
-       <img src="images/project/project-detail/interview-process.jpg" class="img-fluid" alt="interview process">
-     </div>
+      </div>
+    </div>
 
-     <!-- PROJECT DETAIL -->
-     <section class="project-detail section-padding">
-          <div class="container">
-               <div class="row">
-
-                  <div class="col-lg-6 col-md-6 col-12 mb-5">
-
-                      <img src="images/project/project-detail/personal-website.png" class="img-fluid" alt="personal website" data-aos="fade-up">
-                    </div>
-
-                    <div class="col-lg-5 col-md-6 mr-lg-auto mt-lg-5 col-12" data-aos="fade-up" data-aos-delay="200">
-
-                      <h2>Lorem ipsum dolor sit</h2>
-
-                      <p class="mt-3 mb-4">Nunc sapien nulla, interdum at diam non, aliquam vestibulum leo. Fusce laoreet malesuada ante, consectetur consequat.</p>
-
-                      <ul class="list-detail">
-                        <li><span>Curabitur commodo a sapien non</span></li>
-                        <li><span>Sed facilisis convallis turpis</span></li>
-                        <li><span>Quisque placerat augue neque</span></li>
-                        <li><span>Nullam fringilla arcu a tortor</span></li>
-                      </ul>
-                    </div>
-               </div>
-
-              <div class="col-lg-12 col-12">
-                <div class="embed-responsive embed-responsive-16by9 my-5 py-5" data-aos="fade-up">
-                    <iframe class="embed-responsive-item" width="800" height="450" src="https://www.youtube.com/embed/myVN26Vx4MU?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-              </div>
-
-              <div class="col-lg-9 mx-auto col-12" data-aos="fade-up">
-                <div class="client-info mt-lg-5 py-lg-5">
-                    <h3>Curabitur egestas mollis tellus sit amet porttitor. Sed leo nisl, posuere at molestie ac, suscipit auctor mauris. Etiam quis metus elementum, tempor risus vel.</h3>
-
-                    <div class="d-flex align-items-center mt-3">
-                      <img src="images/project/project-detail/male-avatar.png" class="img-fluid" alt="male avatar">
-
-                      <p>Angelo Sharp, Creative Director</p>
-                    </div>
-                </div>
-              </div>
+    <div id="tab3">
+      <h2 class="mb-4">No of Labour</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col-8">
+            <div class="video-overlay">
+              <video class="clip" muted>
+                  <source src="images/video-1.mp4" type="video/mp4" />
+              </video>
+            <div class="playpause"></div>
+            </div>
           </div>
-     </section>
-
-
-<!--footer-->
-<footer class="site-footer" id="contact">
-  <div class="container">
-       <div class="row">
-            <div class="col-lg-3 col-md-6 col-12" data-aos="fade-up">
-                 <h4 class="my-4">Main Menu</h4>        
-                 <p class="mb-1">
-                   <a href="#">
-                     <i class="fas fa-home-lg-alt mr-2 footer-icon"></i> Home
-                   </a>
-                   <br>
-                   <a href="#">
-                     <i class="fad fa-user-friends mr-2 footer-icon"></i> Our Team
-                    </a>
-                    <br>
-                    <a href="#">
-                     <i class="fas fa-scroll-old mr-2 footer-icon"></i> About us
-                     </a>
-                   <br>
-                   <a href="#">
-                      <i class="fad fa-desktop mr-2 footer-icon"></i> Get a demo
-                    </a>
-                 </p>
+          <div class="col-2"></div>
+        </div>
+        <br>
+        <h4>Time: 3:12pm<br>No. of labour: 1</h4>
+        <br>
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col-8">
+            <div class="video-overlay">
+              <video class="clip" muted>
+                  <source src="images/video-2.mp4" type="video/mp4" />
+              </video>
+            <div class="playpause"></div>
             </div>
-            <div class="col-lg-3 col-md-6 col-12" data-aos="fade-up" data-aos-delay="200">
-                 <h4 class="my-4">News and Resources</h4>
+          </div>
+          <div class="col-2"></div>
+        </div>
+        <br>
+        <h4>Time: 3:12pm<br>No. of labour: 1</h4>
 
-                 <p class="mb-1">
-                      <a href="#">
-                           <i class="fas fa-splotch mr-2 footer-icon"></i> Blog
-                      </a>
-                 </p>
-            </div>
-            <div class="col-lg-3 col-md-6 col-12" data-aos="fade-up" data-aos-delay="300">
-                 <h4 class="my-4">Contact Info</h4>
-
-                 <p class="mb-1">
-                   <i class="fa fa-phone mr-2 footer-icon"></i> 
-                   +99 080 070 4224
-                 </p>
-     
-                 <p>
-                   <a href="#">
-                     <i class="fa fa-envelope mr-2 footer-icon"></i>
-                     hello@company.com
-                   </a>
-                 </p>
-            </div>
-            <div class="col-lg-3 col-md-6 col-12" data-aos="fade-up" data-aos-delay="400">
-                 <h4 class="my-4">Our Office</h4>
-
-                 <p class="mb-1">
-                   <i class="fa fa-home mr-2 footer-icon"></i> 
-                   Av. Lúcio Costa - Barra da Tijuca, Rio de Janeiro - RJ, Brazil
-                 </p>
-                 <div class="social-links">
-                      <a href="https://twitter.com/IEEEUETLahore" class="twitter"><i class="fab fa-twitter"></i></a>
-                      <a href=" https://www.facebook.com/ieeeuet/" class="twitter"><i class="fab fa-facebook-f"></i></a>
-                      <a href="https://www.instagram.com/ieeeuetlahore/" class="twitter"><i class="fab fa-instagram"></i></a>
-                      <a href="youtube.com/channel/UCrOtKM-JNFKCovCNYhAvYrg" class="twitter"><i class="fab fa-youtube"></i></a>
-                      <a href="https://www.linkedin.com/company/ieee-uet-lahore" class="twitter"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-            </div>
-       </div>
-  </div>
-</footer>
-<div class="footer-end">
-  <div class="container">
-       <div class="d-flex justify-content-center align-items-center">
-            <h2>
-                 © Copyright Zavirite. All Rights Reserved
-            </h2>
-       </div>
+      </div>
+    </div>
+    <div id="tab4">
+      <h2 class="mb-4">Weekly Report</h2>
+      <div class="conatainer">
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col-8">
+            <img src="images/graph.png" alt="">
+          </div>
+          <div class="col-2"></div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
+<!--footer-->
+<footer class="site-footer" id="contact">
+     <div class="container">
+          <div class="row">
+               <div class="col-lg-3 col-md-6 col-12" data-aos="fade-up">
+                    <h4 class="my-4">Main Menu</h4>        
+                    <p class="mb-1">
+                      <a href="#">
+                        <i class="fas fa-home-lg-alt mr-2 footer-icon"></i> Home
+                      </a>
+                      <br>
+                      <a href="#">
+                        <i class="fad fa-user-friends mr-2 footer-icon"></i> Our Team
+                       </a>
+                       <br>
+                       <a href="#">
+                        <i class="fas fa-scroll-old mr-2 footer-icon"></i> About us
+                        </a>
+                      <br>
+                      <a href="#">
+                         <i class="fad fa-desktop mr-2 footer-icon"></i> Get a demo
+                       </a>
+                    </p>
+               </div>
+               <div class="col-lg-3 col-md-6 col-12" data-aos="fade-up" data-aos-delay="200">
+                    <h4 class="my-4">News and Resources</h4>
 
+                    <p class="mb-1">
+                         <a href="#">
+                              <i class="fas fa-splotch mr-2 footer-icon"></i> Blog
+                         </a>
+                    </p>
+               </div>
+               <div class="col-lg-3 col-md-6 col-12" data-aos="fade-up" data-aos-delay="300">
+                    <h4 class="my-4">Contact Info</h4>
+
+                    <p class="mb-1">
+                      <i class="fa fa-phone mr-2 footer-icon"></i> 
+                      +99 080 070 4224
+                    </p>
+        
+                    <p>
+                      <a href="#">
+                        <i class="fa fa-envelope mr-2 footer-icon"></i>
+                        hello@company.com
+                      </a>
+                    </p>
+               </div>
+               <div class="col-lg-3 col-md-6 col-12" data-aos="fade-up" data-aos-delay="400">
+                    <h4 class="my-4">Our Office</h4>
+
+                    <p class="mb-1">
+                      <i class="fa fa-home mr-2 footer-icon"></i> 
+                      Av. Lúcio Costa - Barra da Tijuca, Rio de Janeiro - RJ, Brazil
+                    </p>
+                    <div class="social-links">
+                         <a href="https://twitter.com/IEEEUETLahore" class="twitter"><i class="fab fa-twitter"></i></a>
+                         <a href=" https://www.facebook.com/ieeeuet/" class="twitter"><i class="fab fa-facebook-f"></i></a>
+                         <a href="https://www.instagram.com/ieeeuetlahore/" class="twitter"><i class="fab fa-instagram"></i></a>
+                         <a href="youtube.com/channel/UCrOtKM-JNFKCovCNYhAvYrg" class="twitter"><i class="fab fa-youtube"></i></a>
+                         <a href="https://www.linkedin.com/company/ieee-uet-lahore" class="twitter"><i class="fab fa-linkedin-in"></i></a>
+                       </div>
+               </div>
+          </div>
+     </div>
+</footer>
+<div class="footer-end">
+     <div class="container">
+          <div class="d-flex justify-content-center align-items-center">
+               <h2>
+                    © Copyright Zavirite. All Rights Reserved
+               </h2>
+          </div>
+     </div>
+</div>
 
      <!-- SCRIPTS -->
      <script src="js/jquery.min.js"></script>
      <script src="js/bootstrap.min.js"></script>
      <script src="js/aos.js"></script>
      <script src="js/owl.carousel.min.js"></script>
+     <script src="js/smoothscroll.js"></script>
      <script src="js/custom.js"></script>
+     <script src="js/flickity.pkgd.min.js"></script>
+     <script src="js/jquery-3.6.0.min.js"></script>
 
+     <script src="js/p5.min.js"></script>
+     <script src="js/vanta.topology.min.js"></script>
+     <script src="js/team.js"></script>
+     <script src="js/newsletter.js"></script>
+    <script src="js/hover.js"></script>
+    <script src="js/play-pause.js"></script>
+    <script src="js/search-popup.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

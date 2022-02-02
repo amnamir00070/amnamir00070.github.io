@@ -444,9 +444,16 @@ footer .social-links a:hover{
 }
 
 
-
-
-
+/*tabs*/
+#tab2{
+  display: none;
+}
+#tab3{
+  display: none;
+}
+#tab4{
+  display: none;
+}
 
 
 
