@@ -2,6 +2,57 @@
 <html lang="en">
 <head>
 
+
+ 
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!--<script src="src/js/horizBarChart.js"></script>
+<script src="https://d3js.org/d3.v4.min.js" charset="utf-8"></script>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
+
+
+<style>
+  * {
+      font-family: sans-serif;
+  }
+  
+  .bar{
+      fill: #16a085;
+  }
+  
+  .bar:hover{
+      fill: white;
+  }
+  
+  .tooltip {
+      background-color: #ecf0f1;
+      visibility: hidden;
+      position: absolute;
+      opacity: 0.8;
+      padding: 10px;
+      vertical-align: middle;
+      border-radius: 5px;
+      text-align: center;
+      width: 180px;
+  }
+  
+  .title {
+      text-anchor: middle;
+      font-size: 22px;
+  }
+  
+  .label {
+      text-anchor: middle;
+  } </style>
+
+
+
+
+
+
+
+
+
      <title>Zavirite</title>
 <!--
 
@@ -17,22 +68,22 @@ https://templatemo.com/tm-538-digital-trend
      <meta name="author" content="">
      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-     <link rel="stylesheet" href="css/bootstrap.min.css">
-     <link rel="stylesheet" href="css/font-awesome.min.css">
-     <link rel="stylesheet" href="css/aos.css">
-     <link rel="stylesheet" href="css/owl.carousel.min.css">
-     <link rel="stylesheet" href="css/owl.theme.default.min.css">
-     <link rel="stylesheet" type="text/css" href="fontawesome-pro-5.14.0/fontawesome-pro-5.14.0-web/css/all.css">
+     <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+     <link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}">
+     <link rel="stylesheet" href="{% static 'css/aos.css' %}">
+     <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}">
+     <link rel="stylesheet" href="{% static 'css/owl.theme.default.min.css' %}">
+     <link rel="stylesheet" type="text/css" href="{% static 'fontawesome-pro-5.14.0/fontawesome-pro-5.14.0-web/css/all.css' %}">
      <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-     <link rel="stylesheet" href="css/main.css">
-     <!-- MAIN CSS -->
-     <link rel="stylesheet" href="css/templatemo-digital-trend.css">
-     <link rel="stylesheet" href="css/flickity.min.css">
-     <link rel="stylesheet" href="css/chapters_members.css">
-     <link rel="stylesheet" href="css/newsletter.css">
-     <link rel="stylesheet" href="css/video.css">
-     <link rel="stylesheet" href="css/navbar.css">
+     <link rel="stylesheet" href="{% static 'css/main.css' %}">
+          <!-- MAIN CSS -->
+          <link rel="stylesheet" href="{% static 'css/templatemo-digital-trend.css' %}">
+          <link rel="stylesheet" href="{% static 'css/flickity.min.css' %}">
+          <link rel="stylesheet" href="{% static 'css/chapters_members.css' %}">
+          <link rel="stylesheet" href="{% static 'css/newsletter.css' %}">
+          <link rel="stylesheet" href="% static 'css/video.css' %}">
+          <link rel="stylesheet" href="% static 'css/navbar.css' %}">
 </head>
 <body>
 
@@ -86,6 +137,9 @@ https://templatemo.com/tm-538-digital-trend
         <a href="#"><span class="fa fa-sticky-note mr-3"></span> No of Labour</a>
       </li>
       <li onclick="openTab4()">
+        <a href="#"><span class="fa fa-sticky-note mr-3"></span>Dummy</a>
+      </li>
+      <li onclick="openTab5()">
         <a href="#"><span class="fa fa-sticky-note mr-3"></span>Statistics</a>
       </li>
     </ul>
@@ -107,7 +161,7 @@ https://templatemo.com/tm-538-digital-trend
           <div class="col-8">
             <div class="video-overlay">
               <video class="clip" muted>
-                  <source src="images/video1.mp4" type="video/mp4" />
+                  <source src="% static 'images/video1.mp4' %}" type="video/mp4" />
               </video>
             <div class="playpause"></div>
             </div>
@@ -128,7 +182,7 @@ https://templatemo.com/tm-538-digital-trend
           <div class="col-8">
             <div class="video-overlay">
               <video class="clip" muted>
-                  <source src="images/video-1.mp4" type="video/mp4" />
+                  <source src="% static 'images/video-1.mp4' %}" type="video/mp4" />
               </video>
             <div class="playpause"></div>
             </div>
@@ -143,7 +197,7 @@ https://templatemo.com/tm-538-digital-trend
           <div class="col-8">
             <div class="video-overlay">
               <video class="clip" muted>
-                  <source src="images/video-2.mp4" type="video/mp4" />
+                  <source src="% static 'images/video-2.mp4' %}" type="video/mp4" />
               </video>
             <div class="playpause"></div>
             </div>
@@ -161,12 +215,22 @@ https://templatemo.com/tm-538-digital-trend
         <div class="row">
           <div class="col-2"></div>
           <div class="col-8">
-            <img src="images/graph.png" alt="">
+            <img src="% static 'images/graph.png' %}" alt="">
           </div>
           <div class="col-2"></div>
         </div>
       </div>
     </div>
+
+    
+    <div id="tab5">
+      <h2 class="mb-4">Weekly Report</h2>
+      <div class="container">
+        <canvas id="myChart"></canvas>
+      </div>
+    </div>
+
+    
   </div>
 </div>
 <!--footer-->
@@ -245,24 +309,73 @@ https://templatemo.com/tm-538-digital-trend
      </div>
 </div>
 
-     <!-- SCRIPTS -->
-     <script src="js/jquery.min.js"></script>
-     <script src="js/bootstrap.min.js"></script>
-     <script src="js/aos.js"></script>
-     <script src="js/owl.carousel.min.js"></script>
-     <script src="js/smoothscroll.js"></script>
-     <script src="js/custom.js"></script>
-     <script src="js/flickity.pkgd.min.js"></script>
-     <script src="js/jquery-3.6.0.min.js"></script>
+<!-- Chart Script -->
+<script>
+  let myChart = document.getElementById('myChart').getContext('2d');
 
-     <script src="js/p5.min.js"></script>
-     <script src="js/vanta.topology.min.js"></script>
-     <script src="js/team.js"></script>
-     <script src="js/newsletter.js"></script>
-    <script src="js/hover.js"></script>
-    <script src="js/play-pause.js"></script>
-    <script src="js/search-popup.js"></script>
-    <script src="js/popper.js"></script>
-    <script src="js/main.js"></script>
+  // Global Options
+  // Chart.defaults.global.defaultFontFamily = 'Lato';
+  //Chart.defaults.global.defaultFontSize = 18;
+  //Chart.defaults.global.defaultFontColor = '#777';
+
+
+  let massPopChart = new Chart(myChart, {
+    type: 'bar', // bar, horizontalBar, pie, line, doughnut, radar, polarArea
+    data:{
+      labels:['Boston', 'Worcester','Springfield', 'Lowell', 'Cambridge', 'New Bedford'],
+      datasets:[{
+        label:'Population',
+        data:[
+        675647,
+        206518,
+        155929,
+        118403,
+        115554,
+        105643
+        ],
+        //backgroundColor: 'green'
+        backgroundColor:[
+          'rgba(255, 99, 132, 0.6)',
+          'rgba(54, 162, 235, 0.6)',
+          'rgba(255, 206, 86, 0.6)',
+          'rgba(75, 192, 192, 0.6)',
+          'rgba(153, 102, 255, 0.6)',
+          'rgba(255, 159, 64, 0.6)',
+          'rgba(255, 99, 132, 0.6)'
+        ],
+        borderWidth: 1,
+        borderColor: '#777',
+        hoverBorderWidth:3,
+        hoverBorderColor:'#000'
+      }]
+    },
+    options:{
+      title:{
+        display:true,
+        text:'Largest Cities In Massachusetts',
+        fontSize:25
+      },
+    }
+  });
+</script>
+     <!-- SCRIPTS -->
+     <script src="{% static 'js/jquery.min.js' %}"></script>
+     <script src="{% static 'js/bootstrap.min.js' %}"></script>
+     <script src="{% static 'js/aos.js"></script>
+     <script src="{% static 'js/owl.carousel.min.js' %}"></script>
+     <script src="{% static 'js/smoothscroll.js' %}"></script>
+     <script src="{% static 'js/custom.js"></script>
+     <script src="{% static 'js/flickity.pkgd.min.js' %}"></script>
+     <script src="{% static 'js/jquery-3.6.0.min.js' %}"></script>
+
+     <script src="{% static 'js/p5.min.js"></script>
+     <script src="{% static 'js/vanta.topology.min.js' %}"></script>
+     <script src="{% static 'js/team.js' %}"></script>
+     <script src="{% static 'js/newsletter.js' %}"></script>
+    <script src="{% static 'js/hover.js"></script>
+    <script src="{% static 'js/play-pause.js' %}"></script>
+    <script src="{% static 'js/search-popup.js' %}"></script>
+    <script src="{% static 'js/popper.js' %}"></script>
+    <script src="{% static 'js/main.js' %}"></script>
 </body>
 </html>

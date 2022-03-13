@@ -90,6 +90,54 @@ footer .social-links a:hover{
   margin-top: 8px;
 }
 
+
+.chart-horiz .chart {width:90% }
+ 
+.chart-horiz .chart li {
+  display:block;
+  height:23px;
+  margin-top:3px;
+  position:relative
+}
+ 
+.chart-horiz .chart li:before {
+  color:#fff;
+  content:attr(title);
+  left:5px;
+  position:absolute
+}
+ 
+.chart-horiz .chart li.title:before {
+  color:black;
+  font-weight:bold;
+  left:0
+}
+
+.chart-horiz .chart li:first-child {margin-top:0 }
+ 
+.chart-horiz .chart li .bar {
+  background:#27ae60;
+  height:100%;
+  min-width:164px
+}
+
+.chart-horiz .chart li .number {
+  color:#27ae60;
+  font-size:18px;
+  font-weight:bold;
+  padding-left:5px;
+  position:absolute;
+  top:-3px
+}
+.chart-horiz .chart li.past .bar {background:#2ecc71 }
+.chart-horiz .chart li.past .number {color:#2ecc71 }
+
+
+
+
+
+
+
 /* features*/
 /*.fl-inner h4{
   letter-spacing: 0;
@@ -444,6 +492,21 @@ footer .social-links a:hover{
 }
 
 
+
+.stream
+{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: block;
+}
+.stream img{
+  width: 700px;
+  margin: 50px;
+}
+
+
+
 /*tabs*/
 #tab2{
   display: none;
@@ -452,6 +515,9 @@ footer .social-links a:hover{
   display: none;
 }
 #tab4{
+  display: none;
+}
+#tab5{
   display: none;
 }
 
